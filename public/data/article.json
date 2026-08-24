@@ -1,0 +1,496 @@
+{
+  "world": [
+    {
+      "slug": "new-era-global-realignment",
+      "categorySlug": "world",
+      "title": "A New Era of Global Realignment?",
+      "dek": "Shifting alliances, rising powers, and fragile peace — how the world order is entering its most unpredictable phase in decades.",
+      "author": "Lina Harper",
+      "date": "18/08/2026",
+      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Analysis", "Global Affairs", "Explainer"],
+      "body": [
+        { "type": "paragraph", "text": "The postwar order that shaped diplomacy, trade, and security for three generations is showing real strain." },
+        { "type": "heading", "text": "A Shifting Balance" },
+        { "type": "paragraph", "text": "Where previous decades saw realignment happen gradually, recent shifts have moved at the pace of news cycles." },
+        { "type": "quote", "text": "We're not watching the end of one order and the start of another. We're watching several orders compete for the same space at once." }
+      ]
+    },
+    {
+      "slug": "protests-erupt-major-cities",
+      "categorySlug": "world",
+      "title": "Protests Erupt Across Major Cities",
+      "dek": "Thousands take to the streets demanding change and accountability.",
+      "author": "Lina Harper",
+      "date": "17/08/2026",
+      "image": "https://images.unsplash.com/photo-1591622569862-5f0325ab1490?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["World", "Civil Unrest"],
+      "body": [
+        { "type": "paragraph", "text": "Demonstrations swelled across several major cities this week as organizers pressed for policy reform." },
+        { "type": "paragraph", "text": "Local officials have called for calm while acknowledging the scale of public frustration behind the marches." }
+      ]
+    },
+    {
+      "slug": "coastal-cities-flood-defense",
+      "categorySlug": "world",
+      "title": "Coastal Cities Accelerate Flood-Defense Projects",
+      "dek": "Governments race to shore up infrastructure ahead of an active storm season.",
+      "author": "Lina Harper",
+      "date": "12/08/2026",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["World", "Climate"],
+      "body": [
+        { "type": "paragraph", "text": "From sea walls to elevated transit lines, coastal governments are moving faster than usual to complete flood-defense work." }
+      ]
+    },
+    {
+      "slug": "regional-leaders-emergency-summit",
+      "categorySlug": "world",
+      "title": "Regional Leaders Meet in Emergency Summit Over Trade Dispute",
+      "dek": "An unscheduled gathering aims to defuse tensions before they escalate further.",
+      "author": "Lina Harper",
+      "date": "09/08/2026",
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["World", "Diplomacy"],
+      "body": [
+        { "type": "paragraph", "text": "The summit was called on short notice after talks between trade ministers broke down last week." },
+        { "type": "paragraph", "text": "Officials say a resolution could come within days, though neither side has signaled willingness to compromise on core demands." }
+      ]
+    },
+    {
+      "slug": "federal-judge-blocks-ice-manhattan",
+      "categorySlug": "world",
+      "title": "Federal Judge Blocks ICE From Routine Arrests Near Manhattan Immigration Courts",
+      "dek": "The ruling intensifies the national debate over immigration enforcement and due process.",
+      "author": "Lina Harper",
+      "date": "20/05/2026",
+      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a4?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["World", "Policy"],
+      "body": [
+        { "type": "paragraph", "text": "A federal judge blocked ICE from routinely arresting immigrants near Manhattan immigration courthouses." },
+        { "type": "paragraph", "text": "The ruling is expected to face an immediate appeal, with both sides describing the case as a bellwether for similar disputes nationwide." }
+      ]
+    },
+    {
+      "slug": "global-markets-rally-inflation-cools",
+      "categorySlug": "world",
+      "title": "Global Markets Rally as Inflation Cools in Key Economies",
+      "dek": "Easing price pressures have investors betting on a softer path for interest rates.",
+      "author": "Lina Harper",
+      "date": "21/08/2026",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["World", "Markets"],
+      "body": [
+        { "type": "paragraph", "text": "Stocks climbed across major exchanges after new data showed inflation easing faster than economists had forecast." }
+      ]
+    }
+  ],
+  "politics": [
+    {
+      "slug": "elections-2026-key-races",
+      "categorySlug": "politics",
+      "title": "Elections 2026: Key Races to Watch",
+      "dek": "A closer look at the contests that could reshape the balance of power.",
+      "author": "Sofia Martinez",
+      "date": "15/08/2026",
+      "image": "https://images.unsplash.com/photo-1591622569862-5f0325ab1490?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "Elections"],
+      "body": [
+        { "type": "paragraph", "text": "With just months remaining before ballots are cast, a handful of tightly contested races are drawing outsized national attention." },
+        { "type": "heading", "text": "The Races That Matter Most" },
+        { "type": "paragraph", "text": "Pollsters point to a cluster of swing districts where the outcome could tip control of the chamber." }
+      ]
+    },
+    {
+      "slug": "senate-infrastructure-bill",
+      "categorySlug": "politics",
+      "title": "Senate Advances Bipartisan Infrastructure Bill",
+      "dek": "The bill passed after a late-night session and months of negotiation.",
+      "author": "Sofia Martinez",
+      "date": "10/08/2026",
+      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "Legislation"],
+      "body": [
+        { "type": "paragraph", "text": "The measure cleared a key procedural hurdle after weeks of closed-door negotiations between party leaders." }
+      ]
+    },
+    {
+      "slug": "democracy-under-pressure",
+      "categorySlug": "politics",
+      "title": "Democracy Under Pressure in the 21st Century",
+      "dek": "Institutions built for stability face a faster, less predictable world.",
+      "author": "Sofia Martinez",
+      "date": "05/08/2026",
+      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "Analysis"],
+      "body": [
+        { "type": "paragraph", "text": "Trust in traditional political institutions continues to erode even as participation in politics itself grows more intense." }
+      ]
+    },
+    {
+      "slug": "state-lawmakers-transit-funding",
+      "categorySlug": "politics",
+      "title": "State Lawmakers Push Bill to Expand Public Transit Funding",
+      "dek": "A bipartisan bill aims to double transit funding over the next five years.",
+      "author": "Sofia Martinez",
+      "date": "14/01/2026",
+      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "Infrastructure"],
+      "body": [
+        { "type": "paragraph", "text": "Backers point to ridership growth as evidence the investment is overdue, while critics question the long-term cost to the state budget." }
+      ]
+    },
+    {
+      "slug": "judicial-nominee-hearing",
+      "categorySlug": "politics",
+      "title": "Committee Advances Judicial Nominee After Contentious Hearing",
+      "dek": "The nomination now heads to a full floor vote after hours of sharp questioning.",
+      "author": "Sofia Martinez",
+      "date": "28/07/2026",
+      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a4?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "Judiciary"],
+      "body": [
+        { "type": "paragraph", "text": "Lawmakers on both sides pressed the nominee on past rulings during a hearing that stretched late into the evening." }
+      ]
+    },
+    {
+      "slug": "governors-push-back-federal-mandate",
+      "categorySlug": "politics",
+      "title": "Governors Push Back on Federal Mandate",
+      "dek": "A coalition of states says the new rule oversteps federal authority.",
+      "author": "Sofia Martinez",
+      "date": "22/07/2026",
+      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Politics", "States"],
+      "body": [
+        { "type": "paragraph", "text": "The coalition has vowed to challenge the mandate in court if it isn't revised before taking effect next quarter." }
+      ]
+    }
+  ],
+  "tech": [
+    {
+      "slug": "billion-dollar-cybercrime-ecosystem",
+      "categorySlug": "tech",
+      "title": "Inside the Billion-Dollar Cybercrime Ecosystem",
+      "dek": "A deep look into how digital criminal networks operate, evolve, and stay ahead.",
+      "author": "Arjun Dev",
+      "date": "16/08/2026",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Cybersecurity", "Tech"],
+      "body": [
+        { "type": "paragraph", "text": "Behind the headline-grabbing breaches is a sprawling, professionalized economy — complete with support forums, tiered pricing, and specialized labor." },
+        { "type": "heading", "text": "A Professionalized Underground" },
+        { "type": "paragraph", "text": "Investigators say the shift toward organized, service-based crime has made these networks harder to dismantle." }
+      ]
+    },
+    {
+      "slug": "ai-tools-changing-how-we-work",
+      "categorySlug": "tech",
+      "title": "AI Tools That Are Changing How We Work",
+      "dek": "A look at the tools reshaping daily workflows across industries.",
+      "author": "Arjun Dev",
+      "date": "13/08/2026",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Tech", "AI"],
+      "body": [
+        { "type": "paragraph", "text": "Adoption has moved well past early experimentation, with teams now building entire workflows around AI-assisted tools." }
+      ]
+    },
+    {
+      "slug": "next-gen-processor-efficiency-gains",
+      "categorySlug": "tech",
+      "title": "Chipmaker Unveils Next-Gen Processor",
+      "dek": "The new chip promises a 40% jump in energy efficiency.",
+      "author": "Arjun Dev",
+      "date": "08/08/2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Tech", "Hardware"],
+      "body": [
+        { "type": "paragraph", "text": "The announcement puts pressure on rivals to accelerate their own efficiency roadmaps ahead of next year's product cycle." }
+      ]
+    },
+    {
+      "slug": "how-ai-thinks-simple-words",
+      "categorySlug": "tech",
+      "title": "How AI Thinks (In Simple Words, Not Simple Terms)",
+      "dek": "A plain-language explainer on what's actually happening inside a model.",
+      "author": "Arjun Dev",
+      "date": "30/07/2026",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Tech", "Explainer"],
+      "body": [
+        { "type": "paragraph", "text": "Understanding how a model arrives at an answer doesn't require a math degree — just the right mental model." },
+        { "type": "heading", "text": "Patterns, Not Magic" },
+        { "type": "paragraph", "text": "At its core, the process is closer to sophisticated pattern-matching than anything resembling human thought." }
+      ]
+    },
+    {
+      "slug": "data-breach-exposes-millions",
+      "categorySlug": "tech",
+      "title": "Data Breach Exposes Millions of User Records",
+      "dek": "The company says it has notified affected users and regulators.",
+      "author": "Arjun Dev",
+      "date": "25/07/2026",
+      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Tech", "Cybersecurity"],
+      "body": [
+        { "type": "paragraph", "text": "The exposed data included names, email addresses, and hashed passwords, according to the company's disclosure." }
+      ]
+    },
+    {
+      "slug": "quantum-computing-breakthrough",
+      "categorySlug": "tech",
+      "title": "Startup Unveils Breakthrough in Quantum Computing",
+      "dek": "The claimed milestone could shorten the timeline to practical quantum applications.",
+      "author": "Arjun Dev",
+      "date": "18/07/2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Tech", "Quantum"],
+      "body": [
+        { "type": "paragraph", "text": "Independent researchers say the results are promising but caution that replication is still needed before drawing firm conclusions." }
+      ]
+    }
+  ],
+  "business": [
+    {
+      "slug": "ev-race-future",
+      "categorySlug": "business",
+      "title": "The EV Race: Who's Leading the Future?",
+      "dek": "A breakdown of the top contenders and the technologies that set them apart.",
+      "author": "Marcus Lee",
+      "date": "14/08/2026",
+      "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["EVs", "Business"],
+      "body": [
+        { "type": "paragraph", "text": "Battery chemistry, charging infrastructure, and manufacturing scale are now the three fronts on which the electric vehicle race is being decided." }
+      ]
+    },
+    {
+      "slug": "central-bank-holds-rates-steady",
+      "categorySlug": "business",
+      "title": "Central Bank Holds Rates Steady",
+      "dek": "Policymakers signal cautious optimism after a stretch of volatility.",
+      "author": "Marcus Lee",
+      "date": "09/08/2026",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Business", "Markets"],
+      "body": [
+        { "type": "paragraph", "text": "The decision matched market expectations, though officials left the door open to further moves later in the year." }
+      ]
+    },
+    {
+      "slug": "cigarette-tax-seattle",
+      "categorySlug": "business",
+      "title": "New Law Could Raise Cigarette Pack Price to $17 in Seattle",
+      "dek": "Proposed tax increase aims to curb youth smoking while critics warn of impact on small businesses.",
+      "author": "Marcus Lee",
+      "date": "02/02/2026",
+      "image": "https://images.unsplash.com/photo-1616093246990-3a37c3af6c96?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Business", "Local News"],
+      "body": [
+        { "type": "paragraph", "text": "Supporters say the tax hike would meaningfully reduce youth smoking rates, while small business owners warn of lost sales to neighboring counties." }
+      ]
+    },
+    {
+      "slug": "tech-giant-record-earnings",
+      "categorySlug": "business",
+      "title": "Tech Giant Reports Record Quarterly Earnings",
+      "dek": "Strong cloud and advertising revenue drove the results well past estimates.",
+      "author": "Marcus Lee",
+      "date": "27/07/2026",
+      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Business", "Earnings"],
+      "body": [
+        { "type": "paragraph", "text": "Shares climbed in after-hours trading following the report, which beat analyst expectations on both revenue and profit." }
+      ]
+    },
+    {
+      "slug": "supply-chain-shifts-manufacturing",
+      "categorySlug": "business",
+      "title": "Supply Chain Shifts Reshape Global Manufacturing",
+      "dek": "Companies are rethinking where and how goods get made.",
+      "author": "Marcus Lee",
+      "date": "19/07/2026",
+      "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Business", "Manufacturing"],
+      "body": [
+        { "type": "paragraph", "text": "A wave of reshoring and nearshoring is redrawing manufacturing maps that have held steady for two decades." }
+      ]
+    },
+    {
+      "slug": "startup-funding-rebounds",
+      "categorySlug": "business",
+      "title": "Startup Funding Rebounds After Two-Year Slump",
+      "dek": "Venture investment is picking up again, led by AI and climate-tech deals.",
+      "author": "Marcus Lee",
+      "date": "11/07/2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Business", "Startups"],
+      "body": [
+        { "type": "paragraph", "text": "Investors say the rebound reflects renewed confidence rather than a return to the excesses of the last boom." }
+      ]
+    }
+  ],
+  "science": [
+    {
+      "slug": "distant-galaxy-signal",
+      "categorySlug": "science",
+      "title": "New Signal Detected From Distant Galaxy",
+      "dek": "Astronomers say the discovery could change what we know about the universe.",
+      "author": "Olivia Grant",
+      "date": "11/08/2026",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Space"],
+      "body": [
+        { "type": "paragraph", "text": "The signal, detected by a network of radio telescopes, doesn't match any previously catalogued source." },
+        { "type": "heading", "text": "What Comes Next" },
+        { "type": "paragraph", "text": "Follow-up observations are already underway to rule out interference and confirm the finding independently." }
+      ]
+    },
+    {
+      "slug": "extreme-climates-research",
+      "categorySlug": "science",
+      "title": "Inside the World's Most Extreme Climates",
+      "dek": "How communities are adapting as weather patterns grow more volatile.",
+      "author": "Olivia Grant",
+      "date": "07/08/2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Climate"],
+      "body": [
+        { "type": "paragraph", "text": "From the driest deserts to the coldest inhabited settlements, researchers are documenting how daily life adapts at the edges of habitability." }
+      ]
+    },
+    {
+      "slug": "spacex-142-satellites",
+      "categorySlug": "science",
+      "title": "SpaceX Launches Record 142 Satellites",
+      "dek": "The latest launch marks a new milestone in commercial spaceflight.",
+      "author": "Olivia Grant",
+      "date": "03/08/2026",
+      "image": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Space"],
+      "body": [
+        { "type": "paragraph", "text": "The mission set a new record for the largest number of satellites deployed in a single launch." }
+      ]
+    },
+    {
+      "slug": "deep-sea-ecosystem-mapped",
+      "categorySlug": "science",
+      "title": "Researchers Map Previously Unknown Deep-Sea Ecosystem",
+      "dek": "The find includes several species never before documented.",
+      "author": "Olivia Grant",
+      "date": "24/07/2026",
+      "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Ocean"],
+      "body": [
+        { "type": "paragraph", "text": "The expedition used remotely operated vehicles to survey depths that had never been directly observed." }
+      ]
+    },
+    {
+      "slug": "vaccine-trial-promising-results",
+      "categorySlug": "science",
+      "title": "New Vaccine Trial Shows Promising Early Results",
+      "dek": "Researchers caution that larger trials are still needed before approval.",
+      "author": "Olivia Grant",
+      "date": "16/07/2026",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Health"],
+      "body": [
+        { "type": "paragraph", "text": "Early-phase data showed a strong immune response with no serious adverse effects reported among participants." }
+      ]
+    },
+    {
+      "slug": "ancient-ice-core-climate-clues",
+      "categorySlug": "science",
+      "title": "Ancient Ice Core Reveals Climate Clues",
+      "dek": "The sample offers a window into atmospheric conditions from over a million years ago.",
+      "author": "Olivia Grant",
+      "date": "09/07/2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Science", "Climate"],
+      "body": [
+        { "type": "paragraph", "text": "The core, extracted from deep within the ice sheet, extends the climate record further back than any previous sample." }
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "slug": "hidden-cost-fast-fashion",
+      "categorySlug": "culture",
+      "title": "The Hidden Cost of Fast Fashion",
+      "dek": "A look at the environmental and human toll behind cheap, disposable clothing.",
+      "author": "Noura Hassan",
+      "date": "06/08/2026",
+      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "Explainer"],
+      "body": [
+        { "type": "paragraph", "text": "Behind every deeply discounted garment is a supply chain built on speed — one that comes with costs rarely reflected in the price tag." }
+      ]
+    },
+    {
+      "slug": "lost-cities-ancient-mysteries",
+      "categorySlug": "culture",
+      "title": "Lost Cities and Ancient Mysteries",
+      "dek": "New discoveries rewrite history books once again.",
+      "author": "Noura Hassan",
+      "date": "04/08/2026",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "History"],
+      "body": [
+        { "type": "paragraph", "text": "Excavation teams have uncovered structures that challenge long-held assumptions about the region's early inhabitants." }
+      ]
+    },
+    {
+      "slug": "digital-nomads-dream-or-privilege",
+      "categorySlug": "culture",
+      "title": "The Rise of Digital Nomads: Dream Lifestyle or Privilege?",
+      "dek": "Remote work unlocked a new way of living — but not equally for everyone.",
+      "author": "Noura Hassan",
+      "date": "01/08/2026",
+      "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "Explainer"],
+      "body": [
+        { "type": "paragraph", "text": "For some, remote work opened the door to a borderless lifestyle. For others, the same shift has meant longer hours and less job security." }
+      ]
+    },
+    {
+      "slug": "film-festival-record-attendance",
+      "categorySlug": "culture",
+      "title": "Film Festival Announces Record Attendance for Independent Features",
+      "dek": "Organizers say interest in independent cinema is at its highest point in years.",
+      "author": "Noura Hassan",
+      "date": "23/07/2026",
+      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "Film"],
+      "body": [
+        { "type": "paragraph", "text": "Ticket sales for independent screenings outpaced major studio premieres for the first time in the festival's history." }
+      ]
+    },
+    {
+      "slug": "museum-unveils-manuscript-collection",
+      "categorySlug": "culture",
+      "title": "Museum Unveils Long-Lost Manuscript Collection",
+      "dek": "The collection had remained in private hands for nearly a century.",
+      "author": "Noura Hassan",
+      "date": "15/07/2026",
+      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "History"],
+      "body": [
+        { "type": "paragraph", "text": "Scholars say the manuscripts could reshape understanding of the period's literary and intellectual life." }
+      ]
+    },
+    {
+      "slug": "streaming-reshaped-music-industry",
+      "categorySlug": "culture",
+      "title": "How Streaming Reshaped the Music Industry",
+      "dek": "A decade in, the shift from ownership to access is still redefining how artists get paid.",
+      "author": "Noura Hassan",
+      "date": "02/07/2026",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1600&auto=format&fit=crop",
+      "tags": ["Culture", "Music"],
+      "body": [
+        { "type": "paragraph", "text": "For most working musicians, streaming royalties remain a fraction of what album sales once provided." }
+      ]
+    }
+  ]
+}

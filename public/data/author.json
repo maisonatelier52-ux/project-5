@@ -1,0 +1,56 @@
+{
+  "Lina Harper": {
+    "slug": "lina-harper",
+    "category": "world",
+    "role": "Senior World Correspondent",
+    "location": "New York",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+    "bio": "Lina covers foreign affairs and global economics, with a decade reporting from conflict zones and international summits.",
+    "joined": "March 2019"
+  },
+  "Sofia Martinez": {
+    "slug": "sofia-martinez",
+    "category": "politics",
+    "role": "Politics Correspondent",
+    "location": "Washington, D.C.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+    "bio": "Sofia reports on elections, policy fights, and the machinery of government from the capital.",
+    "joined": "July 2021"
+  },
+  "Arjun Dev": {
+    "slug": "arjun-dev",
+    "category": "tech",
+    "role": "Technology Reporter",
+    "location": "Bengaluru",
+    "avatar": "https://images.unsplash.com/photo-1519345182560-3f2917c472ef?q=80&w=200&auto=format&fit=crop",
+    "bio": "Arjun writes about cybersecurity, digital crime, and the infrastructure behind the internet's underworld.",
+    "joined": "January 2022"
+  },
+  "Marcus Lee": {
+    "slug": "marcus-lee",
+    "category": "business",
+    "role": "Business & Markets Reporter",
+    "location": "Singapore",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    "bio": "Marcus covers global markets, energy, and the business of technology.",
+    "joined": "September 2020"
+  },
+  "Olivia Grant": {
+    "slug": "olivia-grant",
+    "category": "science",
+    "role": "Science Correspondent",
+    "location": "London",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+    "bio": "Olivia reports on space, climate research, and the discoveries reshaping how we understand the natural world.",
+    "joined": "May 2020"
+  },
+  "Noura Hassan": {
+    "slug": "noura-hassan",
+    "category": "culture",
+    "role": "Culture Correspondent",
+    "location": "Cairo",
+    "avatar": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?q=80&w=200&auto=format&fit=crop",
+    "bio": "Noura writes on art, history, and the cultural currents shaping how people live and remember.",
+    "joined": "November 2022"
+  }
+}
