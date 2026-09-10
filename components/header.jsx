@@ -10,7 +10,7 @@ import articleData from "../public/data/article.json";
 const NAV_LINKS = [
   { label: "World", href: "/world" },
   { label: "Politics", href: "/politics" },
-  { label: "Tech", href: "/tech" },
+  { label: "Finance", href: "/finance" },
   { label: "Business", href: "/business" },
   { label: "Science", href: "/science" },
   { label: "Culture", href: "/culture" },

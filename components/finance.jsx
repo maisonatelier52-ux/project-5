@@ -14,9 +14,9 @@ const estimateReadTime = (body) => {
   return `${Math.max(3, blocks * 4)} min read`;
 };
 
-// All Technology articles, newest first, de-duplicated by slug
-function getTechArticles() {
-  const posts = articleData.tech || [];
+// All Finance articles, newest first, de-duplicated by slug
+function getFinanceArticles() {
+  const posts = articleData.finance || [];
 
   const seen = new Set();
   const unique = posts.filter((p) => {
@@ -28,8 +28,8 @@ function getTechArticles() {
   return unique.sort((a, b) => parseDate(b.date) - parseDate(a.date));
 }
 
-export default function Technology() {
-  const articles = getTechArticles().slice(0, 5);
+export default function Finance() {
+  const articles = getFinanceArticles().slice(0, 6);
 
   if (articles.length === 0) return null;
 
@@ -38,7 +38,7 @@ export default function Technology() {
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
           <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
-            Technology
+            Finance
           </h2>
         </div>
 
@@ -46,7 +46,7 @@ export default function Technology() {
           {articles.map((item, i) => (
             <Link
               key={item.slug}
-              href={`/tech/${item.slug}`}
+              href={`/finance/${item.slug}`}
               className={`group flex w-full gap-4 py-4 sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.334rem)] ${
                 i < 3 ? "border-t border-rule" : "border-t border-rule sm:border-t-0 lg:border-t"
               }`}
@@ -61,7 +61,7 @@ export default function Technology() {
 
               <div className="flex flex-col justify-center">
                 <span className="font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
-                  {(item.tags && item.tags[0]) || "Tech"}
+                  {(item.tags && item.tags[0]) || "Finance"}
                 </span>
                 <h3 className="mt-2 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                   {item.title}

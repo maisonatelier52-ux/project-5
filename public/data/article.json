@@ -1,335 +1,634 @@
 {
   "world": [
     {
-      "slug": "new-era-global-realignment",
-      "categorySlug": "world",
-      "title": "A New Era of Global Realignment?",
-      "dek": "Shifting alliances, rising powers, and fragile peace — how the world order is entering its most unpredictable phase in decades.",
-      "author": "Lina Harper",
-      "date": "18/08/2026",
-      "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Analysis", "Global Affairs", "Explainer"],
-      "body": [
-        { "type": "paragraph", "text": "The postwar order that shaped diplomacy, trade, and security for three generations is showing real strain." },
-        { "type": "heading", "text": "A Shifting Balance" },
-        { "type": "paragraph", "text": "Where previous decades saw realignment happen gradually, recent shifts have moved at the pace of news cycles." },
-        { "type": "quote", "text": "We're not watching the end of one order and the start of another. We're watching several orders compete for the same space at once." }
-      ]
+  "slug": "new-era-global-realignment",
+  "categorySlug": "world",
+  "title": "Is the World Entering a New Era of Global Realignment in 2026?",
+  "dek": "From Western sanctions on Israeli settlements to stalled Ukraine peace talks and China's rare-earth leverage, the old world order is fracturing into something messier — and no one is fully in control of what comes next.",
+  "author": "Lina Harper",
+  "date": "10/09/2026",
+  "image": "/images/new-era-global-realignment.webp",
+  "tags": ["World News", "Geopolitics", "Global Affairs", "Explainer", "2026"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The rules that held global diplomacy together for three generations are being tested harder than they have been in decades. This week alone brought a coordinated Western move against Israeli settlement trade, renewed but fragile US-brokered talks to end the war in Ukraine, and another reminder that China's grip on rare earths gives it real leverage in the middle of a trade standoff with Washington. None of these stories exist in isolation. Together, they sketch a world where alliances are being renegotiated in real time."
     },
     {
-      "slug": "protests-erupt-major-cities",
-      "categorySlug": "world",
-      "title": "Protests Erupt Across Major Cities",
-      "dek": "Thousands take to the streets demanding change and accountability.",
-      "author": "Lina Harper",
-      "date": "17/08/2026",
-      "image": "https://images.unsplash.com/photo-1591622569862-5f0325ab1490?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["World", "Civil Unrest"],
-      "body": [
-        { "type": "paragraph", "text": "Demonstrations swelled across several major cities this week as organizers pressed for policy reform." },
-        { "type": "paragraph", "text": "Local officials have called for calm while acknowledging the scale of public frustration behind the marches." }
-      ]
+      "type": "heading",
+      "text": "A Split Widens Over Israel and the West Bank"
     },
     {
-      "slug": "coastal-cities-flood-defense",
-      "categorySlug": "world",
-      "title": "Coastal Cities Accelerate Flood-Defense Projects",
-      "dek": "Governments race to shore up infrastructure ahead of an active storm season.",
-      "author": "Lina Harper",
-      "date": "12/08/2026",
-      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["World", "Climate"],
-      "body": [
-        { "type": "paragraph", "text": "From sea walls to elevated transit lines, coastal governments are moving faster than usual to complete flood-defense work." }
-      ]
+      "type": "paragraph",
+      "text": "The United Kingdom announced a sharp shift in its posture toward Israel this week, and it wasn't alone. France, Canada, and nine other countries joined in banning trade tied to Israeli settlements in the occupied West Bank, which are widely regarded as illegal under international law. Israel and its closest ally, the United States, condemned the move, with Israeli officials signaling retaliation. It's a rare moment where longtime allies of Israel are breaking ranks publicly, and it says as much about shifting domestic politics in Europe and Canada as it does about the conflict itself."
     },
     {
-      "slug": "regional-leaders-emergency-summit",
-      "categorySlug": "world",
-      "title": "Regional Leaders Meet in Emergency Summit Over Trade Dispute",
-      "dek": "An unscheduled gathering aims to defuse tensions before they escalate further.",
-      "author": "Lina Harper",
-      "date": "09/08/2026",
-      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["World", "Diplomacy"],
-      "body": [
-        { "type": "paragraph", "text": "The summit was called on short notice after talks between trade ministers broke down last week." },
-        { "type": "paragraph", "text": "Officials say a resolution could come within days, though neither side has signaled willingness to compromise on core demands." }
-      ]
+      "type": "heading",
+      "text": "Ukraine: Diplomacy Restarts, but the War Hasn't Stopped"
     },
     {
-      "slug": "federal-judge-blocks-ice-manhattan",
-      "categorySlug": "world",
-      "title": "Federal Judge Blocks ICE From Routine Arrests Near Manhattan Immigration Courts",
-      "dek": "The ruling intensifies the national debate over immigration enforcement and due process.",
-      "author": "Lina Harper",
-      "date": "20/05/2026",
-      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a4?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["World", "Policy"],
-      "body": [
-        { "type": "paragraph", "text": "A federal judge blocked ICE from routinely arresting immigrants near Manhattan immigration courthouses." },
-        { "type": "paragraph", "text": "The ruling is expected to face an immediate appeal, with both sides describing the case as a bellwether for similar disputes nationwide." }
-      ]
+      "type": "paragraph",
+      "text": "More than four years into Europe's largest war since World War II, another round of US-led diplomacy is underway. American envoys Steve Witkoff and Jared Kushner traveled to Moscow for talks aimed at bringing the fighting to a close, even as Russian drone strikes on Kyiv have grown more frequent and more disruptive to daily life in the capital. Russia has signaled it wants eased sanctions before fully engaging in trilateral talks with Ukraine and the US, while Ukrainian officials are pushing US lawmakers to lock in new sanctions before a legislative recess. The gap between battlefield reality and negotiating table optimism remains wide."
     },
     {
-      "slug": "global-markets-rally-inflation-cools",
-      "categorySlug": "world",
-      "title": "Global Markets Rally as Inflation Cools in Key Economies",
-      "dek": "Easing price pressures have investors betting on a softer path for interest rates.",
-      "author": "Lina Harper",
-      "date": "21/08/2026",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["World", "Markets"],
-      "body": [
-        { "type": "paragraph", "text": "Stocks climbed across major exchanges after new data showed inflation easing faster than economists had forecast." }
-      ]
+      "type": "heading",
+      "text": "China's Rare-Earth Leverage and a Widening Trade Standoff"
+    },
+    {
+      "type": "paragraph",
+      "text": "China's decision to halt rare-earth shipments to the United States has landed as one of the sharpest reminders yet of how much economic leverage Beijing holds heading into a planned Xi-Trump summit. Rare earths sit at the center of everything from defense manufacturing to consumer electronics, and China's near-monopoly on processing gives it a lever that's hard for Washington to counter quickly. This is playing out alongside a broader story: governments around the world adopting more interventionist, state-directed economic strategies rather than leaving trade and industry purely to markets."
+    },
+    {
+      "type": "heading",
+      "text": "A Genuinely Multipolar Moment"
+    },
+    {
+      "type": "paragraph",
+      "text": "What ties these threads together is a world order that no longer has one clear center of gravity. Kazakhstan and Uzbekistan have pushed back on US demands for exclusivity in AI cooperation. Poland and the US are discussing permanent American military bases on Polish soil. India and China remain locked in a tense military standoff even as their economies grow more intertwined. Analysts increasingly describe this not as a transition from one dominant order to the next, but as several competing frameworks operating at once, none of them strong enough to set the terms for everyone else."
+    },
+    {
+      "type": "quote",
+      "text": "This isn't a straightforward handoff from one global order to another — it looks more like several different orders trying to occupy the same space simultaneously."
+    },
+    {
+      "type": "heading",
+      "text": "What to Watch Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diplomacy is still functioning and deterrence is still holding in most places, which matters. But with this many active conflicts and flashpoints running in parallel — Ukraine, the Middle East, Iran, the India-China border, US-China trade — the risk isn't necessarily one deliberate war. It's a miscalculation: a drone that crosses the wrong border, a strike that hits an unintended target, an ally acting faster than its larger partner expected. That's the dynamic worth watching most closely as 2026 heads into its final stretch."
     }
+  ]
+},
+    {
+  "slug": "bangladesh-measles-outbreak-2026",
+  "categorySlug": "world",
+  "title": "Bangladesh's Measles Outbreak Kills Nearly 1,000 Kids in 5 Months",
+  "dek": "What started as a preventable disease surge in early 2026 has become the world's largest measles outbreak, exposing how quickly a functioning vaccination program can unravel.",
+  "author": "Lina Harper",
+  "date": "10/09/2026",
+  "image": "/images/bangladesh-measles-outbreak-2026.webp",
+  "tags": ["World News", "Public Health", "South Asia", "Bangladesh"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Eight-month-old Rojatun Jannat Ramisa arrived at Dhaka Shishu Hospital struggling to breathe. Her parents had traveled hundreds of kilometers after doctors near their home in eastern Bangladesh sent them to the capital for specialized care. She is one of thousands of children caught up in a measles outbreak that has now killed close to 1,000 children and shows no sign of fully burning out, five months after it first alarmed health officials."
+    },
+    {
+      "type": "heading",
+      "text": "How a Controlled Disease Came Roaring Back"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bangladesh spent decades building one of the more effective childhood vaccination programs in South Asia, and it showed. Between 2021 and 2025, the country logged only a few hundred measles cases a year, down sharply from 2,410 cases in 2020. That progress unraveled fast. Pandemic-era disruptions kept many parents from bringing infants in for routine shots, and a nationwide vaccination campaign that was supposed to run in 2024, on its usual four-year cycle, was derailed by the political upheaval that forced former Prime Minister Sheikh Hasina from power that August."
+    },
+    {
+      "type": "paragraph",
+      "text": "The interim government that followed, led by Muhammad Yunus, later shifted vaccine procurement away from UNICEF's established system toward open competitive bidding, a move officials framed as a push for transparency. UNICEF has said the new process wasn't built for urgent, time-sensitive vaccine needs, and the resulting delays left an already vulnerable cohort of children even less protected heading into 2026."
+    },
+    {
+      "type": "heading",
+      "text": "Hospitals Still Overwhelmed"
+    },
+    {
+      "type": "paragraph",
+      "text": "By early September, confirmed and suspected cases combined had climbed into the hundreds of thousands, with the heaviest toll falling on Dhaka and Chittagong. Doctors at Bangladesh Shishu Hospital and Institute describe children arriving not just with the disease's telltale rash and fever, but with severe complications layered on top: pneumonia, dehydration from diarrhea, and in the worst cases encephalitis, or swelling of the brain. Neonatal specialist Atiqul Islam has said his colleagues are dealing with children now four or five years old who simply missed their shots during the pandemic years and never caught up."
+    },
+    {
+      "type": "quote",
+      "text": "I have seen a child die in this ward, so I am very afraid. All the children here have measles."
+    },
+    {
+      "type": "heading",
+      "text": "A Vaccination Drive Playing Catch-Up"
+    },
+    {
+      "type": "paragraph",
+      "text": "The health ministry launched an emergency measles-rubella campaign in April, targeting every child between six months and five years old regardless of prior vaccination history. It started in 30 high-risk upazilas and expanded nationwide within weeks, eventually reaching well over a million children in its first phase alone. The World Health Organization has said the campaign is also a chance to rebuild routine immunization more broadly, not just contain this one outbreak, since measles needs roughly 95 percent population coverage to stop spreading and protect infants too young to be vaccinated."
+    },
+    {
+      "type": "heading",
+      "text": "Why the World Isn't Watching Closely"
+    },
+    {
+      "type": "paragraph",
+      "text": "Despite being the largest measles outbreak on record this year by case count, the crisis has drawn comparatively little international attention next to the wars and trade disputes dominating headlines. For families like Ramisa's, that gap between scale and visibility is the story itself: a disease medicine has known how to prevent for over half a century, moving through a country that once had it firmly under control, largely because a vaccine supply chain broke down at the wrong moment."
+    }
+  ]
+},
+    {
+  "slug": "venezuela-oil-deal-after-maduro",
+  "categorySlug": "world",
+  "title": "Venezuela's $209B Oil Deal Still Divides the Nation That Signed It",
+  "dek": "Eight months after Nicolás Maduro's capture, interim leader Delcy Rodríguez has struck a sweeping oil agreement with Washington — and it's drawing criticism from almost every corner of Venezuelan politics.",
+  "author": "Lina Harper",
+  "date": "10/09/2026",
+  "image": "/images/venezuela-oil-deal-after-maduro.webp",
+  "tags": ["World News", "Latin America", "Venezuela", "Energy"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Venezuela's political story took a sharp turn in January, when a US military operation captured longtime president Nicolás Maduro and flew him out of the country to face charges in New York. Eight months later, the fallout is still being negotiated — not on a battlefield this time, but around an oil deal that's reshaping who actually controls Venezuela's most valuable resource."
+    },
+    {
+      "type": "heading",
+      "text": "From Capture to a New Government"
+    },
+    {
+      "type": "paragraph",
+      "text": "After Maduro's removal, Vice President Delcy Rodríguez stepped in as interim president, a role Washington effectively allowed her to keep because officials believed they'd have real leverage over her decisions. That bet has played out in stages: first a law opening Venezuela's oil sector to privatization, signed within weeks of Maduro's capture, and now a 25-year agreement handing the United States development rights to 17 strategic oilfields."
+    },
+    {
+      "type": "heading",
+      "text": "What's Actually In the Deal"
+    },
+    {
+      "type": "paragraph",
+      "text": "Rodríguez has described the arrangement as a straightforward trade: Venezuela supplies the oil, the industry, and generations of worker experience, while the US brings capital and infrastructure investment. Under the terms she laid out in a televised address, Venezuela would receive roughly $19 for every barrel produced and sold to the US, based on a $65 benchmark price, which she estimated could bring in around $209 billion a year if production targets of 1.5 million barrels per day are met. The fields involved span the Maracaibo Basin and the Orinoco Belt and represent about a fifth of the country's proven reserves."
+    },
+    {
+      "type": "quote",
+      "text": "That painful feeling so familiar throughout our history of someone else making decisions about what belongs to us, in our name, without asking us."
+    },
+    {
+      "type": "heading",
+      "text": "A Deal Almost Nobody Likes"
+    },
+    {
+      "type": "paragraph",
+      "text": "What's notable is how little consensus the agreement has produced. Opposition figures have criticized the lack of any public bidding process for the 17 fields, arguing it denied Venezuela the chance to negotiate competing offers. Former state oil executive Rafael Ramírez went further, calling the arrangement a form of new colonialism. Even some figures within Rodríguez's own political camp have voiced discomfort, while Venezuelan communities abroad, including in Canada, have described the deal as illegitimate given that Rodríguez was never elected to the position she now holds."
+    },
+    {
+      "type": "heading",
+      "text": "No Timeline for Elections"
+    },
+    {
+      "type": "paragraph",
+      "text": "Perhaps the sharpest criticism is about what the deal doesn't address. Both Rodríguez and President Trump have declined to commit to any schedule for restoring elected government in Venezuela, even as Trump has publicly praised Rodríguez's administration. That silence matters because it suggests the oil agreement, whatever its economic merits, is being negotiated independent of any real democratic transition — leaving Venezuelans watching a deal over their country's resources take shape without much say in who's making it."
+    }
+  ]
+},
+    {
+  "slug": "canada-us-tariff-standoff-deepens",
+  "categorySlug": "world",
+  "title": "Canada Hits Back With Sweeping Tariffs as US Trade War Escalates",
+  "dek": "Ottawa's 'dollar-for-dollar' countermeasures on more than 700 American products take effect, deepening a rift between two of the world's closest trading partners.",
+  "author": "Lina Harper",
+  "date": "09/09/2026",
+  "image": "/images/canada-us-tariff-standoff-deepens.webp",
+  "tags": ["World", "Trade"],
+  "body": [
+    { "type": "heading", "text": "Talks Collapse, Then Tariffs Follow" },
+    { "type": "paragraph", "text": "Canada's new round of retaliatory tariffs took effect this week, capping off a month in which trade talks between Ottawa and Washington broke down entirely. The Canadian government says the measures are a direct, matching response to a 50 percent US tariff imposed on roughly $27.6 billion worth of Canadian goods in late August, and officials have been blunt that this was not the outcome they wanted." },
+    { "type": "paragraph", "text": "Canada's finance ministry says it negotiated in good faith for months, but that Washington's final proposal asked for too much while offering too little in return, leaving Ottawa to suspend talks rather than accept unfavorable terms." },
+
+    { "type": "heading", "text": "What's Being Taxed" },
+    { "type": "paragraph", "text": "The new duties range from 15 to 50 percent and touch more than 700 categories of American goods, covering roughly $27.6 billion in trade. Steel, aluminum and iron imports now face a doubled 50 percent tariff, matching the rate the US applies to Canadian metal. Furniture, motorcycles, clothing and select beauty products were also placed in the top bracket, alongside dairy, agricultural equipment, pulp and paper, and household appliances." },
+    { "type": "paragraph", "text": "Goods that were already in transit to Canada before the measures kicked in are exempt, and separate, pre-existing tariffs on US automobiles remain untouched by this latest round." },
+
+    { "type": "heading", "text": "Washington's Response" },
+    { "type": "paragraph", "text": "The Trump administration answered within hours, issuing new import restrictions on a batch of Canadian dairy products, motorcycles and alcoholic beverages set to take effect later this month. The president also used social media to publicly pressure Americans to stop buying from Canadian planemaker Bombardier, a sign of how personal the dispute has become." },
+
+    { "type": "heading", "text": "Who Feels the Pinch" },
+    { "type": "paragraph", "text": "Economists caution that smaller businesses concentrated in the targeted sectors are likely to absorb the sharpest losses, even though the affected goods represent a modest slice of the roughly $700 billion in annual two-way trade between the countries. Canada is also the largest foreign buyer of US-made cars, so analysts expect the standoff to squeeze American automakers as well." },
+    { "type": "paragraph", "text": "To soften the blow at home, Ottawa has paired the tariffs with a support package worth roughly $5.4 billion USD for Canadian businesses and workers hurt by the trade war. Prime Minister Mark Carney has urged Canadians to brace for near-term costs, arguing that absorbing some pain now is preferable to leaving the country exposed indefinitely." },
+
+    { "type": "heading", "text": "What Comes Next" },
+    { "type": "paragraph", "text": "Neither government has signaled it's ready to climb down. Carney has said Canada remains open to a fresh round of negotiations once the US comes back with a fairer offer, but for now both sides appear to be settling in for a longer fight, with businesses and consumers on both sides of the border left to absorb the cost in the meantime." }
+  ]
+},
+    {
+  "slug": "gaza-ceasefire-fragile-status-quo",
+  "categorySlug": "world",
+  "title": "Gaza's Ceasefire Holds on Paper, But Recovery Remains Out of Reach",
+  "dek": "Nearly a year after the Washington Accord was signed, aid groups say the territory is still stuck between war and peace.",
+  "author": "Lina Harper",
+  "date": "09/08/2026",
+  "image": "/images/gaza-ceasefire-fragile-status-quo.webp",
+  "tags": ["World", "Middle East"],
+  "body": [
+    { "type": "heading", "text": "A Truce That Hasn't Stopped the Fighting" },
+    { "type": "paragraph", "text": "It has been nearly a year since Israel and Hamas signed onto the US-brokered Comprehensive Plan to End the Gaza Conflict, often referred to as the Washington Accord. The guns have largely fallen silent compared to the height of the war, but strikes, raids and naval detentions have continued throughout the ceasefire period, and both sides accuse the other of repeated violations." },
+    { "type": "paragraph", "text": "The UN's own monitoring has verified hundreds of deaths attributed to Israeli strikes since the truce began, with the toll continuing to climb month over month according to figures compiled by Gaza's health ministry. Israeli officials maintain that the strikes target Hamas operatives tied to planning past attacks." },
+
+    { "type": "heading", "text": "No Real Recovery Yet" },
+    { "type": "paragraph", "text": "Gaza's high representative on the newly formed Board of Peace told the UN Security Council the ceasefire is 'far from perfect,' noting that while food security has improved, there is effectively no reconstruction underway. Roughly 80 percent of buildings in the Strip remain damaged or destroyed, and more than a million people are still without permanent shelter." },
+    { "type": "paragraph", "text": "A joint World Bank, EU and UN damage assessment has put the cost of full recovery and reconstruction over the next decade at close to $71 billion. Health and education systems have yet to be meaningfully rebuilt, and officials describe worsening conditions in makeshift camps, including a spreading rodent infestation linked to serious injuries among elderly residents." },
+
+    { "type": "heading", "text": "A Map Still Divided" },
+    { "type": "paragraph", "text": "Rather than withdrawing to pre-war positions, Israeli forces established what's known as the 'Yellow Line,' a boundary separating the Strip into zones of control. Independent estimates suggest Israel still holds effective control over roughly half of Gaza, including large sections of Rafah, Khan Younis and the north, meaning the full pullback envisioned under the ceasefire deal has yet to happen." },
+    { "type": "paragraph", "text": "Crossings like Rafah, meant to symbolize the deal taking hold, have instead become tightly controlled checkpoints, slowing aid delivery and medical evacuations rather than easing them." },
+
+    { "type": "heading", "text": "A Stalled Roadmap" },
+    { "type": "paragraph", "text": "A follow-up roadmap floated in July, meant to advance the next phase of the deal, quickly ran into trouble after Israeli objections led the Board of Peace to walk back some of its terms. A Palestinian technocratic committee that was supposed to help govern the Strip and oversee the decommissioning of Hamas weapons has yet to actually begin functioning, caught between disorganized US-led decision-making and Israel's insistence that recovery wait until Hamas fully disarms." },
+    { "type": "paragraph", "text": "For now, analysts and aid officials describe the situation less as peace than as a prolonged pause — enough to have reduced daily bloodshed, but nowhere near enough to let more than two million people start rebuilding their lives." }
+  ]
+},
+    {
+  "slug": "us-envoys-push-ukraine-russia-talks",
+  "categorySlug": "world",
+  "title": "US Envoys Shuttle Between Moscow and Kyiv in Renewed Push to End the War",
+  "dek": "Steve Witkoff and Jared Kushner met Putin, then Zelenskyy, but Kyiv says the fighting is set to continue into winter regardless.",
+  "author": "Lina Harper",
+  "date": "09/10/2026",
+  "image": "/images/us-envoys-push-ukraine-russia-talks.webp",
+  "tags": ["World", "Europe"],
+  "body": [
+    { "type": "heading", "text": "A Weekend of Back-to-Back Diplomacy" },
+    { "type": "paragraph", "text": "US special envoys Steve Witkoff and Jared Kushner spent this past weekend racing between the two capitals at the center of the Russia-Ukraine war, meeting first with President Vladimir Putin in Moscow before traveling on to Kyiv to see President Volodymyr Zelenskyy. It was their first joint public visit to Ukraine's capital, and it came after roughly eight months in which negotiations had largely stalled." },
+    { "type": "paragraph", "text": "To make the trip possible, both Russia and Ukraine agreed to briefly hold off on striking each other's capitals over the weekend, offering Kyiv and Moscow residents a rare pause even though no wider ceasefire was ever on the table." },
+
+    { "type": "heading", "text": "Inside the Kremlin Meeting" },
+    { "type": "paragraph", "text": "The Moscow talks stretched more than three hours, with Witkoff and Kushner joined by officials from the National Security Council, State Department and Treasury. A Kremlin aide described the exchange as substantive and conducted in a spirit of trust, saying Putin laid out Russia's read on how the conflict is unfolding and reaffirmed his willingness to keep working toward a political solution alongside Washington." },
+    { "type": "paragraph", "text": "The American side also thanked Putin for the recent release of a former US Marine who had been held in Russian custody, a gesture seen as a small sign of goodwill heading into the wider talks." },
+
+    { "type": "heading", "text": "A Cooler Reception in Kyiv" },
+    { "type": "paragraph", "text": "The mood shifted once the envoys reached Kyiv. Zelenskyy said the talks touched on winter energy support, security guarantees and further supplies of Patriot air defense systems, describing the conversation as productive without offering specifics on what was actually agreed. Both sides floated the idea of future trilateral meetings, including a US-Ukraine-Europe track and a separate US-Ukraine-Russia track, though no dates were set." },
+    { "type": "paragraph", "text": "Even so, Zelenskyy was blunt about expectations, telling reporters he expects the war to continue through the winter regardless of how the diplomacy unfolds, and that Ukraine is counting on Western support to get through it." },
+
+    { "type": "heading", "text": "Fighting Hasn't Paused for Diplomacy" },
+    { "type": "paragraph", "text": "The talks unfolded against a backdrop of continued attacks elsewhere in the country. Russian strikes hit roughly a dozen locations across Ukraine in the days surrounding the visit, including a drone strike on the headquarters of Ukraine's domestic security service in Kyiv, with dozens of civilians reported killed or wounded in the surrounding 24-hour period alone." },
+    { "type": "paragraph", "text": "Ukrainian officials are especially worried about the months ahead: last winter, Russian strikes knocked out roughly 9 gigawatts of the country's power generation, and Kyiv says it's now facing a shortage of the US-made interceptor missiles it relies on to defend its energy grid from a repeat campaign." },
+
+    { "type": "heading", "text": "Cautious Optimism, No Breakthrough" },
+    { "type": "paragraph", "text": "Witkoff struck an upbeat tone as the visit wrapped up, saying he was confident a good resolution was within reach, though he stopped short of describing any concrete progress. For now, the trip looks more like an attempt to restart a stalled process than a turning point — a reminder that after more than four and a half years of war, reopening a dialogue is still treated as an achievement in itself." }
+  ]
+},
+    {
+  "slug": "us-iran-tanker-war-strait-of-hormuz",
+  "categorySlug": "world",
+  "title": "US and Iran Trade Tanker Strikes as Hormuz Standoff Escalates",
+  "dek": "Months into the Iran war, both sides are now targeting oil tankers directly, pushing crude prices toward $100 a barrel.",
+  "author": "Lina Harper",
+  "date": "09/09/2026",
+  "image": "/images/us-iran-tanker-war-strait-of-hormuz.webp",
+  "tags": ["World", "Middle East"],
+  "body": [
+    { "type": "heading", "text": "A New Front Opens at Sea" },
+    { "type": "paragraph", "text": "The US and Iran have moved their monthslong conflict onto the water, trading strikes on oil tankers in and around the Strait of Hormuz over the past several days. US Central Command says a Navy carrier and a guided-missile destroyer evaded multiple Iranian attacks over the weekend, after which American forces disabled two Iranian crude carriers near Kharg Island and Jask, and destroyed a third empty tanker outside the Gulf." },
+    { "type": "paragraph", "text": "Washington describes the targeted vessels as part of a shadow fleet that quietly funds Iran's Revolutionary Guard and its regional proxies. Iran, for its part, says it struck an unmanned US vessel attempting to enter the strait and fired a ballistic missile toward American warships patrolling nearby, part of what it frames as legitimate defense of its waters." },
+
+    { "type": "heading", "text": "Oil Markets Feel the Strain" },
+    { "type": "paragraph", "text": "The exchanges have pushed crude prices toward the $100-a-barrel mark, with some shipping companies now avoiding the strait entirely and others resorting to risky ship-to-ship transfers to keep cargo moving. Washington insists the waterway remains functionally open, pointing to reports of roughly 17 million barrels a day still passing through, but Iran's stated plan to declare an exclusion zone just outside the strait threatens to squeeze that flow further." },
+    { "type": "paragraph", "text": "President Trump has reportedly asked around seven allied nations to send warships to help keep the strait open, underlining how much international shipping now depends on a waterway that carries a significant share of the world's seaborne oil." },
+
+    { "type": "heading", "text": "A Conflict That Keeps Widening" },
+    { "type": "paragraph", "text": "The tanker war is only the latest front in a conflict that began earlier this year and has since spread well beyond Iran's borders. Israel has continued strikes on Iranian targets while stepping up operations against Iran-backed groups in Lebanon, where more than a million people, roughly a fifth of the country's population, have reportedly been displaced. Iran has hit back with drone and missile attacks on facilities in Iraq and the UAE, including a strike that briefly shut down Dubai's airport." },
+    { "type": "paragraph", "text": "Officials in the affected countries put the death toll at more than 1,300 in Iran, close to 900 in Lebanon and a dozen in Israel, while the US military has confirmed more than a dozen of its own service members killed and roughly 200 wounded since the fighting began." },
+
+    { "type": "heading", "text": "No Sign of De-escalation" },
+    { "type": "paragraph", "text": "Iran's foreign ministry has called the tanker strikes a war crime and warned Washington and its allies will bear responsibility for what it terms continued aggression. With both sides continuing to trade fire on land and at sea, and a fragile month-long lull having already collapsed once, there's little indication either government is close to backing down." }
+  ]
+}
   ],
   "politics": [
     {
-      "slug": "elections-2026-key-races",
-      "categorySlug": "politics",
-      "title": "Elections 2026: Key Races to Watch",
-      "dek": "A closer look at the contests that could reshape the balance of power.",
-      "author": "Sofia Martinez",
-      "date": "15/08/2026",
-      "image": "https://images.unsplash.com/photo-1591622569862-5f0325ab1490?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "Elections"],
-      "body": [
-        { "type": "paragraph", "text": "With just months remaining before ballots are cast, a handful of tightly contested races are drawing outsized national attention." },
-        { "type": "heading", "text": "The Races That Matter Most" },
-        { "type": "paragraph", "text": "Pollsters point to a cluster of swing districts where the outcome could tip control of the chamber." }
-      ]
-    },
+  "slug": "new-hampshire-senate-race-pappas-sununu-2026",
+  "categorySlug": "politics",
+  "title": "Pappas vs. Sununu: The New Hampshire Senate Race to Watch in 2026.",
+  "dek": "Both parties' establishment picks won their primaries, setting up a battleground contest for Jeanne Shaheen's open seat.",
+  "author": "Sofia Martinez",
+  "date": "09/09/2026",
+  "image": "/images/new-hampshire-senate-race-pappas-sununu-2026.webp",
+  "tags": ["Politics", "Elections"],
+  "body": [
+    { "type": "heading", "text": "The Frontrunners Come Out on Top" },
+    { "type": "paragraph", "text": "New Hampshire voters have settled the matchup for one of the most closely watched Senate races of the 2026 midterms. Democratic Rep. Chris Pappas and Republican former Sen. John Sununu each cruised to their party's nomination this week, setting up a November face-off for the seat being vacated by retiring Sen. Jeanne Shaheen." },
+    { "type": "paragraph", "text": "Pappas, a four-term congressman representing the state's 1st District, defeated progressive challenger Karishma Manzur, a scientist and Democratic Socialists of America member, by a comfortable margin, though his final share of the vote came in below what his campaign's internal polling had projected. Sununu, meanwhile, easily dispatched former Massachusetts Sen. Scott Brown to claim the Republican nomination." },
+
+    { "type": "heading", "text": "Two Very Different Paths to the Nomination" },
+    { "type": "paragraph", "text": "Pappas entered the race just weeks after Shaheen announced her retirement and quickly locked down her endorsement, along with backing from Sen. Maggie Hassan and former Vice President Kamala Harris. He campaigned as a moderate focused on bipartisan credentials, a message that helped him hold off Manzur's push for Medicare for All, a higher federal minimum wage and an end to US support for Israel's actions in Gaza." },
+    { "type": "paragraph", "text": "Sununu's path was more straightforward. Despite a rocky history with President Trump, who he once called a 'loser' while backing Nikki Haley in the 2024 primary, Sununu secured Trump's endorsement in February and never trailed in the Republican race. He previously served in the House and one term in the Senate before Shaheen unseated him in 2008, and he now returns as the GOP's strongest available recruit for the seat." },
+
+    { "type": "heading", "text": "Why This Race Matters Nationally" },
+    { "type": "paragraph", "text": "With Republicans defending a narrow Senate majority, party strategists on both sides see New Hampshire as one of the handful of races that could tip the chamber. National Democrats have poured resources into the state, with Sens. Elizabeth Warren and Mark Kelly both campaigning alongside Pappas in the final stretch before the primary." },
+    { "type": "paragraph", "text": "Sununu, for his part, has already sharpened his line of attack, casting Pappas as a career politician who has 'held office for virtually his entire adult life' and arguing he's out of step with the state. Early general-election polling has shown a competitive race, with some surveys giving Sununu an edge driven by strong support among independents and non-college-educated voters." },
+
+    { "type": "heading", "text": "Part of a Bigger Battle for Congress" },
+    { "type": "paragraph", "text": "New Hampshire is just one piece of a broader midterm map that both parties consider unusually competitive this cycle. Recent polling has shown Democrats gaining ground nationally, with generic-ballot numbers and party-identification surveys pointing to real enthusiasm heading into November. Republicans currently hold a slim majority in the House and an equally thin edge in the Senate, meaning a small number of races like this one could ultimately decide which party controls Washington for the back half of President Trump's term." }
+  ]
+},
     {
-      "slug": "senate-infrastructure-bill",
-      "categorySlug": "politics",
-      "title": "Senate Advances Bipartisan Infrastructure Bill",
-      "dek": "The bill passed after a late-night session and months of negotiation.",
-      "author": "Sofia Martinez",
-      "date": "10/08/2026",
-      "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "Legislation"],
-      "body": [
-        { "type": "paragraph", "text": "The measure cleared a key procedural hurdle after weeks of closed-door negotiations between party leaders." }
-      ]
-    },
+  "slug": "mail-in-voting-order-legal-battle-2026",
+  "categorySlug": "politics",
+  "title": "Courts Split Over Trump's Mail Voting Order as Midterms Near",
+  "dek": "A Supreme Court ruling let the order move forward for now, but a separate federal judge just blocked the Postal Service rule carrying it out.",
+  "author": "Sofia Martinez",
+  "date": "09/07/2026",
+  "image": "/images/mail-in-voting-order-legal-battle-2026.webp",
+  "tags": ["Politics", "Elections"],
+  "body": [
+    { "type": "heading", "text": "An Order Months in the Making" },
+    { "type": "paragraph", "text": "Back in March, President Trump signed an executive order directing the creation of a nationwide list of eligible voters and instructing the US Postal Service to mail ballots only to those on it. The move set off a wave of litigation almost immediately, with Senate Minority Leader Chuck Schumer, House Minority Leader Hakeem Jeffries, the Democratic National Committee and the parties' campaign arms suing to block it within days." },
+    { "type": "paragraph", "text": "Democrats have argued the order oversteps the president's authority, pointing to constitutional language that leaves the 'times, places, and manner' of elections to individual states. Schumer called the effort a bid to make voting harder for seniors, people with disabilities, service members and rural voters who rely on mail ballots, while Jeffries labeled it an unlawful power grab." },
+
+    { "type": "heading", "text": "A Mixed Record in the Courts" },
+    { "type": "paragraph", "text": "The legal fight has produced a tangle of conflicting rulings. In late August, the Supreme Court paused a lower court's block on the order, allowing it to move forward for now, though the justices were careful to note that decision was only about timing, not whether the order is ultimately lawful. Around the same time, a federal judge in Massachusetts, hearing a challenge from roughly two dozen states led by California, ruled she could still block implementation specifically for this fall's midterms, even if broader claims about future elections weren't yet ready for review." },
+    { "type": "paragraph", "text": "Then, in early September, a separate judge issued a fresh injunction against the USPS rule that was meant to actually carry out the order, citing expert testimony that the new mail-ballot procedures would create chaos for postal workers and local election officials alike." },
+
+    { "type": "heading", "text": "Congress Weighs In" },
+    { "type": "paragraph", "text": "More than 250 current and former members of Congress, led by House Administration Ranking Member Joe Morelle and other senior Democrats, filed a court brief urging the Supreme Court to block the order outright. Their argument centers on a familiar theme: that election rules are Congress and the states' job, not the president's to set by decree." },
+    { "type": "paragraph", "text": "Republicans, meanwhile, have continued pushing a separate bill in the Senate that would add new voter-eligibility requirements, including in-person proof of citizenship at registration, though that legislation remains stalled amid Democratic opposition." },
+
+    { "type": "heading", "text": "A Race Against the Calendar" },
+    { "type": "paragraph", "text": "With ballots for this fall's elections already going out in some states, the timing has become as contentious as the legal merits. Critics note there's little practical time left to verify voter rolls against the administration's new list before Election Day, and question how reliable that list will actually be. For now, the order remains in a kind of legal limbo — technically in effect, but hemmed in by injunctions covering key pieces of its rollout, with the underlying question of its constitutionality still unresolved as voters head to the polls." }
+  ]
+},
     {
-      "slug": "democracy-under-pressure",
-      "categorySlug": "politics",
-      "title": "Democracy Under Pressure in the 21st Century",
-      "dek": "Institutions built for stability face a faster, less predictable world.",
-      "author": "Sofia Martinez",
-      "date": "05/08/2026",
-      "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "Analysis"],
-      "body": [
-        { "type": "paragraph", "text": "Trust in traditional political institutions continues to erode even as participation in politics itself grows more intense." }
-      ]
-    },
+  "slug": "missouri-redistricting-map-supreme-court-fight",
+  "categorySlug": "politics",
+  "title": "Missouri's Congressional Map Fight Lands Back at the Supreme Court",
+  "dek": "A gerrymander built to flip a Kansas City-area seat is now blocked, reverting the state to its old district lines just weeks before Election Day.",
+  "author": "Sofia Martinez",
+  "date": "09/09/2026",
+  "image": "/images/missouri-redistricting-map-supreme-court-fight.webp",
+  "tags": ["Politics", "Elections"],
+  "body": [
+    { "type": "heading", "text": "A Map Built to Flip One Seat" },
+    { "type": "paragraph", "text": "Missouri Republicans redrew the state's congressional map last year in an unusual mid-decade move, aiming squarely at longtime Democratic Rep. Emanuel Cleaver's Kansas City-area seat. The new lines split Kansas City across three districts and reshaped Cleaver's 5th District so that Trump would have carried it by more than 17 points in 2024, compared with a district he easily won by nearly 24 points under the old boundaries." },
+    { "type": "paragraph", "text": "The redraw quickly drew a legal and political backlash. A group called People Not Politicians Missouri gathered enough signatures to force a statewide referendum on the new map, arguing voters, not just lawmakers, should have the final say." },
+
+    { "type": "heading", "text": "The State Supreme Court Steps In" },
+    { "type": "paragraph", "text": "In a unanimous ruling handed down September 3, the Missouri Supreme Court sided with the referendum effort, finding that the state constitution's referendum provision does apply to congressional redistricting, despite the secretary of state's earlier rejection of the petition. The court ordered that the new map cannot be used this November unless voters approve it at the ballot box, meaning the state's older, 2022 map will govern this year's House races instead." },
+    { "type": "paragraph", "text": "That older map currently splits Missouri's House delegation six Republican seats to two Democratic seats, reverting Cleaver to a district he's comfortably won in the past." },
+
+    { "type": "heading", "text": "Republicans Rush to the US Supreme Court" },
+    { "type": "paragraph", "text": "Missouri's attorney general, Catherine Hanaway, immediately vowed to appeal, calling the ruling a disenfranchisement of Missouri voters and pushing for emergency relief from the US Supreme Court. Republican officials, including the secretary of state, also asked the court to pause the state ruling while the appeal plays out, warning that switching maps this late could create confusion and logistical headaches ahead of November." },
+    { "type": "paragraph", "text": "On September 8, the Supreme Court, acting through Justice Brett Kavanaugh, declined to reinstate the GOP-drawn map, leaving the state court's decision in place for now. On the very same day, however, a separate federal lawsuit produced a conflicting ruling ordering the newer map be used instead, throwing the state's election planning into further disarray just weeks before ballots go out." },
+
+    { "type": "heading", "text": "Part of a Bigger National Fight" },
+    { "type": "paragraph", "text": "Missouri's fight is one piece of a much larger, unusual wave of mid-decade redistricting that both parties have pursued around the country this cycle. Nationally, Republicans have come out ahead so far, improving their odds in 16 districts to Democrats' six, in a battle for a House currently split by only a handful of seats. With control of the chamber this narrow, a single contested map like Missouri's could end up mattering far more than its size might suggest." }
+  ]
+},
     {
-      "slug": "state-lawmakers-transit-funding",
-      "categorySlug": "politics",
-      "title": "State Lawmakers Push Bill to Expand Public Transit Funding",
-      "dek": "A bipartisan bill aims to double transit funding over the next five years.",
-      "author": "Sofia Martinez",
-      "date": "14/01/2026",
-      "image": "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "Infrastructure"],
-      "body": [
-        { "type": "paragraph", "text": "Backers point to ridership growth as evidence the investment is overdue, while critics question the long-term cost to the state budget." }
-      ]
-    },
-    {
-      "slug": "judicial-nominee-hearing",
-      "categorySlug": "politics",
-      "title": "Committee Advances Judicial Nominee After Contentious Hearing",
-      "dek": "The nomination now heads to a full floor vote after hours of sharp questioning.",
-      "author": "Sofia Martinez",
-      "date": "28/07/2026",
-      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a4?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "Judiciary"],
-      "body": [
-        { "type": "paragraph", "text": "Lawmakers on both sides pressed the nominee on past rulings during a hearing that stretched late into the evening." }
-      ]
-    },
-    {
-      "slug": "governors-push-back-federal-mandate",
-      "categorySlug": "politics",
-      "title": "Governors Push Back on Federal Mandate",
-      "dek": "A coalition of states says the new rule oversteps federal authority.",
-      "author": "Sofia Martinez",
-      "date": "22/07/2026",
-      "image": "https://images.unsplash.com/photo-1495020689067-958852a7765e?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Politics", "States"],
-      "body": [
-        { "type": "paragraph", "text": "The coalition has vowed to challenge the mandate in court if it isn't revised before taking effect next quarter." }
-      ]
-    }
+  "slug": "rnc-first-ever-midterm-convention-dallas",
+  "categorySlug": "politics",
+  "title": "Trump Headlines GOP's First-Ever Midterm Convention in Dallas",
+  "dek": "The two-day 'Trump-a-Palooza' features over 100 speakers and a surprise $5,000 'dividend' pledge, even as some Republicans in tight races skip the event.",
+  "author": "Sofia Martinez",
+  "date": "09/10/2026",
+  "image": "/images/rnc-first-ever-midterm-convention-dallas.webp",
+  "tags": ["Politics", "Elections"],
+  "body": [
+    { "type": "heading", "text": "A Convention With No Precedent" },
+    { "type": "paragraph", "text": "Republicans gathered in Dallas this week for what the RNC is calling the first midterm convention in American political history. Unlike traditional party conventions, which are held once every four years to formally nominate a presidential candidate, this two-day event at the American Airlines Center exists purely to energize voters and Republican candidates two months out from November's elections." },
+    { "type": "paragraph", "text": "The programming is dense by design: 109 speakers and items are spread across the two evenings, with Vice President JD Vance delivering the keynote on opening night and President Trump closing out both nights himself. Texas figures loom large on the roster too, including Gov. Greg Abbott, Sen. Ted Cruz, Lt. Gov. Dan Patrick and Attorney General Ken Paxton." },
+
+    { "type": "heading", "text": "Trump's Surprise Pledge" },
+    { "type": "paragraph", "text": "About an hour into his keynote, Trump promised a $5,000 'dividend' to every American if Republicans hold onto both chambers of Congress after the midterms. He offered few specifics on how the payments would actually work or whether he'd need Congress to authorize them, comparing the idea loosely to his existing Trump Account child savings program and last year's military housing bonus payments." },
+    { "type": "paragraph", "text": "The pledge added an unexpected news hook to a convention otherwise built around highlighting the administration's record on taxes, healthcare affordability, immigration and trade on night one, with a second night focused on tax policy around tips, overtime pay and Social Security." },
+
+    { "type": "heading", "text": "Not Every Republican Is Showing Up" },
+    { "type": "paragraph", "text": "Despite the star power, turnout among rank-and-file Republicans has been mixed. Some GOP lawmakers in competitive districts are skipping the event entirely, citing scheduling conflicts or discomfort with the reported $25,000 contribution expected of House members who attend. Others see the opposite calculation, hoping a visible moment alongside Trump will help them energize his base in districts where he isn't on the ballot himself." },
+    { "type": "paragraph", "text": "One Republican operative described the event's planning as unusually rushed for something Trump had been teasing for a year, noting that candidates had relatively little lead time to prepare despite the scale of the production." },
+
+    { "type": "heading", "text": "Democrats Keep Their Distance, With a Catch" },
+    { "type": "paragraph", "text": "House Democratic leader Hakeem Jeffries announced that four Democratic lawmakers would travel to Dallas for counterprogramming during the convention, but the party has stopped short of holding any midterm convention of its own. Part of that is financial: the cash-strapped Democratic National Committee reportedly went into debt after the 2024 presidential race and even put up its Washington headquarters as collateral for a loan earlier this year." },
+    { "type": "paragraph", "text": "For Republicans, the gathering is as much a fundraiser as a rally, coming at a moment when Trump's approval ratings have softened and both parties are treating the fight for the House and Senate as unusually competitive. Whether a splashy convention translates into November turnout, though, is something neither party will know for a couple more months." }
+  ]
+}
   ],
-  "tech": [
+  "finance": [
     {
-      "slug": "billion-dollar-cybercrime-ecosystem",
-      "categorySlug": "tech",
-      "title": "Inside the Billion-Dollar Cybercrime Ecosystem",
-      "dek": "A deep look into how digital criminal networks operate, evolve, and stay ahead.",
-      "author": "Arjun Dev",
-      "date": "16/08/2026",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Cybersecurity", "Tech"],
-      "body": [
-        { "type": "paragraph", "text": "Behind the headline-grabbing breaches is a sprawling, professionalized economy — complete with support forums, tiered pricing, and specialized labor." },
-        { "type": "heading", "text": "A Professionalized Underground" },
-        { "type": "paragraph", "text": "Investigators say the shift toward organized, service-based crime has made these networks harder to dismantle." }
-      ]
-    },
+  "slug": "stocks-slide-treasury-yields-oil-fed-decision",
+  "categorySlug": "finance",
+  "title": "Wall Street Slides as Yields and Oil Prices Surge Before Fed Meeting",
+  "dek": "The Dow just posted its third straight day of losses as $100 oil, rising Treasury yields, and a jittery jobs report collide days before the Fed's next rate call.",
+  "author": "Arjun Dev",
+  "date": "09/09/2026",
+  "image": "/images/stocks-slide-treasury-yields-oil-fed-decision.webp",
+  "tags": ["Finance", "Markets"],
+  "body": [
+    { "type": "heading", "text": "A Third Straight Day in the Red" },
+    { "type": "paragraph", "text": "US stocks fell again this week, with the Dow Jones Industrial Average dropping more than 400 points, or roughly 0.8 percent, to close near 52,380. The S&P 500 and Nasdaq Composite each slipped about half a percent, marking the third consecutive session of losses for all three major indexes as rising Treasury yields and climbing oil prices rattled investors." },
+    { "type": "paragraph", "text": "The selling accelerated after the Treasury Department said it would triple its buyback operation for longer-dated government debt, a move that pushed yields higher across the curve and added to an already uneasy mood on trading desks." },
+
+    { "type": "heading", "text": "Oil Adds to the Pressure" },
+    { "type": "paragraph", "text": "Crude prices have been climbing steadily as tensions tied to the ongoing Iran conflict keep shipping through the Strait of Hormuz constrained. WTI crude opened above $95 a barrel this week, while international benchmark Brent pushed past $101, adding fuel-cost pressure just as markets are already digesting hotter-than-expected inflation data." },
+    { "type": "paragraph", "text": "Energy was one of the only sectors trading higher as the broader market slid, a familiar pattern when geopolitical risk starts feeding directly into commodity prices rather than staying contained to headlines." },
+
+    { "type": "heading", "text": "A Jobs Report That Complicated the Fed's Calculus" },
+    { "type": "paragraph", "text": "Adding to the uncertainty, August's nonfarm payrolls report came in far stronger than expected, with employers adding 162,000 jobs versus a forecast of roughly 65,000, while unemployment held steady at 4.1 percent. Strong hiring is normally welcome news, but it's complicated the outlook for interest rates: traders have pushed up the odds of a Fed rate hike at the upcoming meeting to around 58 to 59 percent, according to CME Group's FedWatch tool, a sharp reversal from earlier expectations of a possible rate cut." },
+    { "type": "paragraph", "text": "The 2-year Treasury yield, which tracks short-term rate expectations closely, climbed to about 4.37 percent, while the 10-year yield hovered near its highest level since November 2023." },
+
+    { "type": "heading", "text": "Consumers Are Feeling It Too" },
+    { "type": "paragraph", "text": "The New York Fed's latest consumer survey shows inflation expectations holding roughly steady, but with a notable shift in mood around jobs: the share of people expecting a higher unemployment rate a year from now jumped to its highest reading since April 2020. That mix of steady prices but rising job anxiety is exactly the kind of ambiguous signal that makes the Fed's decision harder to call." },
+
+    { "type": "heading", "text": "What's Weighing on the Rest of the Fall" },
+    { "type": "paragraph", "text": "Strategists point to several overlapping headwinds beyond the Fed meeting itself. September is historically a rough month for the S&P 500, and midterm election years have often brought added volatility in their second half. On top of that, unresolved tension from the Iran war continues to weigh on consumer sentiment, while a fresh round of US-Canada trade restrictions is adding another layer of uncertainty for markets already trying to price in a data-dependent Fed decision expected later this month." }
+  ]
+},
+   {
+  "slug": "us-national-debt-tops-40-trillion",
+  "categorySlug": "finance",
+  "title": "US National Debt Tops $40 Trillion, Doubling in Under a Decade",
+  "dek": "Interest payments alone now cost more than the country spends on defense, and the milestone arrived months earlier than forecasters expected.",
+  "author": "Arjun Dev",
+  "date": "09/09/2026",
+  "image": "/images/us-national-debt-tops-40-trillion.webp",
+  "tags": ["Finance", "Economy"],
+  "body": [
+    { "type": "heading", "text": "A Milestone That Arrived Early" },
+    { "type": "paragraph", "text": "The US national debt crossed $40 trillion in August, according to Treasury Department data, hitting the mark months sooner than most forecasters had expected. Part of the acceleration traces back to lost revenue after some of President Trump's tariffs were invalidated, leaving a bigger gap for the government to borrow against." },
+    { "type": "paragraph", "text": "The number is hard to grasp at any scale: the debt has now more than doubled in less than a decade, up from roughly $19.4 trillion ten years ago. To put it in perspective, the combined net worth of the world's ten richest people, according to the Bloomberg Billionaires Index, covers only a small fraction of what the US now owes." },
+
+    { "type": "heading", "text": "Interest Costs Have Overtaken Defense Spending" },
+    { "type": "paragraph", "text": "The most immediate consequence isn't the headline number itself but what it costs to carry. The US now spends roughly $1.1 trillion a year just servicing its debt, a figure that has edged past the country's entire defense budget. In the first ten months of this budget year, interest costs have also overtaken health insurance spending, making interest the second-largest line item in the federal budget after Social Security and other pension-style programs." },
+    { "type": "paragraph", "text": "Interest currently eats up about 19 percent of federal tax revenue. Absent any changes to spending or tax policy, that share is projected to climb to 20 percent within a decade and as high as 50 percent within three decades, even under relatively optimistic assumptions, according to budget analysts." },
+
+    { "type": "heading", "text": "How the US Stacks Up Globally" },
+    { "type": "paragraph", "text": "Measured against the size of the economy, US debt now sits at roughly 123 percent of GDP, a level the country has only touched once before, during the extraordinary borrowing of World War II. That debt-to-GDP ratio puts the US among the ten most indebted nations in the world, trailing only a handful of countries including Japan, Singapore and Italy." },
+    { "type": "paragraph", "text": "Economists point to a familiar mix of causes: rising costs tied to an aging population drawing on Social Security and Medicare, persistent annual deficits that have run for more than two and a half decades, and a series of tax cuts that have steadily narrowed the government's revenue base even as spending has kept climbing." },
+
+    { "type": "heading", "text": "No Clear Turning Point in Sight" },
+    { "type": "paragraph", "text": "Fiscal watchdogs describe the current trajectory in stark terms. The Bipartisan Policy Center's president called the country's current path plainly unsustainable, even under the best-case scenario, while the Peter G. Peterson Foundation projects the debt could reach $50 trillion within six years if lawmakers don't act on spending or tax reform. Notably, President Trump has already overseen the largest real increase in federal debt of any president, having added more than $3.5 trillion just eighteen months into his second term, with the nonpartisan Congressional Budget Office projecting the total will reach $43.3 trillion by the end of fiscal year 2028." }
+  ]
+},
     {
-      "slug": "ai-tools-changing-how-we-work",
-      "categorySlug": "tech",
-      "title": "AI Tools That Are Changing How We Work",
-      "dek": "A look at the tools reshaping daily workflows across industries.",
-      "author": "Arjun Dev",
-      "date": "13/08/2026",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Tech", "AI"],
-      "body": [
-        { "type": "paragraph", "text": "Adoption has moved well past early experimentation, with teams now building entire workflows around AI-assisted tools." }
-      ]
-    },
+  "slug": "japan-treasury-selling-pushes-us-yields-higher",
+  "categorySlug": "finance",
+  "title": "Japan's Bond Selling Is Quietly Pushing US Mortgage Rates Higher",
+  "dek": "As Tokyo sells Treasuries to prop up the yen, America's largest foreign creditor is turning into a source of upward pressure on US borrowing costs.",
+  "author": "Arjun Dev",
+  "date": "09/09/2026",
+  "image": "/images/japan-treasury-selling-pushes-us-yields-higher.webp",
+  "tags": ["Finance", "Markets"],
+  "body": [
+    { "type": "heading", "text": "America's Biggest Lender Starts Selling" },
+    { "type": "paragraph", "text": "Japan holds more US government debt than any other country, roughly $1.2 trillion, or about 13 percent of all foreign-held Treasuries. For years, that steady appetite helped keep a lid on US borrowing costs. That dynamic is now shifting: Japanese investors offloaded $29.6 billion in US Treasuries during the first quarter of this year alone, the largest quarterly reduction since 2022, with the pace of selling picking up each month as the quarter went on." },
+    { "type": "paragraph", "text": "More recently, Japan has reportedly sold off additional Treasury holdings to help fund a record currency intervention aimed at supporting a yen that touched a 40-year low against the dollar this summer." },
+
+    { "type": "heading", "text": "Why Tokyo Is Pulling Back" },
+    { "type": "paragraph", "text": "The shift traces back to the Bank of Japan's slow move away from decades of near-zero interest rates. As Japanese bond yields rise at home, domestic institutions, particularly life insurers and pension funds, can now earn competitive returns without taking on the currency risk of parking money in US assets. That makes US Treasuries a less obviously attractive place to keep Japanese savings than they were a few years ago." },
+    { "type": "paragraph", "text": "A separate currency intervention has added to the pressure. Japan depends heavily on imported food and fuel, and rising global oil prices tied to the ongoing Iran conflict have squeezed Japanese households already dealing with a weak yen. To stabilize the currency, Japan's finance ministry and the US Treasury reportedly worked together to buy tens of billions of dollars worth of yen, a move that can require selling other assets, including US bonds, to raise the cash." },
+
+    { "type": "heading", "text": "The Ripple Effect on American Borrowers" },
+    { "type": "paragraph", "text": "When a major buyer like Japan steps back from Treasuries, prices on those bonds tend to fall and yields rise to compensate. Higher yields don't stay contained to Wall Street trading desks. The average 30-year fixed mortgage rate, which closely tracks the 10-year Treasury yield, has already climbed to around 6.66 percent, its highest level in a year, according to Freddie Mac data." },
+    { "type": "paragraph", "text": "Economists at TD Economics have projected that continued tapering of Japanese demand for US bonds could push 10-year Treasury yields up by another 20 to 50 basis points over the medium term. Even the smaller end of that range would ripple through mortgage rates, corporate borrowing costs and the math investors use to value stocks." },
+
+    { "type": "heading", "text": "A Global Bond Market Under Strain" },
+    { "type": "paragraph", "text": "Japan's situation is part of a wider pattern. Bond yields have been climbing in several major economies simultaneously, as investors grow warier of heavily indebted governments generally. Analysts note that stress in Japan's bond market, where debt-to-GDP sits above 200 percent, has already been feeding directly into higher US yields, a reminder of how tightly linked the world's biggest debt markets have become. With both countries carrying historically large debt loads, and Japan no longer a reliably steady buyer, the two dynamics look set to keep reinforcing each other well into the fall." }
+  ]
+},
     {
-      "slug": "next-gen-processor-efficiency-gains",
-      "categorySlug": "tech",
-      "title": "Chipmaker Unveils Next-Gen Processor",
-      "dek": "The new chip promises a 40% jump in energy efficiency.",
-      "author": "Arjun Dev",
-      "date": "08/08/2026",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Tech", "Hardware"],
-      "body": [
-        { "type": "paragraph", "text": "The announcement puts pressure on rivals to accelerate their own efficiency roadmaps ahead of next year's product cycle." }
-      ]
-    },
+  "slug": "gold-record-high-central-bank-buying-2026",
+  "categorySlug": "finance",
+  "title": "Gold's Record Rally Has One Main Driver: Central Banks",
+  "dek": "Gold hit an all-time high above $5,500 an ounce this year, and analysts say the world's central banks, not retail investors, are the ones pushing it there.",
+  "author": "Arjun Dev",
+  "date": "09/09/2026",
+  "image": "/images/gold-record-high-central-bank-buying-2026.webp",
+  "tags": ["Finance", "Markets"],
+  "body": [
+    { "type": "heading", "text": "A Milestone Few Saw Coming" },
+    { "type": "paragraph", "text": "Gold touched an all-time high of $5,589.38 an ounce in late January, a level that would have seemed almost unthinkable just a few years ago. While the metal has since traded in a choppier range, cooling to around $4,170 an ounce by midyear before rallying again, the broader arc of the past several years points to something more structural than a typical price spike." },
+    { "type": "paragraph", "text": "Goldman Sachs Research currently forecasts gold will climb to $4,900 per troy ounce by the end of this year, while Deutsche Bank has pegged 2026's average price at $4,450 and sees the metal pushing past $5,000 in 2027." },
+
+    { "type": "heading", "text": "Central Banks Keep Buying, Even When Prices Drop" },
+    { "type": "paragraph", "text": "What's unusual about this rally is who's driving it. Central banks bought a record 289 tonnes of gold in the second quarter of this year, according to the World Gold Council, even as prices posted their steepest quarterly decline in a decade over that same stretch. That's not typical speculative behavior; reserve managers generally treat gold as a long-term structural holding rather than a trade to time." },
+    { "type": "paragraph", "text": "In fact, falling prices seem to have encouraged more buying rather than less. The logic, according to analysts who track central bank reserves, is straightforward: a lower price simply means adding to a long-term position at a discount." },
+
+    { "type": "heading", "text": "Why Reserve Managers Are Diversifying" },
+    { "type": "paragraph", "text": "Central banks bought roughly $37 billion worth of gold in the first quarter of this year alone, the highest quarterly value on record, with a World Gold Council survey finding that more than two-thirds of central banks plan to keep increasing their gold holdings this year. Analysts point to a broader push by governments to diversify away from foreign currency reserves, since gold can't be frozen or sanctioned the way holdings in another country's currency can." },
+    { "type": "paragraph", "text": "The buying has become notably broad-based rather than concentrated among one or two big players. Poland's central bank led global purchases last year, adding over 100 tonnes to push its reserves past 550 tonnes, while Kazakhstan set a new annual buying record and Brazil returned to the gold market after a four-year absence." },
+
+    { "type": "heading", "text": "What It Means for Everyday Investors" },
+    { "type": "paragraph", "text": "Bar and coin demand from individual buyers has also surged, hitting the second-highest quarterly total on record earlier this year, suggesting retail investors are following the same instinct as central banks: buying on price weakness rather than waiting for confirmation that the rally will continue. Some analysts caution that the growing use of gold derivatives to hedge against policy shifts could make prices more volatile going forward, even as the underlying demand from central banks continues to provide a floor beneath the market." }
+  ]
+},
     {
-      "slug": "how-ai-thinks-simple-words",
-      "categorySlug": "tech",
-      "title": "How AI Thinks (In Simple Words, Not Simple Terms)",
-      "dek": "A plain-language explainer on what's actually happening inside a model.",
-      "author": "Arjun Dev",
-      "date": "30/07/2026",
-      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Tech", "Explainer"],
-      "body": [
-        { "type": "paragraph", "text": "Understanding how a model arrives at an answer doesn't require a math degree — just the right mental model." },
-        { "type": "heading", "text": "Patterns, Not Magic" },
-        { "type": "paragraph", "text": "At its core, the process is closer to sophisticated pattern-matching than anything resembling human thought." }
-      ]
-    },
+  "slug": "ai-chip-stocks-rally-gpt6-astra-nvidia",
+  "categorySlug": "finance",
+  "title": "AI Chip Stocks Surge as New Model Releases Reignite the Tech Trade",
+  "dek": "Semiconductor stocks from Nvidia to Micron are climbing again as Wall Street bets frontier AI models will need even more computing power, not less.",
+  "author": "Arjun Dev",
+  "date": "09/08/2026",
+  "image": "/images/ai-chip-stocks-rally-gpt6-astra-nvidia.webp",
+  "tags": ["Finance", "Technology"],
+  "body": [
+    { "type": "heading", "text": "A New Model Reignites the Trade" },
+    { "type": "paragraph", "text": "The technology trade got fresh momentum this week after OpenAI released its GPT-6 Astra model, which independent reviewer Artificial Analysis found to be more cost-efficient than a comparable rival model from Anthropic. The news rippled well beyond software stocks and into the semiconductor sector, with the iShares Semiconductor ETF climbing around 1.7 percent on the back of it." },
+    { "type": "paragraph", "text": "Analysts at Melius Research said in a note that they expect memory-chip makers in particular to benefit from the advancement, while Bernstein's Stacy Rasgon pointed out that a more capable model, even a cheaper one to run, ultimately means more computing demand overall, not less." },
+
+    { "type": "heading", "text": "The Whole AI Supply Chain Moves Together" },
+    { "type": "paragraph", "text": "Cantor Fitzgerald laid out its top picks across the AI hardware stack this week: Micron and Sandisk in memory chips, Western Digital and Seagate in storage, Nvidia, Broadcom and AMD in processors, and equipment makers like ASML, Applied Materials, Lam Research, KLA and Teradyne. Analyst C.J. Muse summed up the dynamic bluntly, noting that the AI trade has become essentially one large, tightly correlated bet playing out across different corners of the market." },
+    { "type": "paragraph", "text": "Individual names reflected that correlation on the day: Broadcom rose more than 1 percent, Nvidia was up modestly, and Intel jumped nearly 5 percent as investors rotated back into chip stocks broadly." },
+
+    { "type": "heading", "text": "Nvidia Keeps Expanding Its Reach" },
+    { "type": "paragraph", "text": "Nvidia itself has been the center of gravity for the broader rally for months. The company recently disclosed a $3.5 billion investment tied to a major chip rival as part of an effort to widen its footprint across the AI supply chain beyond its core graphics processors, on top of a separate $12.9 billion acquisition of the open-source AI platform Hugging Face, its largest deal to date. Nvidia's chief executive, Jensen Huang, has also teased a new high-end PC chip aimed squarely at competitors Intel and AMD, comments that have repeatedly sent shares of adjacent tech names higher whenever he's made them this year." },
+    { "type": "paragraph", "text": "With Nvidia now one of the largest individual weights in the S&P 500, its swings move the broader index more than almost any other single stock, which is part of why traders watch its headlines so closely as a proxy for sentiment across the entire market." },
+
+    { "type": "heading", "text": "A Rally With Real Risks Attached" },
+    { "type": "paragraph", "text": "Not everyone is convinced the momentum is risk-free. Wall Street has spent much of the year debating whether AI valuations have run ahead of fundamentals, pointing to the sheer scale of capital being poured into data centers, rising debt used to finance that buildout, and circular financing arrangements in which cash-rich tech giants help fund the very customers who buy their products. Some strategists say they turned more defensive on AI stocks just last week, even as the sector keeps posting gains, a sign that even bulls are watching for signs the trade has gotten ahead of itself." }
+  ]
+},
     {
-      "slug": "data-breach-exposes-millions",
-      "categorySlug": "tech",
-      "title": "Data Breach Exposes Millions of User Records",
-      "dek": "The company says it has notified affected users and regulators.",
-      "author": "Arjun Dev",
-      "date": "25/07/2026",
-      "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Tech", "Cybersecurity"],
-      "body": [
-        { "type": "paragraph", "text": "The exposed data included names, email addresses, and hashed passwords, according to the company's disclosure." }
-      ]
-    },
-    {
-      "slug": "quantum-computing-breakthrough",
-      "categorySlug": "tech",
-      "title": "Startup Unveils Breakthrough in Quantum Computing",
-      "dek": "The claimed milestone could shorten the timeline to practical quantum applications.",
-      "author": "Arjun Dev",
-      "date": "18/07/2026",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Tech", "Quantum"],
-      "body": [
-        { "type": "paragraph", "text": "Independent researchers say the results are promising but caution that replication is still needed before drawing firm conclusions." }
-      ]
-    }
+  "slug": "openai-trillion-dollar-ipo-timeline-2027",
+  "categorySlug": "finance",
+  "title": "OpenAI Is Quietly Building Toward a $1 Trillion IPO",
+  "dek": "The ChatGPT maker filed confidentially for an IPO this summer, but its own CFO is pumping the brakes on timing, with 2027 now the likelier target.",
+  "author": "Arjun Dev",
+  "date": "09/08/2026",
+  "image": "/images/openai-trillion-dollar-ipo-timeline-2027.webp",
+  "tags": ["Finance", "Technology"],
+  "body": [
+    { "type": "heading", "text": "A Record-Setting Private Valuation" },
+    { "type": "paragraph", "text": "OpenAI closed a $122 billion funding round in late March, the largest private financing round in history, valuing the company at $852 billion. The round was led by major backers including Amazon, SoftBank and Nvidia, and came just a couple of years after the company was valued at around $29 billion in 2023, an almost thirtyfold increase in roughly three years." },
+    { "type": "paragraph", "text": "In June, OpenAI confidentially filed its S-1 registration statement with the SEC, with Goldman Sachs and Morgan Stanley leading the underwriting work, formally starting the clock on a path to going public without committing to an exact date." },
+
+    { "type": "heading", "text": "Why the IPO Keeps Getting Pushed Back" },
+    { "type": "paragraph", "text": "Reports earlier this year suggested OpenAI CEO Sam Altman had been eyeing a listing sometime in late 2026, but Chief Financial Officer Sarah Friar has reportedly been the one pumping the brakes, citing the company's massive spending commitments and the rigorous reporting standards it will need to meet as a public company. By late August, Friar told employees the company will be public in 2027, possibly sooner, though company watchers are treating any specific date as directional rather than firm." },
+    { "type": "paragraph", "text": "The caution makes sense given the numbers involved. OpenAI's annualized revenue surpassed $20 billion by the end of last year, but the company is projecting losses of roughly $14 billion this year alone as it keeps scaling out its infrastructure, with cumulative losses potentially reaching $115 billion by 2029 and profitability not expected until sometime in the 2030s." },
+
+    { "type": "heading", "text": "The Infrastructure Bill Behind the Delay" },
+    { "type": "paragraph", "text": "Much of that spending traces back to OpenAI's Stargate initiative, a sprawling roughly $500 billion plan to build out US AI data center capacity. As of last fall, Stargate had already reached nearly 7 gigawatts of planned capacity and more than $400 billion in committed investment over three years, obligations that help explain why Friar has prioritized shoring up the company's financial footing before subjecting it to public market scrutiny." },
+    { "type": "paragraph", "text": "Altman has separately floated plans to spend as much as $1.4 trillion on AI infrastructure more broadly, underscoring just how much capital the company believes it will need to keep pursuing its artificial general intelligence ambitions, and why an eventual IPO is seen internally as one of the most realistic ways to raise that kind of money." },
+
+    { "type": "heading", "text": "A Target Valuation That Would Rewrite the Record Books" },
+    { "type": "paragraph", "text": "When OpenAI does go public, the company is reportedly targeting a valuation approaching $1 trillion, which would make it one of the largest public listings in history by a wide margin. For context, its most direct rival, Anthropic, has reportedly been targeting $20 to $26 billion in revenue for this year and is separately said to be planning its own IPO in late 2026, a sign of just how quickly the AI sector's biggest private companies are being pulled toward public markets even as questions about their long-term profitability remain unresolved." }
+  ]
+}
   ],
   "business": [
     {
-      "slug": "ev-race-future",
-      "categorySlug": "business",
-      "title": "The EV Race: Who's Leading the Future?",
-      "dek": "A breakdown of the top contenders and the technologies that set them apart.",
-      "author": "Marcus Lee",
-      "date": "14/08/2026",
-      "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["EVs", "Business"],
-      "body": [
-        { "type": "paragraph", "text": "Battery chemistry, charging infrastructure, and manufacturing scale are now the three fronts on which the electric vehicle race is being decided." }
-      ]
-    },
+  "slug": "qualcomm-amazon-ai-chip-deal-2026",
+  "categorySlug": "business",
+  "title": "Qualcomm's $60B Amazon Deal Marks Its Big Bet Beyond Smartphones",
+  "dek": "The chipmaker best known for powering phones just landed AWS as a data center customer, sending its stock up as much as 10% in a single session.",
+  "author": "Marcus Lee",
+  "date": "09/09/2026",
+  "image": "/images/qualcomm-amazon-ai-chip-deal-2026.webp",
+  "tags": ["Business", "Technology"],
+  "body": [
+    { "type": "heading", "text": "A Deal Aimed Squarely at Nvidia's Turf" },
+    { "type": "paragraph", "text": "Qualcomm announced a multi-generation partnership with Amazon Web Services this week to co-develop custom AI inference chips for hyperscale data centers, sending its stock jumping as much as 10 percent on the news before settling to a smaller gain. The agreement marks Qualcomm's largest expansion into cloud infrastructure to date, an unmistakable signal that the company built on smartphone processors wants a real seat at the table alongside Nvidia in the data-center chip business." },
+    { "type": "paragraph", "text": "The two companies plan to co-design custom neural processing accelerators tailored for AI inference, the process of running already-trained models in real time, rather than the more compute-intensive work of training them from scratch. Qualcomm is pairing its power-efficient processing architecture with AWS's cloud infrastructure to tackle two persistent bottlenecks in hyperscale data centers: energy efficiency and internal networking speed." },
+
+    { "type": "heading", "text": "How the Money Actually Works" },
+    { "type": "paragraph", "text": "The commercial terms are structured less like a simple purchase order and more like a long-term bet on the partnership succeeding. Qualcomm issued warrants giving an Amazon investment affiliate the right to buy up to 25 million shares of Qualcomm stock at $161.26 apiece, a stake potentially worth up to $4 billion. Those warrants vest in tranches tied directly to Amazon's actual purchases, with the full 25 million shares unlocking only if Amazon spends up to $60 billion on Qualcomm chips, networking gear and manufacturing services through 2036." },
+    { "type": "paragraph", "text": "An initial batch of 3.75 million shares vested immediately based on Amazon's starting purchase commitments, giving both sides some skin in the game from day one rather than waiting years to see whether the relationship pays off." },
+
+    { "type": "heading", "text": "The Optical Networking Piece" },
+    { "type": "paragraph", "text": "Beyond the chips themselves, the two companies are also co-developing high-speed optical interconnects capable of moving up to 1.6 terabits of data per second between server racks. That technology builds on Qualcomm's roughly $2.4 billion acquisition of AlphaWave Semi, a deal that gave the company serializer-deserializer and optical signal-processing expertise it's now folding directly into the AWS partnership." },
+    { "type": "paragraph", "text": "Industry analysts described the move as validation of that earlier acquisition and another sign of Qualcomm's broader diversification strategy, particularly as the company faces the eventual loss of its longtime modem-chip business with Apple." },
+
+    { "type": "heading", "text": "Where Qualcomm Fits in AWS's Existing Lineup" },
+    { "type": "paragraph", "text": "AWS isn't starting from scratch on custom silicon. The company already designs its own Nitro infrastructure chips, Graviton CPUs, and Trainium and Inferentia accelerators in-house. That means Qualcomm is angling for a place within an already crowded internal chip lineup rather than filling an empty slot, and Nvidia remains the dominant supplier of AI accelerators across the industry even with this new agreement in place." },
+    { "type": "paragraph", "text": "Still, for Qualcomm the deal adds Amazon to a data-center customer list that already includes Meta and Microsoft, and the company has set a public target of reaching $15 billion in annual data-center chip revenue by fiscal 2029. Amazon CEO Andy Jassy has separately floated the idea of selling AWS-designed chips to outside customers, putting the unit's current annualized chip revenue at roughly $20 billion and suggesting it could grow toward $50 billion, a sign of just how much money is now flowing through the AI infrastructure race that deals like this one are part of." }
+  ]
+},
     {
-      "slug": "central-bank-holds-rates-steady",
-      "categorySlug": "business",
-      "title": "Central Bank Holds Rates Steady",
-      "dek": "Policymakers signal cautious optimism after a stretch of volatility.",
-      "author": "Marcus Lee",
-      "date": "09/08/2026",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Business", "Markets"],
-      "body": [
-        { "type": "paragraph", "text": "The decision matched market expectations, though officials left the door open to further moves later in the year." }
-      ]
-    },
+  "slug": "meta-muse-personal-ai-agent-launch",
+  "categorySlug": "business",
+  "title": "Meta Launches Muse, a Personal AI Agent That Acts on Your Behalf",
+  "dek": "The new assistant can book travel, fill out forms and manage your calendar — but it arrives just weeks after Meta's $18 billion settlement over harms to children.",
+  "author": "Marcus Lee",
+  "date": "09/09/2026",
+  "image": "/images/meta-muse-personal-ai-agent-launch.webp",
+  "tags": ["Business", "Technology"],
+  "body": [
+    { "type": "heading", "text": "More Than a Chatbot" },
+    { "type": "paragraph", "text": "Meta rolled out Muse this week, a personal AI agent aimed at adults 18 and over who want help managing day-to-day tasks like scheduling, shopping and, in the company's words, turning long-term goals into action plans. Unlike a typical chatbot that answers questions, Muse is designed to take action on a user's behalf, opening a browser, filling out forms and even negotiating for them once they've shared a goal." },
+    { "type": "paragraph", "text": "The agent is available now in the US through a dedicated Muse app on iOS and Android, through muse.ai, and via WhatsApp, with support for AI glasses coming later. Meta says the product represents an early step toward what CEO Mark Zuckerberg has described as personal superintelligence, an AI system built specifically around an individual user rather than a general-purpose tool." },
+
+    { "type": "heading", "text": "What It Can Actually Do" },
+    { "type": "paragraph", "text": "Meta's own examples range from the mundane to the more involved: booking movie tickets, scheduling a tennis lesson, filling out a school permission slip, or building a yearlong exercise plan. The agent connects to a user's email, calendar and payment methods, and is built to work through multi-step tasks with minimal supervision once it's given a goal, continuing to work even after the app is closed." },
+    { "type": "paragraph", "text": "Meta is offering a free tier alongside two paid subscription options, priced at $20 and $100 a month, positioning the higher tier closer to what businesses typically pay for productivity software than a typical consumer chatbot subscription." },
+
+    { "type": "heading", "text": "Meta's Pitch on Privacy" },
+    { "type": "paragraph", "text": "Given how much access the agent requires, Meta has leaned heavily on privacy and safety messaging in its rollout. Muse runs on what the company calls a Secure Virtual Machine, a dedicated environment housing both the agent and the user's data, and Meta says conversations and data inside that VM aren't shared with its ad systems. Users can tell Muse to forget specific things it has learned, and Meta says a further Confidential VM option, encrypted with a key only the user holds, is coming later this year." },
+
+    { "type": "heading", "text": "A Launch With Awkward Timing" },
+    { "type": "paragraph", "text": "The rollout lands just thirteen days after Meta agreed to an $18 billion settlement with attorneys general across 29 states over harms linked to its social media platforms' impact on children, a backdrop that's made some of the trust-building messaging a harder sell. Reuters has separately reported that Meta engineers raised internal concerns before launch about the agent potentially mishandling sensitive personal data, concerns the company says are addressed by Muse's controlled environment, which it says never directly sees passwords or payment details." },
+    { "type": "paragraph", "text": "The product also arrives amid an increasingly crowded race among OpenAI, Google and Microsoft to build the AI agent that will handle everyday tasks on people's behalf, a shift the industry sees as the natural next step after chatbots that can only answer questions rather than act on them." }
+  ]
+},
     {
-      "slug": "cigarette-tax-seattle",
-      "categorySlug": "business",
-      "title": "New Law Could Raise Cigarette Pack Price to $17 in Seattle",
-      "dek": "Proposed tax increase aims to curb youth smoking while critics warn of impact on small businesses.",
-      "author": "Marcus Lee",
-      "date": "02/02/2026",
-      "image": "https://images.unsplash.com/photo-1616093246990-3a37c3af6c96?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Business", "Local News"],
-      "body": [
-        { "type": "paragraph", "text": "Supporters say the tax hike would meaningfully reduce youth smoking rates, while small business owners warn of lost sales to neighboring counties." }
-      ]
-    },
-    {
-      "slug": "tech-giant-record-earnings",
-      "categorySlug": "business",
-      "title": "Tech Giant Reports Record Quarterly Earnings",
-      "dek": "Strong cloud and advertising revenue drove the results well past estimates.",
-      "author": "Marcus Lee",
-      "date": "27/07/2026",
-      "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Business", "Earnings"],
-      "body": [
-        { "type": "paragraph", "text": "Shares climbed in after-hours trading following the report, which beat analyst expectations on both revenue and profit." }
-      ]
-    },
-    {
-      "slug": "supply-chain-shifts-manufacturing",
-      "categorySlug": "business",
-      "title": "Supply Chain Shifts Reshape Global Manufacturing",
-      "dek": "Companies are rethinking where and how goods get made.",
-      "author": "Marcus Lee",
-      "date": "19/07/2026",
-      "image": "https://images.unsplash.com/photo-1617704548623-340376564e68?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Business", "Manufacturing"],
-      "body": [
-        { "type": "paragraph", "text": "A wave of reshoring and nearshoring is redrawing manufacturing maps that have held steady for two decades." }
-      ]
-    },
-    {
-      "slug": "startup-funding-rebounds",
-      "categorySlug": "business",
-      "title": "Startup Funding Rebounds After Two-Year Slump",
-      "dek": "Venture investment is picking up again, led by AI and climate-tech deals.",
-      "author": "Marcus Lee",
-      "date": "11/07/2026",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Business", "Startups"],
-      "body": [
-        { "type": "paragraph", "text": "Investors say the rebound reflects renewed confidence rather than a return to the excesses of the last boom." }
-      ]
-    }
+  "slug": "caseys-general-stores-earnings-stock-drop",
+  "categorySlug": "business",
+  "title": "Casey's Beat Earnings Estimates. Its Stock Dropped 10% Anyway",
+  "dek": "The convenience store chain posted a nearly 28% jump in per-share profit, but slowing same-store sales growth was enough to spook investors.",
+  "author": "Marcus Lee",
+  "date": "09/09/2026",
+  "image": "/images/caseys-general-stores-earnings-stock-drop.webp",
+  "tags": ["Business", "Retail"],
+  "body": [
+    { "type": "heading", "text": "A Beat That Didn't Convince Wall Street" },
+    { "type": "paragraph", "text": "Casey's General Stores reported first-quarter results this week that beat analyst expectations on both earnings and revenue, yet shares of the convenience store chain still fell more than 10 percent the following day. Diluted earnings per share came in at $7.37, up 27.7 percent year over year, while net income rose 27.1 percent to $273.7 million and EBITDA climbed 17.1 percent to $485.1 million." },
+    { "type": "paragraph", "text": "CEO Darren Rebelez called it an outstanding start to the company's new three-year strategic plan, pointing to gains in both in-store sales and fuel profitability as evidence the chain's business model is working as intended." },
+
+    { "type": "heading", "text": "Why Investors Weren't Satisfied" },
+    { "type": "paragraph", "text": "The disconnect came down to same-store sales growth, which slowed compared to the prior year. Inside same-store sales rose 3.2 percent in the quarter, a step down from the growth rate investors had grown used to, and enough on its own to overshadow an earnings beat that on paper looked strong across nearly every other metric. RBC Capital trimmed its price target on the stock slightly following the report, while keeping a neutral rating, reflecting the market's more cautious read on where growth is headed next." },
+    { "type": "paragraph", "text": "The reaction underscores a familiar dynamic for high-multiple growth retailers: with the stock trading at a price-to-earnings ratio above 39, investors have been pricing in consistently strong growth, and even a modest deceleration can trigger an outsized selloff." },
+
+    { "type": "heading", "text": "What's Actually Driving Sales" },
+    { "type": "paragraph", "text": "Underneath the headline numbers, the details were mostly encouraging. Prepared food and dispensed beverages were the standout performers, helping drive the quarter's inside sales growth, with total inside gross profit up 6.3 percent to $749.8 million. Rebelez noted that most of that growth came from rising customer traffic rather than higher prices, and that energy drinks and nicotine alternatives continued to outperform other product categories, a trend that's held for several quarters running." },
+    { "type": "paragraph", "text": "Fuel sales told a similar story: same-store gallons sold dipped slightly, down 0.3 percent, but fuel gross profit still jumped 19.6 percent thanks to wider margins, showing the company managed to extract more profit per gallon even as volumes softened." },
+
+    { "type": "heading", "text": "The Bigger Growth Plan" },
+    { "type": "paragraph", "text": "The quarter marks the opening chapter of a new three-year strategic plan Casey's unveiled back in June, which calls for opening at least 120 new stores in fiscal 2027 alone, part of a broader push toward roughly 500 new locations across the plan's full three-year window. The company has left its full-year guidance unchanged following the report, still projecting 2 to 5 percent same-store sales growth and 8 to 10 percent EBITDA growth for fiscal 2027, suggesting management sees the quarter's slower same-store number as a normal fluctuation rather than the start of a longer slowdown." }
+  ]
+}
   ],
   "science": [
     {

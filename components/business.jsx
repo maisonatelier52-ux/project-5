@@ -59,10 +59,10 @@ export default function Business() {
           </Link>
 
           <Link href={`/business/${featured.slug}`} className="group mt-5 block">
-            <h3 className="max-w-xl font-serif text-2xl font-semibold leading-snug text-ink transition group-hover:text-masthead-red sm:text-3xl">
+            <h3 className="max-w-xl font-serif text-2xl font-semibold leading-snug text-ink transition group-hover:text-masthead-red sm:text-4xl">
               {featured.title}
             </h3>
-            <p className="mt-3 max-w-lg font-serif text-base italic leading-relaxed text-ink-soft">
+            <p className="mt-3 max-w-lg font-serif text-lg italic leading-relaxed text-ink-soft">
               {featured.dek}
             </p>
           </Link>

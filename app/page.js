@@ -1,6 +1,6 @@
 import World from "@/components/world";
 import Politics from "@/components/politics";
-import Technology from "@/components/technology";
+import Finance from "@/components/finance";
 import Business from "@/components/business";
 import Science from "@/components/science";
 import Culture from "@/components/culture";
@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <World />
       <Politics />
-      <Technology />
+      <Finance />
       <Business />
       <Science />
       <Culture />

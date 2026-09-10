@@ -40,7 +40,7 @@ export default function World() {
 
   if (!featured) return null;
 
-  const trending = rest.slice(0, 5);
+  const trending = rest.slice(0, 6);
 
   return (
     <section className="border-b border-rule-strong bg-paper px-4 py-8 sm:px-6 sm:py-10 lg:px-10 lg:py-12">
@@ -92,7 +92,7 @@ export default function World() {
                   {i + 1}
                 </span>
                 <Link href={`/world/${item.slug}`} className="group min-w-0">
-                  <p className="font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
+                  <p className="font-serif text-lg font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                     {item.title}
                   </p>
                   <p className="mt-1.5 font-sans text-xs text-ink-faint">
