@@ -37,45 +37,52 @@ export default function Politics() {
   if (stories.length === 0) return null;
 
   return (
-    <section className="bg-[#0A0A0F] px-4 py-8 sm:px-6 lg:px-10">
+    <section className="border-b border-rule-strong bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-5 flex items-center gap-2 sm:mb-6">
-          <span className="h-4 w-1 rounded-full bg-violet-400" />
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Latest in Politics</h2>
+        <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
+          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            Latest in Politics
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
           {stories.map((story) => (
             <article key={story.slug} className="group">
-              <Link href={`/politics/${story.slug}`} className="relative block aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
-                <img src={story.image} alt={story.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
-                <span className="absolute left-3 top-3 rounded bg-black/60 px-2 py-1 text-[10px] font-semibold uppercase tracking-wider text-rose-300 backdrop-blur">
-                  Politics
-                </span>
+              <Link href={`/politics/${story.slug}`} className="relative block aspect-[4/3] overflow-hidden border border-rule">
+                <img
+                  src={story.image}
+                  alt={story.title}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
               </Link>
 
               <div className="mt-3 flex items-start justify-between gap-2">
-                <Link href={`/politics/${story.slug}`}>
-                  <h3 className="text-base font-semibold leading-snug text-white transition group-hover:text-violet-300">
-                    {story.title}
-                  </h3>
-                </Link>
+                <div>
+                  <span className="font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
+                    Politics
+                  </span>
+                  <Link href={`/politics/${story.slug}`}>
+                    <h3 className="mt-1 font-serif text-lg font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
+                      {story.title}
+                    </h3>
+                  </Link>
+                </div>
                 <button
                   aria-label="Save story"
                   onClick={(e) => e.preventDefault()}
-                  className="mt-0.5 shrink-0 text-white/30 transition hover:text-white"
+                  className="mt-1 shrink-0 text-ink-faint transition hover:text-ink"
                 >
                   <Bookmark size={16} />
                 </button>
               </div>
 
-              <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-white/50">
+              <p className="mt-1.5 line-clamp-2 font-serif text-sm leading-relaxed text-ink-soft">
                 {story.dek}
               </p>
 
-              <div className="mt-3 flex items-center gap-2 text-xs text-white/40">
+              <div className="mt-3 flex items-center gap-2 font-sans text-xs text-ink-faint">
                 <span>By {story.author}</span>
-                <span className="text-white/20">•</span>
+                <span>·</span>
                 <span>{formatDate(story.date)}</span>
               </div>
             </article>

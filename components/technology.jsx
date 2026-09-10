@@ -8,16 +8,6 @@ const parseDate = (dateStr) => {
   return new Date(year, month - 1, day);
 };
 
-// Cycles through a small palette so cards still read as visually varied,
-// even though every article here is Tech.
-const TAG_PALETTE = [
-  "text-violet-300 bg-violet-500/10",
-  "text-sky-300 bg-sky-500/10",
-  "text-rose-300 bg-rose-500/10",
-  "text-emerald-300 bg-emerald-500/10",
-  "text-amber-300 bg-amber-500/10",
-];
-
 // Rough read-time estimate from how many content blocks the article has
 const estimateReadTime = (body) => {
   const blocks = (body || []).filter((b) => b.type !== "image").length;
@@ -44,36 +34,39 @@ export default function Technology() {
   if (articles.length === 0) return null;
 
   return (
-    <section className="bg-[#0A0A0F] px-4 py-8 sm:px-6 lg:px-10">
+    <section className="border-b border-rule-strong bg-paper-shade px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-5 flex items-center gap-2 sm:mb-6">
-          <span className="h-4 w-1 rounded-full bg-violet-400" />
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Technology</h2>
+        <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
+          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            Technology
+          </h2>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-5">
+        <div className="flex flex-wrap gap-x-8 gap-y-6">
           {articles.map((item, i) => (
             <Link
               key={item.slug}
               href={`/tech/${item.slug}`}
-              className="group flex w-full gap-4 rounded-xl border border-white/10 p-4 transition hover:border-white/20 sm:w-[calc(50%-0.625rem)] lg:w-[calc(33.333%-0.834rem)]"
+              className={`group flex w-full gap-4 py-4 sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1.334rem)] ${
+                i < 3 ? "border-t border-rule" : "border-t border-rule sm:border-t-0 lg:border-t"
+              }`}
             >
-              <div className="h-24 w-24 shrink-0 overflow-hidden rounded-lg sm:h-28 sm:w-28">
-                <img src={item.image} alt={item.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+              <div className="h-24 w-24 shrink-0 overflow-hidden border border-rule sm:h-28 sm:w-28">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
               </div>
 
               <div className="flex flex-col justify-center">
-                <span
-                  className={`w-fit rounded px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${
-                    TAG_PALETTE[i % TAG_PALETTE.length]
-                  }`}
-                >
+                <span className="font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
                   {(item.tags && item.tags[0]) || "Tech"}
                 </span>
-                <h3 className="mt-2 text-sm font-semibold leading-snug text-white transition group-hover:text-violet-300 sm:text-base">
+                <h3 className="mt-2 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                   {item.title}
                 </h3>
-                <span className="mt-2 text-xs text-white/40">
+                <span className="mt-2 font-sans text-xs text-ink-faint">
                   {estimateReadTime(item.body)}
                 </span>
               </div>

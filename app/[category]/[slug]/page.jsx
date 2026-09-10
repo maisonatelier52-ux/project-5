@@ -106,72 +106,74 @@ export default async function ArticlePage({ params }) {
   const article = getArticle(category, slug);
   const related = getRelated(category, slug);
 
+  let firstParagraphUsed = false;
+
   return (
-    <main className="bg-[#0A0A0F]">
+    <main className="bg-paper">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-8 sm:px-6 sm:py-12 lg:grid-cols-[1fr_340px] lg:items-start lg:px-10">
         {/* Article */}
         <article className="mx-auto w-full max-w-3xl lg:mx-0">
           {/* Breadcrumb */}
-          <nav className="mb-5 text-xs text-white/40">
-            <Link href="/" className="hover:text-white/70">Home</Link>
+          <nav className="mb-5 font-sans text-xs text-ink-faint">
+            <Link href="/" className="hover:text-ink">Home</Link>
             <span className="mx-2">/</span>
-            <Link href={`/${article.category}`} className="capitalize hover:text-white/70">
+            <Link href={`/${article.category}`} className="capitalize hover:text-ink">
               {article.category}
             </Link>
           </nav>
 
           {/* Header */}
-          <span className="inline-block rounded bg-violet-500/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-violet-300 capitalize">
+          <span className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-masthead-red">
             {article.category}
           </span>
 
-          <h1 className="mt-4 text-3xl font-black leading-[1.1] tracking-tight text-white sm:text-4xl lg:text-5xl">
+          <h1 className="mt-4 font-serif text-3xl font-semibold leading-[1.1] tracking-tight text-ink sm:text-4xl lg:text-5xl">
             {article.title}
           </h1>
 
-          <p className="mt-4 text-base leading-relaxed text-white/60 sm:text-lg">
+          <p className="mt-4 font-serif text-lg italic leading-relaxed text-ink-soft sm:text-xl">
             {article.excerpt}
           </p>
 
           {/* Byline row */}
-          <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-white/10 py-4">
+          <div className="mt-6 flex flex-wrap items-center justify-between gap-4 border-y border-rule-strong py-4">
             <div className="flex items-center gap-3">
               {article.authorAvatar ? (
-                <img src={article.authorAvatar} alt={article.author} className="h-10 w-10 shrink-0 rounded-full object-cover"/>
+                <img src={article.authorAvatar} alt={article.author} className="h-10 w-10 shrink-0 rounded-full object-cover" />
               ) : (
-                <div className="h-10 w-10 shrink-0 rounded-full bg-gradient-to-br from-violet-400 to-violet-700" />
+                <div className="h-10 w-10 shrink-0 rounded-full bg-paper-shade" />
               )}
               <div>
-                <p className="text-sm font-medium text-white">
+                <p className="font-sans text-sm font-medium text-ink">
                   {article.authorSlug ? (
-                    <Link href={`/authors/${article.authorSlug}`} className="transition hover:text-violet-300">
+                    <Link href={`/authors/${article.authorSlug}`} className="transition hover:text-masthead-red">
                       {article.author}
                     </Link>
                   ) : (
                     article.author
                   )}
                 </p>
-                <p className="text-xs text-white/40">{article.authorRole}</p>
+                <p className="font-sans text-xs text-ink-faint">{article.authorRole}</p>
               </div>
             </div>
 
-            <div className="flex items-center gap-4 text-xs text-white/40">
+            <div className="flex items-center gap-4 font-sans text-xs text-ink-faint">
               <span>{article.date}</span>
-              <span className="text-white/20">•</span>
+              <span>·</span>
               <span>{article.readTime}</span>
             </div>
 
             <div className="flex items-center gap-1">
-              <button aria-label="Share on Twitter" className="rounded-full p-2 text-white/50 transition hover:bg-white/5 hover:text-white">
+              <button aria-label="Share on Twitter" className="p-2 text-ink-faint transition hover:text-ink">
                 <TwitterIcon className="h-4 w-4" />
               </button>
-              <button aria-label="Share on LinkedIn" className="rounded-full p-2 text-white/50 transition hover:bg-white/5 hover:text-white">
+              <button aria-label="Share on LinkedIn" className="p-2 text-ink-faint transition hover:text-ink">
                 <LinkedinIcon className="h-4 w-4" />
               </button>
-              <button aria-label="Copy link" className="rounded-full p-2 text-white/50 transition hover:bg-white/5 hover:text-white">
+              <button aria-label="Copy link" className="p-2 text-ink-faint transition hover:text-ink">
                 <LinkIcon size={16} />
               </button>
-              <button aria-label="Save article" className="rounded-full p-2 text-white/50 transition hover:bg-white/5 hover:text-white">
+              <button aria-label="Save article" className="p-2 text-ink-faint transition hover:text-ink">
                 <Bookmark size={16} />
               </button>
             </div>
@@ -179,40 +181,43 @@ export default async function ArticlePage({ params }) {
 
           {/* Hero image */}
           {article.heroImage && (
-            <div className="mt-8 overflow-hidden rounded-2xl border border-white/10">
-              <img src={article.heroImage} alt={article.title} className="aspect-[16/9] w-full object-cover"/>
-            </div>
+            <figure className="mt-8 overflow-hidden border border-rule">
+              <img src={article.heroImage} alt={article.title} className="aspect-[16/9] w-full object-cover" />
+            </figure>
           )}
 
           {/* Body — rendered from JSON content blocks */}
-          <div className="mt-8 space-y-6 text-[17px] leading-[1.8] text-white/80">
+          <div className="mt-8 space-y-6 font-serif text-[19px] leading-[1.75] text-ink">
             {article.body.map((block, i) => {
               if (block.type === "paragraph") {
-                return <p key={i}>{block.text}</p>;
+                const isFirst = !firstParagraphUsed;
+                if (isFirst) firstParagraphUsed = true;
+                return (
+                  <p key={i} className={isFirst ? "drop-cap" : undefined}>
+                    {block.text}
+                  </p>
+                );
               }
               if (block.type === "heading") {
                 return (
-                  <h2 key={i} className="pt-2 text-2xl font-bold text-white">
+                  <h2 key={i} className="pt-2 font-serif text-2xl font-semibold text-ink">
                     {block.text}
                   </h2>
                 );
               }
               if (block.type === "quote") {
                 return (
-                  <blockquote
-                    key={i}
-                    className="border-l-2 border-violet-400 pl-5 text-xl font-medium italic text-white/90"
-                  >
-                    "{block.text}"
+                  <blockquote key={i} className="border-l-2 border-masthead-red py-1 pl-6 font-serif text-2xl italic leading-snug text-ink">
+                    {block.text}
                   </blockquote>
                 );
               }
               if (block.type === "image") {
                 return (
-                  <figure key={i} className="overflow-hidden rounded-xl border border-white/10">
+                  <figure key={i} className="overflow-hidden border border-rule">
                     <img src={block.src} alt="" className="w-full object-cover" />
                     {block.caption && (
-                      <figcaption className="border-t border-white/10 px-4 py-2 text-xs text-white/40">
+                      <figcaption className="border-t border-rule px-4 py-2 font-sans text-xs text-ink-faint">
                         {block.caption}
                       </figcaption>
                     )}
@@ -225,12 +230,12 @@ export default async function ArticlePage({ params }) {
 
           {/* Tags */}
           {article.tags.length > 0 && (
-            <div className="mt-10 flex flex-wrap gap-2 border-t border-white/10 pt-6">
+            <div className="mt-10 flex flex-wrap gap-2 border-t border-rule pt-6">
               {article.tags.map((tag) => (
                 <Link
                   key={tag}
                   href={`/tags/${tag.toLowerCase()}`}
-                  className="rounded-full border border-white/10 px-3 py-1 text-xs text-white/50 transition hover:border-violet-400/40 hover:text-violet-300"
+                  className="border border-rule px-3 py-1 font-sans text-xs text-ink-soft transition hover:border-ink hover:text-ink"
                 >
                   {tag}
                 </Link>
@@ -240,25 +245,27 @@ export default async function ArticlePage({ params }) {
         </article>
 
         {/* Sticky sidebar */}
-        <aside className="flex flex-col gap-6 lg:sticky lg:top-24">
+        <aside className="flex flex-col gap-8 lg:sticky lg:top-8">
           {/* Trending mini list */}
-          <div className="rounded-xl border border-white/10 p-5">
-            <div className="mb-4 flex items-center gap-2">
-              <TrendingUp size={16} className="text-violet-400" />
-              <h2 className="text-xs font-semibold uppercase tracking-wider text-white">Trending Now</h2>
+          <div className="border border-rule-strong p-5">
+            <div className="mb-4 flex items-center gap-2 border-b border-rule pb-3">
+              <TrendingUp size={15} className="text-masthead-red" />
+              <h2 className="font-sans text-xs font-semibold uppercase tracking-wider text-ink">
+                Trending Now
+              </h2>
             </div>
-            <ol className="flex flex-col divide-y divide-white/10">
+            <ol className="flex flex-col divide-y divide-rule">
               {TRENDING.map((item, i) => (
                 <li key={item.title} className={i !== 0 ? "pt-3" : ""}>
                   <a href="#" className="group flex gap-3 pb-3 last:pb-0">
-                    <span className="text-sm font-bold text-white/25">
-                      {String(i + 1).padStart(2, "0")}
+                    <span className="font-serif text-lg font-semibold leading-none text-ink-faint">
+                      {i + 1}
                     </span>
                     <div>
-                      <p className="text-sm font-medium leading-snug text-white transition group-hover:text-violet-300">
+                      <p className="font-serif text-sm font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                         {item.title}
                       </p>
-                      <p className="mt-1 text-xs text-white/40">{item.time}</p>
+                      <p className="mt-1 font-sans text-xs text-ink-faint">{item.time}</p>
                     </div>
                   </a>
                 </li>
@@ -267,8 +274,10 @@ export default async function ArticlePage({ params }) {
           </div>
 
           {/* Ad slot */}
-          <div className="overflow-hidden rounded-xl border border-white/10">
-            <span className="block px-3 pt-2 text-[10px] uppercase tracking-wider text-white/30">Advertisement</span>
+          <div className="overflow-hidden border border-rule">
+            <span className="block px-3 pt-2 font-sans text-[10px] uppercase tracking-wider text-ink-faint">
+              Advertisement
+            </span>
             <a href="#" className="block">
               <img
                 src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?q=80&w=600&auto=format&fit=crop"
@@ -280,45 +289,41 @@ export default async function ArticlePage({ params }) {
 
           {/* Author info card */}
           {article.author && (
-            <div className="rounded-xl border border-white/10 p-5">
+            <div className="border border-rule-strong p-5">
               <div className="flex items-center gap-3">
                 {article.authorAvatar ? (
-                  <img
-                    src={article.authorAvatar}
-                    alt={article.author}
-                    className="h-12 w-12 rounded-full object-cover ring-2 ring-violet-400/40"
-                  />
+                  <img src={article.authorAvatar} alt={article.author} className="h-12 w-12 rounded-full object-cover" />
                 ) : (
-                  <div className="h-12 w-12 rounded-full bg-gradient-to-br from-violet-400 to-violet-700" />
+                  <div className="h-12 w-12 rounded-full bg-paper-shade" />
                 )}
                 <div>
-                  <p className="text-sm font-semibold text-white">
+                  <p className="font-serif text-base font-semibold text-ink">
                     {article.authorSlug ? (
-                      <Link href={`/authors/${article.authorSlug}`} className="transition hover:text-violet-300">
+                      <Link href={`/authors/${article.authorSlug}`} className="transition hover:text-masthead-red">
                         {article.author}
                       </Link>
                     ) : (
                       article.author
                     )}
                   </p>
-                  <p className="text-xs text-white/40">{article.authorRole}</p>
+                  <p className="font-sans text-xs text-ink-faint">{article.authorRole}</p>
                 </div>
               </div>
 
               {article.authorBio && (
-                <p className="mt-4 text-sm leading-relaxed text-white/60">
+                <p className="mt-4 font-serif text-sm leading-relaxed text-ink-soft">
                   {article.authorBio}
                 </p>
               )}
 
               <div className="mt-4 flex items-center gap-2">
-                <a href="#" aria-label="Twitter" className="rounded-full border border-white/10 p-2 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+                <a href="#" aria-label="Twitter" className="border border-rule p-2 text-ink-soft transition hover:border-ink hover:text-ink">
                   <TwitterIcon className="h-3.5 w-3.5" />
                 </a>
-                <a href="#" aria-label="LinkedIn" className="rounded-full border border-white/10 p-2 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+                <a href="#" aria-label="LinkedIn" className="border border-rule p-2 text-ink-soft transition hover:border-ink hover:text-ink">
                   <LinkedinIcon className="h-3.5 w-3.5" />
                 </a>
-                <a href="#" aria-label="Website" className="rounded-full border border-white/10 p-2 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+                <a href="#" aria-label="Website" className="border border-rule p-2 text-ink-soft transition hover:border-ink hover:text-ink">
                   <LinkIcon size={14} />
                 </a>
               </div>
@@ -329,23 +334,27 @@ export default async function ArticlePage({ params }) {
 
       {/* Related articles */}
       {related.length > 0 && (
-        <section className="border-t border-white/10 px-4 py-10 sm:px-6 lg:px-10">
+        <section className="border-t border-rule-strong px-4 py-12 sm:px-6 lg:px-10">
           <div className="mx-auto max-w-7xl">
-            <h2 className="mb-5 text-sm font-semibold uppercase tracking-wider text-white">Related Stories</h2>
-            <div className="grid grid-cols-1 gap-5 sm:grid-cols-3">
+            <h2 className="mb-6 border-b-2 border-rule-strong pb-2 font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+              Related Stories
+            </h2>
+            <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-3">
               {related.map((item) => (
-                <Link key={item.href} href={item.href} className="group overflow-hidden rounded-xl border border-white/10">
-                  <div className="aspect-[4/3] overflow-hidden">
-                    <img src={item.image} alt={item.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+                <Link key={item.href} href={item.href} className="group block">
+                  <div className="aspect-[4/3] overflow-hidden border border-rule">
+                    <img
+                      src={item.image}
+                      alt={item.title}
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
                   </div>
-                  <div className="p-4">
-                    <span className="text-xs font-semibold uppercase tracking-wider text-violet-300 capitalize">
-                      {article.category}
-                    </span>
-                    <h3 className="mt-1.5 text-sm font-semibold leading-snug text-white transition group-hover:text-violet-300">
-                      {item.title}
-                    </h3>
-                  </div>
+                  <span className="mt-3 block font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red capitalize">
+                    {article.category}
+                  </span>
+                  <h3 className="mt-1 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
+                    {item.title}
+                  </h3>
                 </Link>
               ))}
             </div>

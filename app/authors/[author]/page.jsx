@@ -31,9 +31,7 @@ const formatDate = (dateStr) =>
 
 // Finds the author whose slug matches the route param (author.json is keyed by name, not slug)
 function getAuthor(slug) {
-  const entry = Object.entries(authorData).find(
-    ([, info]) => info.slug === slug
-  );
+  const entry = Object.entries(authorData).find(([, info]) => info.slug === slug);
 
   if (!entry) return null;
 
@@ -79,8 +77,8 @@ export default async function AuthorPage({ params }) {
 
   if (!authorInfo) {
     return (
-      <main className="bg-[#0A0A0F] px-4 py-16 text-center">
-        <p className="text-sm text-white/40">Author not found.</p>
+      <main className="bg-paper px-4 py-16 text-center">
+        <p className="font-sans text-sm text-ink-faint">Author not found.</p>
       </main>
     );
   }
@@ -88,59 +86,57 @@ export default async function AuthorPage({ params }) {
   const articles = getArticlesByAuthor(authorInfo.name, authorInfo.category);
 
   return (
-    <main className="bg-[#0A0A0F] px-4 py-8 sm:px-6 sm:py-10 lg:px-10">
+    <main className="bg-paper px-4 py-8 sm:px-6 sm:py-10 lg:px-10">
       <div className="mx-auto max-w-7xl">
         {/* Breadcrumb */}
-        <nav className="mb-6 text-xs text-white/40">
-          <Link href="/" className="hover:text-white/70">Home</Link>
+        <nav className="mb-6 font-sans text-xs text-ink-faint">
+          <Link href="/" className="hover:text-ink">Home</Link>
           <span className="mx-2">/</span>
-          <span className="text-white/60">Authors</span>
+          <span className="text-ink-soft">Authors</span>
           <span className="mx-2">/</span>
-          <span className="text-white/60">{authorInfo.name}</span>
+          <span className="text-ink-soft">{authorInfo.name}</span>
         </nav>
 
         {/* Author header */}
-        <div className="flex flex-col items-start gap-6 border-b border-white/10 pb-8 sm:flex-row sm:items-center">
+        <div className="flex flex-col items-start gap-6 border-b-2 border-rule-strong pb-8 sm:flex-row sm:items-center">
           {authorInfo.avatar ? (
             <img
               src={authorInfo.avatar}
               alt={authorInfo.name}
-              className="h-20 w-20 shrink-0 rounded-full object-cover ring-4 ring-violet-400/20 sm:h-24 sm:w-24"
+              className="h-20 w-20 shrink-0 rounded-full object-cover sm:h-24 sm:w-24"
             />
           ) : (
-            <div className="h-20 w-20 shrink-0 rounded-full bg-gradient-to-br from-violet-400 to-violet-700 ring-4 ring-violet-400/20 sm:h-24 sm:w-24" />
+            <div className="h-20 w-20 shrink-0 rounded-full bg-paper-shade sm:h-24 sm:w-24" />
           )}
 
           <div className="flex-1">
-            <h1 className="text-2xl font-black tracking-tight text-white sm:text-3xl">
+            <h1 className="font-serif text-3xl font-semibold tracking-tight text-ink sm:text-4xl">
               {authorInfo.name}
             </h1>
             {authorInfo.role && (
-              <div className="mt-1 flex items-center gap-2">
-                <p className="text-sm text-violet-300">{authorInfo.role}</p>
+              <div className="mt-2 flex items-center gap-2 font-sans text-xs uppercase tracking-wider">
+                <p className="text-masthead-red">{authorInfo.role}</p>
                 {authorInfo.category && (
-                  <span className="rounded bg-violet-500/15 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-violet-300 capitalize">
-                    {authorInfo.category}
-                  </span>
+                  <>
+                    <span className="text-ink-faint">·</span>
+                    <span className="capitalize text-ink-faint">{authorInfo.category}</span>
+                  </>
                 )}
               </div>
             )}
             {authorInfo.bio && (
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/50 sm:text-base">
+              <p className="mt-3 max-w-2xl font-serif italic leading-relaxed text-ink-soft sm:text-lg">
                 {authorInfo.bio}
               </p>
             )}
 
-            <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-white/40">
+            <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-2 font-sans text-xs text-ink-faint">
               <span>
-                <span className="font-semibold text-white">
-                  {articles.length}
-                </span>{" "}
-                articles
+                <span className="font-semibold text-ink">{articles.length}</span> articles
               </span>
               {authorInfo.joined && (
                 <>
-                  <span className="text-white/20">•</span>
+                  <span>·</span>
                   <span>Joined {authorInfo.joined}</span>
                 </>
               )}
@@ -148,40 +144,47 @@ export default async function AuthorPage({ params }) {
           </div>
 
           <div className="flex shrink-0 items-center gap-2">
-            <a href="#" aria-label="Twitter" className="rounded-full border border-white/10 p-2.5 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+            <a href="#" aria-label="Twitter" className="border border-rule p-2.5 text-ink-soft transition hover:border-ink hover:text-ink">
               <TwitterIcon className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="LinkedIn" className="rounded-full border border-white/10 p-2.5 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+            <a href="#" aria-label="LinkedIn" className="border border-rule p-2.5 text-ink-soft transition hover:border-ink hover:text-ink">
               <LinkedinIcon className="h-4 w-4" />
             </a>
-            <a href="#" aria-label="Website" className="rounded-full border border-white/10 p-2.5 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300">
+            <a href="#" aria-label="Website" className="border border-rule p-2.5 text-ink-soft transition hover:border-ink hover:text-ink">
               <LinkIcon size={16} />
             </a>
           </div>
         </div>
 
         {/* Articles by author */}
-        <div className="mb-5 mt-8 flex items-center gap-2">
-          <span className="h-4 w-1 rounded-full bg-violet-400" />
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Articles by {authorInfo.name}</h2>
+        <div className="mb-6 mt-10 border-b-2 border-rule-strong pb-2">
+          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            Articles by {authorInfo.name}
+          </h2>
         </div>
 
         {articles.length === 0 ? (
-          <p className="py-10 text-center text-sm text-white/40">No articles from this author yet.</p>
+          <p className="py-10 text-center font-sans text-sm text-ink-faint">
+            No articles from this author yet.
+          </p>
         ) : (
-          <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
             {articles.map((article) => (
               <Link key={article.slug} href={`/${article.category}/${article.slug}`} className="group">
-                <div className="aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
-                  <img src={article.image} alt={article.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+                <div className="aspect-[4/3] overflow-hidden border border-rule">
+                  <img
+                    src={article.image}
+                    alt={article.title}
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  />
                 </div>
-                <span className="mt-3 inline-block text-xs font-semibold uppercase tracking-wider text-violet-300 capitalize">
+                <span className="mt-3 inline-block font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red capitalize">
                   {article.category}
                 </span>
-                <h3 className="mt-1 text-sm font-semibold leading-snug text-white transition group-hover:text-violet-300">
+                <h3 className="mt-1 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                   {article.title}
                 </h3>
-                <p className="mt-3 text-xs text-white/40">{article.date}</p>
+                <p className="mt-3 font-sans text-xs text-ink-faint">{article.date}</p>
               </Link>
             ))}
           </div>

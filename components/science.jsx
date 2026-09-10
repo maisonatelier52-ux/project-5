@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Clock } from "lucide-react";
 
 // Adjust this path if this file moves relative to /public/data
 import articleData from "../public/data/article.json";
@@ -35,48 +34,44 @@ export default function Science() {
   if (articles.length === 0) return null;
 
   return (
-    <section className="bg-[#0A0A0F] px-4 py-8 sm:px-6 lg:px-10">
+    <section className="border-b border-rule-strong bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <div className="mb-5 flex items-center justify-between sm:mb-6">
-          <div className="flex items-center gap-2">
-            <span className="flex h-2 w-2 animate-pulse rounded-full bg-violet-400" />
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Science</h2>
-          </div>
-          <Link href="/science" className="text-xs font-medium text-white/40 transition hover:text-white">
+        <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
+          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            Science
+          </h2>
+          <Link href="/science" className="font-sans text-xs font-medium text-ink-soft transition hover:text-ink">
             View all
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
+        <div className="grid grid-cols-1 gap-x-10 lg:grid-cols-2">
           {articles.map((item, i) => (
             <Link
               key={item.slug}
               href={`/science/${item.slug}`}
-              className="group flex items-center gap-4 rounded-xl border border-white/10 p-3 transition hover:border-white/20 hover:bg-white/[0.03]"
+              className={`group flex items-center gap-4 py-4 ${
+                i < articles.length - 2 ? "border-b border-rule" : ""
+              } ${i === 1 || i === 3 || i === 5 ? "lg:pl-10" : ""}`}
             >
-              <div className="h-16 w-16 shrink-0 overflow-hidden rounded-lg sm:h-20 sm:w-20">
+              <div className="h-16 w-16 shrink-0 overflow-hidden border border-rule sm:h-20 sm:w-20">
                 <img
                   src={item.image}
                   alt={item.title}
-                  className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                 />
               </div>
 
               <div className="min-w-0 flex-1">
-                <span className="inline-block rounded bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider text-emerald-300">
+                <span className="font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
                   Science
+                  {i === 0 && <span className="ml-2 text-gold">· Just In</span>}
                 </span>
-                <p className="mt-1.5 line-clamp-2 text-sm font-medium leading-snug text-white transition group-hover:text-violet-300">
+                <p className="mt-1 line-clamp-2 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                   {item.title}
                 </p>
-                <span className="mt-1.5 flex items-center gap-1.5 text-xs text-white/40">
-                  <Clock size={11} />
+                <span className="mt-1.5 flex items-center gap-1.5 font-sans text-xs text-ink-faint">
                   {formatDate(item.date)}
-                  {i === 0 && (
-                    <span className="ml-1.5 rounded-full bg-violet-500/15 px-1.5 py-0.5 text-[10px] font-semibold text-violet-300">
-                      JUST IN
-                    </span>
-                  )}
                 </span>
               </div>
             </Link>

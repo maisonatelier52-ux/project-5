@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Newspaper, Mail, ArrowRight } from "lucide-react";
 
 // Adjust this path if this file moves relative to /public/data
 import articleData from "../public/data/article.json";
@@ -17,11 +16,6 @@ const estimateReadTime = (body) => {
   const blocks = (body || []).filter((b) => b.type !== "image").length;
   return `${Math.max(3, blocks * 4)} min read`;
 };
-
-const SPOTLIGHT_COLORS = [
-  "bg-emerald-500/15 text-emerald-300",
-  "bg-amber-500/15 text-amber-300",
-];
 
 // All Business articles, newest first, de-duplicated by slug
 function getBusinessArticles() {
@@ -46,75 +40,80 @@ export default function Business() {
   if (!featured) return null;
 
   return (
-    <section className="bg-[#0A0A0F] px-4 py-8 sm:px-6 lg:px-10">
-      <div className="mx-auto grid max-w-7xl gap-5 lg:grid-cols-3">
+    <section className="border-b border-rule-strong bg-paper px-4 py-10 sm:px-6 lg:px-10">
+      <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[1fr_320px] lg:gap-14">
         {/* Featured Business article */}
-        <div className="rounded-xl border border-white/10 p-5 sm:p-6 lg:col-span-2">
-          <div className="mb-4 flex items-center gap-2">
-            <Newspaper size={18} className="text-violet-400" />
-            <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Business</h2>
+        <div>
+          <div className="mb-5 border-b-2 border-rule-strong pb-2">
+            <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+              Business
+            </h2>
           </div>
 
-          <Link href={`/business/${featured.slug}`} className="group relative block aspect-[16/9] overflow-hidden rounded-lg border border-white/5 sm:aspect-[2/1]">
-            <img src={featured.image} alt={featured.title} className="absolute inset-0 h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+          <Link href={`/business/${featured.slug}`} className="group relative block aspect-[16/9] overflow-hidden border border-rule sm:aspect-[2/1]">
+            <img
+              src={featured.image}
+              alt={featured.title}
+              className="absolute inset-0 h-full w-full object-cover transition duration-500 group-hover:scale-[1.02]"
+            />
           </Link>
 
-          <Link href={`/business/${featured.slug}`} className="group mt-4 block">
-            <h3 className="max-w-lg text-xl font-bold leading-snug text-white transition group-hover:text-violet-300 sm:text-2xl">
+          <Link href={`/business/${featured.slug}`} className="group mt-5 block">
+            <h3 className="max-w-xl font-serif text-2xl font-semibold leading-snug text-ink transition group-hover:text-masthead-red sm:text-3xl">
               {featured.title}
             </h3>
-            <p className="mt-2 max-w-md text-sm leading-relaxed text-white/60">
+            <p className="mt-3 max-w-lg font-serif text-base italic leading-relaxed text-ink-soft">
               {featured.dek}
             </p>
           </Link>
 
-          <p className="mt-3 text-xs text-white/40">
-            By {featured.author} • {estimateReadTime(featured.body)}
+          <p className="mt-4 font-sans text-xs text-ink-faint">
+            By {featured.author} · {estimateReadTime(featured.body)}
           </p>
-
-          <Link href={`/business/${featured.slug}`} className="mt-3 flex w-fit items-center gap-1.5 text-sm font-semibold text-violet-300 transition hover:text-violet-200">
-            Explore
-            <ArrowRight size={14} />
-          </Link>
         </div>
 
         {/* Daily Brief + latest Business spotlights */}
-        <div className="flex flex-col gap-5">
-          <div className="rounded-xl border border-white/10 p-5 sm:p-6">
-            <div className="mb-3 flex items-center gap-2">
-              <Mail size={18} className="text-violet-400" />
-              <h2 className="text-sm font-semibold uppercase tracking-wider text-white">Daily Brief</h2>
-            </div>
-            <p className="text-sm text-white/50">The biggest stories, straight to your inbox every morning.</p>
+        <div className="flex flex-col gap-8 lg:border-l lg:border-rule lg:pl-10">
+          <div className="border border-rule-strong p-5">
+            <h2 className="font-serif text-lg font-semibold text-ink">The Market Brief</h2>
+            <p className="mt-2 font-sans text-sm text-ink-soft">
+              The biggest stories, straight to your inbox every morning.
+            </p>
             <form onSubmit={(e) => e.preventDefault()} className="mt-4 flex flex-col gap-2">
               <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Your email address"
-                className="rounded-md border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-violet-400/50 focus:outline-none"
+                className="border border-rule bg-paper px-3 py-2.5 font-sans text-sm text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none"
               />
-              <button type="submit" className="rounded-md bg-violet-500 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-400">
+              <button
+                type="submit"
+                className="border border-ink bg-ink px-3 py-2.5 font-sans text-sm font-semibold text-paper transition hover:bg-masthead-red hover:border-masthead-red"
+              >
                 Subscribe
               </button>
             </form>
           </div>
 
-          {spotlights.map((story, i) => (
-            <Link key={story.slug} href={`/business/${story.slug}`} className="group relative overflow-hidden rounded-xl border border-white/10">
-              <img src={story.image} alt={story.title} className="h-40 w-full object-cover transition duration-300 group-hover:scale-105"/>
-              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
-              <div className="absolute bottom-0 left-0 p-4">
-                <span className={`rounded px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wider ${SPOTLIGHT_COLORS[i % SPOTLIGHT_COLORS.length]}`}>
-                  Business
-                </span>
-                <h3 className="mt-2 text-sm font-semibold leading-snug text-white">
-                  {story.title}
-                </h3>
-                <p className="mt-1 text-xs text-white/50">
-                  By {story.author} • {estimateReadTime(story.body)}
-                </p>
+          {spotlights.map((story) => (
+            <Link key={story.slug} href={`/business/${story.slug}`} className="group block">
+              <div className="aspect-[16/10] w-full overflow-hidden border border-rule">
+                <img
+                  src={story.image}
+                  alt={story.title}
+                  className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                />
               </div>
+              <span className="mt-3 block font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
+                Business
+              </span>
+              <h3 className="mt-1 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
+                {story.title}
+              </h3>
+              <p className="mt-1 font-sans text-xs text-ink-faint">
+                By {story.author} · {estimateReadTime(story.body)}
+              </p>
             </Link>
           ))}
         </div>

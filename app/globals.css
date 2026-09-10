@@ -1,26 +1,79 @@
 @import "tailwindcss";
 
+/* Masthead serif — headlines, drop caps, pull quotes */
+@import "@fontsource/fraunces/400.css";
+@import "@fontsource/fraunces/500.css";
+@import "@fontsource/fraunces/600.css";
+@import "@fontsource/fraunces/700.css";
+@import "@fontsource/fraunces/900.css";
+@import "@fontsource/fraunces/500-italic.css";
+@import "@fontsource/fraunces/600-italic.css";
+
+/* Working sans — nav, meta, bylines, labels, UI chrome */
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Editorial palette — black-letterpress edition */
+  --paper: #0d0c0a;        /* page background — warm near-black ink well */
+  --paper-shade: #17150f;  /* recessed panels, sidebars, alternating sections */
+  --ink: #f2ede0;          /* primary text — warm off-white */
+  --ink-soft: #b6b0a0;     /* secondary text, captions, meta */
+  --ink-faint: #7d7868;    /* tertiary text, timestamps */
+  --rule: #2b2820;         /* hairline borders */
+  --rule-strong: #f2ede0;  /* heavy rules under masthead / section heads */
+  --masthead-red: #e0453f; /* kicker labels, live markers, masthead accents */
+  --gold: #d1a94a;         /* bylines, secondary accent, pull-quote mark */
+
+  --background: var(--paper);
+  --foreground: var(--ink);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-paper: var(--paper);
+  --color-paper-shade: var(--paper-shade);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-rule: var(--rule);
+  --color-masthead-red: var(--masthead-red);
+  --color-gold: var(--gold);
+  --font-serif: "Fraunces", "Iowan Old Style", "Georgia", serif;
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  border-color: var(--rule);
+}
+
+html {
+  color-scheme: dark;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+/* Drop cap for lead paragraphs in long-form articles */
+.drop-cap::first-letter {
+  float: left;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 0.82;
+  padding-right: 0.55rem;
+  padding-top: 0.35rem;
+  color: var(--ink);
 }

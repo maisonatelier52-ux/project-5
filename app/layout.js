@@ -2,17 +2,16 @@ import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 
-
 export const metadata = {
-  title: "NEXUS — News. Context. Clarity.",
+  title: "NEXORA — News, Context, Clarity.",
   description:
-    "NEXUS delivers global news, technology, science, business, culture, and in-depth explainers.",
+    "NEXORA delivers global news, technology, science, business, culture, and in-depth explainers.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen bg-black text-white antialiased">
+      <body className="min-h-screen bg-paper font-sans text-ink antialiased">
         <Header />
         <main>{children}</main>
         <Footer />

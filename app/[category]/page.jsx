@@ -41,48 +41,53 @@ export default async function CategoryPage({ params }) {
   const [featured, ...rest] = articles;
 
   return (
-    <main className="bg-[#0A0A0F] px-4 py-8 sm:px-6 sm:py-10 lg:px-10">
+    <main className="bg-paper px-4 py-8 sm:px-6 sm:py-10 lg:px-10">
       <div className="mx-auto max-w-7xl">
         {/* Breadcrumb */}
-        <nav className="mb-4 text-xs text-white/40">
-          <Link href="/" className="hover:text-white/70">Home</Link>
+        <nav className="mb-4 font-sans text-xs text-ink-faint">
+          <Link href="/" className="hover:text-ink">Home</Link>
           <span className="mx-2">/</span>
-          <span className="capitalize text-white/60">{category}</span>
+          <span className="capitalize text-ink-soft">{category}</span>
         </nav>
 
         {/* Category header */}
-        <div className="mb-8 border-b border-white/10 pb-6">
-          <h1 className="text-3xl font-black capitalize tracking-tight text-white sm:text-4xl">
+        <div className="mb-10 border-b-2 border-rule-strong pb-6">
+          <h1 className="font-serif text-4xl font-semibold capitalize tracking-tight text-ink sm:text-5xl">
             {category}
           </h1>
-          <p className="mt-2 text-sm text-white/50 sm:text-base">
+          <p className="mt-2 font-serif italic text-ink-soft sm:text-lg">
             The latest {category} news, analysis, and in-depth reporting.
           </p>
         </div>
 
         {!featured ? (
-          <p className="py-10 text-center text-sm text-white/40">No articles found in this category yet.</p>
+          <p className="py-10 text-center font-sans text-sm text-ink-faint">
+            No articles found in this category yet.
+          </p>
         ) : (
           <>
             {/* Featured article */}
-            <Link href={`/${featured.category}/${featured.slug}`} className="group mb-10 block">
-              <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-center">
-                <div className="aspect-[16/10] overflow-hidden rounded-2xl border border-white/10">
-                  <img src={featured.image} alt={featured.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+            <Link href={`/${featured.category}/${featured.slug}`} className="group mb-12 block">
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 lg:items-center lg:gap-10">
+                <div className="aspect-[16/10] overflow-hidden border border-rule">
+                  <img
+                    src={featured.image}
+                    alt={featured.title}
+                    className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                  />
                 </div>
                 <div>
-                  <span className="rounded bg-violet-500/15 px-2.5 py-1 text-xs font-semibold uppercase tracking-wider text-violet-300">
+                  <span className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-masthead-red">
                     Top Story
                   </span>
-                  <h2 className="mt-4 text-2xl font-black leading-[1.15] text-white transition group-hover:text-violet-300 sm:text-3xl">
+                  <h2 className="mt-3 font-serif text-2xl font-semibold leading-[1.15] text-ink transition group-hover:text-masthead-red sm:text-3xl">
                     {featured.title}
                   </h2>
-                  <p className="mt-3 text-sm leading-relaxed text-white/50 sm:text-base">
+                  <p className="mt-3 font-serif italic leading-relaxed text-ink-soft sm:text-lg">
                     {featured.excerpt}
                   </p>
-                  <p className="mt-4 text-xs text-white/40">
-                    By {featured.author} <span className="mx-1">•</span>{" "}
-                    {featured.date}
+                  <p className="mt-4 font-sans text-xs text-ink-faint">
+                    By {featured.author} <span className="mx-1">·</span> {featured.date}
                   </p>
                 </div>
               </div>
@@ -90,37 +95,30 @@ export default async function CategoryPage({ params }) {
 
             {rest.length > 0 && (
               <>
-                {/* Article grid */}
-                <div className="mb-4 flex items-center gap-2">
-                  <span className="h-4 w-1 rounded-full bg-violet-400" />
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-white">
+                <div className="mb-6 border-b-2 border-rule-strong pb-2">
+                  <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
                     More in {category}
                   </h2>
                 </div>
 
-                <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
                   {rest.map((article) => (
-                    <Link
-                      key={article.slug}
-                      href={`/${article.category}/${article.slug}`}
-                      className="group"
-                    >
-                      <div className="aspect-[4/3] overflow-hidden rounded-xl border border-white/10">
+                    <Link key={article.slug} href={`/${article.category}/${article.slug}`} className="group">
+                      <div className="aspect-[4/3] overflow-hidden border border-rule">
                         <img
                           src={article.image}
                           alt={article.title}
-                          className="h-full w-full object-cover transition duration-300 group-hover:scale-105"
+                          className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
                         />
                       </div>
-                      <h3 className="mt-3 text-base font-semibold leading-snug text-white transition group-hover:text-violet-300">
+                      <h3 className="mt-3 font-serif text-lg font-semibold leading-snug text-ink transition group-hover:text-masthead-red">
                         {article.title}
                       </h3>
-                      <p className="mt-1.5 line-clamp-2 text-sm leading-relaxed text-white/50">
+                      <p className="mt-1.5 line-clamp-2 font-serif text-sm leading-relaxed text-ink-soft">
                         {article.excerpt}
                       </p>
-                      <p className="mt-3 text-xs text-white/40">
-                        By {article.author} <span className="mx-1">•</span>{" "}
-                        {article.date}
+                      <p className="mt-3 font-sans text-xs text-ink-faint">
+                        By {article.author} <span className="mx-1">·</span> {article.date}
                       </p>
                     </Link>
                   ))}

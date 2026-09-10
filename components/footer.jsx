@@ -61,17 +61,16 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-white/10 bg-[#0A0A0F]">
+    <footer className="border-t border-rule-strong bg-paper">
       <div className="mx-auto grid max-w-7xl grid-cols-2 gap-10 px-6 py-14 sm:grid-cols-2 lg:grid-cols-5 lg:px-10">
         {/* Brand column */}
         <div className="col-span-2 lg:col-span-2">
           <a href="/" className="flex flex-col leading-none">
-            <span className="text-3xl font-black tracking-tight text-white">
-              NEX<span className="text-violet-400">O</span>RA
-            </span>
+            <span className="font-serif text-3xl font-black tracking-tight text-ink">NEXORA</span>
           </a>
-          <p className="mt-3 max-w-xs text-sm leading-relaxed text-white/50">Independent reporting and sharp 
-          analysis on the stories shaping the world — delivered daily.</p>
+          <p className="mt-3 max-w-xs font-sans text-sm leading-relaxed text-ink-soft">
+            Independent reporting and sharp analysis on the stories shaping the world — delivered daily.
+          </p>
           <div className="mt-6 flex items-center gap-3">
             {SOCIALS.map(({ label, href, icon: Icon }) => (
               <a
@@ -80,7 +79,7 @@ export default function Footer() {
                 aria-label={label}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-white/10 p-2.5 text-white/50 transition hover:border-violet-400/40 hover:text-violet-300"
+                className="border border-rule p-2.5 text-ink-soft transition hover:border-ink hover:text-ink"
               >
                 <Icon className="h-[17px] w-[17px]" />
               </a>
@@ -90,11 +89,13 @@ export default function Footer() {
 
         {/* Categories */}
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40">Categories</h3>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
+            Categories
+          </h3>
           <ul className="mt-4 flex flex-col gap-3">
             {CATEGORIES.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="text-sm text-white/60 transition hover:text-white">
+                <a href={link.href} className="font-sans text-sm text-ink-soft transition hover:text-ink">
                   {link.label}
                 </a>
               </li>
@@ -104,11 +105,13 @@ export default function Footer() {
 
         {/* Company */}
         <div>
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40">Company</h3>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
+            Company
+          </h3>
           <ul className="mt-4 flex flex-col gap-3">
             {COMPANY_LINKS.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className="text-sm text-white/60 transition hover:text-white">
+                <a href={link.href} className="font-sans text-sm text-ink-soft transition hover:text-ink">
                   {link.label}
                 </a>
               </li>
@@ -118,11 +121,22 @@ export default function Footer() {
 
         {/* Newsletter */}
         <div className="col-span-2 lg:col-span-1">
-          <h3 className="text-xs font-semibold uppercase tracking-[0.2em] text-white/40">Daily Brief</h3>
-          <p className="mt-4 text-sm text-white/50">The biggest stories, straight to your inbox every morning.</p>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
+            Daily Brief
+          </h3>
+          <p className="mt-4 font-sans text-sm text-ink-soft">
+            The biggest stories, straight to your inbox every morning.
+          </p>
           <form className="mt-4 flex flex-col gap-2">
-            <input type="email" placeholder="Your email address" className="rounded-md border border-white/10 bg-white/5 px-3 py-2.5 text-sm text-white placeholder:text-white/30 focus:border-violet-400/50 focus:outline-none"/>
-            <button type="submit" className="rounded-md bg-violet-500 px-3 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-400">
+            <input
+              type="email"
+              placeholder="Your email address"
+              className="border border-rule bg-paper px-3 py-2.5 font-sans text-sm text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none"
+            />
+            <button
+              type="submit"
+              className="border border-ink bg-ink px-3 py-2.5 font-sans text-sm font-semibold text-paper transition hover:bg-masthead-red hover:border-masthead-red"
+            >
               Subscribe
             </button>
           </form>
@@ -130,12 +144,12 @@ export default function Footer() {
       </div>
 
       {/* Bottom bar */}
-      <div className="border-t border-white/10 px-6 py-6 lg:px-10">
-        <div className="mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-4 sm:flex-row">
-          <span className="text-xs text-white/40">© {year} Nexora News. All rights reserved.</span>
+      <div className="border-t border-rule px-6 py-6 lg:px-10">
+        <div className="mx-auto flex max-w-7xl flex-col-reverse items-center justify-between gap-4 font-sans sm:flex-row">
+          <span className="text-xs text-ink-faint">© {year} Nexora News. All rights reserved.</span>
           <div className="flex items-center gap-6">
             {LEGAL_LINKS.map((link) => (
-              <a key={link.href} href={link.href} className="text-xs text-white/40 transition hover:text-white/70">
+              <a key={link.href} href={link.href} className="text-xs text-ink-faint transition hover:text-ink">
                 {link.label}
               </a>
             ))}

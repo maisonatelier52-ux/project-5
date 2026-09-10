@@ -38,34 +38,40 @@ export default function Culture() {
   const sideStories = rest.slice(0, 3);
 
   return (
-    <section className="bg-[#0A0A0F] px-4 py-8 sm:px-6 lg:px-10">
+    <section className="bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
-        <h2 className="mb-6 text-2xl font-black tracking-tight text-white sm:text-3xl">Culture</h2>
+        <div className="mb-6 border-b-2 border-rule-strong pb-2">
+          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            Culture
+          </h2>
+        </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-5 lg:items-stretch lg:gap-10">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-5 lg:items-stretch lg:gap-12">
           {/* Featured story */}
           <Link href={`/culture/${featured.slug}`} className="group lg:col-span-2">
-            <div className="aspect-[4/3] overflow-hidden rounded-lg">
-              <img src={featured.image} alt={featured.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+            <div className="aspect-[4/3] overflow-hidden border border-rule">
+              <img
+                src={featured.image}
+                alt={featured.title}
+                className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+              />
             </div>
-            <h3 className="mt-4 text-2xl font-black leading-[1.15] text-white transition group-hover:text-violet-300 sm:text-3xl">
+            <h3 className="mt-4 font-serif text-2xl font-semibold leading-[1.15] text-ink transition group-hover:text-masthead-red sm:text-3xl">
               {featured.title}
             </h3>
-            <p className="mt-3 text-sm leading-relaxed text-white/50 sm:text-base">
+            <p className="mt-3 font-serif text-base italic leading-relaxed text-ink-soft sm:text-lg">
               {featured.dek}
             </p>
-            <p className="mt-4 text-xs font-medium text-white/40 sm:text-sm">
-              <span className="font-bold text-white">IN CULTURE</span> BY{" "}
-              <span className="font-bold text-emerald-400">
-                {featured.author.toUpperCase()}
-              </span>{" "}
-              {formatDate(featured.date).toUpperCase()}
+            <p className="mt-4 font-sans text-xs text-ink-faint sm:text-sm">
+              <span className="font-semibold text-ink">Culture</span> · By{" "}
+              <span className="font-semibold text-gold">{featured.author}</span> ·{" "}
+              {formatDate(featured.date)}
             </p>
           </Link>
 
           {/* Side stories */}
           {sideStories.length > 0 && (
-            <div className="flex flex-col divide-y divide-white/10 lg:col-span-3">
+            <div className="flex flex-col divide-y divide-rule lg:col-span-3">
               {sideStories.map((story, i) => (
                 <Link
                   key={story.slug}
@@ -73,25 +79,25 @@ export default function Culture() {
                   className={`group flex flex-col-reverse gap-5 sm:flex-row sm:items-start sm:justify-between ${
                     i === 0 ? "pb-6" : i === sideStories.length - 1 ? "pt-6" : "py-6"
                   }`}
-                  >
+                >
                   <div className="flex-1">
-                    <h3 className="text-xl font-black leading-[1.15] text-white transition group-hover:text-violet-300 sm:text-2xl">
+                    <h3 className="font-serif text-xl font-semibold leading-[1.15] text-ink transition group-hover:text-masthead-red sm:text-2xl">
                       {story.title}
                     </h3>
-                    <p className="mt-3 text-sm leading-relaxed text-white/50">
-                      {story.dek}
-                    </p>
-                    <p className="mt-4 text-xs font-medium text-white/40 sm:text-sm">
-                      <span className="font-bold text-white">CULTURE</span> BY{" "}
-                      <span className="font-bold text-emerald-400">
-                        {story.author.toUpperCase()}
-                      </span>{" "}
-                      {formatDate(story.date).toUpperCase()}
+                    <p className="mt-3 font-serif leading-relaxed text-ink-soft">{story.dek}</p>
+                    <p className="mt-4 font-sans text-xs text-ink-faint sm:text-sm">
+                      <span className="font-semibold text-ink">Culture</span> · By{" "}
+                      <span className="font-semibold text-gold">{story.author}</span> ·{" "}
+                      {formatDate(story.date)}
                     </p>
                   </div>
 
-                  <div className="aspect-[4/3] w-full shrink-0 overflow-hidden rounded-lg sm:w-48 lg:w-56">
-                    <img src={story.image} alt={story.title} className="h-full w-full object-cover transition duration-300 group-hover:scale-105"/>
+                  <div className="aspect-[4/3] w-full shrink-0 overflow-hidden border border-rule sm:w-48 lg:w-56">
+                    <img
+                      src={story.image}
+                      alt={story.title}
+                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+                    />
                   </div>
                 </Link>
               ))}
