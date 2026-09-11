@@ -40,7 +40,7 @@ export default function Politics() {
     <section className="border-b border-rule-strong bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
-          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+          <h2 className="font-sans text-2xl font-semibold uppercase tracking-[0.15em] text-ink">
             Latest in Politics
           </h2>
         </div>

@@ -630,166 +630,576 @@
   ]
 }
   ],
-  "science": [
+  "us": [
     {
-      "slug": "distant-galaxy-signal",
-      "categorySlug": "science",
-      "title": "New Signal Detected From Distant Galaxy",
-      "dek": "Astronomers say the discovery could change what we know about the universe.",
-      "author": "Olivia Grant",
-      "date": "11/08/2026",
-      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Space"],
-      "body": [
-        { "type": "paragraph", "text": "The signal, detected by a network of radio telescopes, doesn't match any previously catalogued source." },
-        { "type": "heading", "text": "What Comes Next" },
-        { "type": "paragraph", "text": "Follow-up observations are already underway to rule out interference and confirm the finding independently." }
-      ]
+  "slug": "trump-5000-dividend-midterm-convention",
+  "categorySlug": "us",
+  "title": "Trump Promises Every American Adult $5,000 — But Only If Republicans Win the Midterms",
+  "dek": "The 'Trump dividend' pledge, floated at the GOP's first-ever midterm convention, is already drawing skepticism from economists, Democrats, and members of Trump's own party.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/trump-5000-dividend-midterm-convention.webp",
+  "tags": ["US News", "Politics", "Elections", "Economy"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "President Trump used his keynote speech at the Republican Party's first-ever midterm convention in Dallas to make a striking promise: a $5,000 payment to every adult American citizen, but only if Republicans hold onto control of the House and Senate in November."
     },
     {
-      "slug": "extreme-climates-research",
-      "categorySlug": "science",
-      "title": "Inside the World's Most Extreme Climates",
-      "dek": "How communities are adapting as weather patterns grow more volatile.",
-      "author": "Olivia Grant",
-      "date": "07/08/2026",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Climate"],
-      "body": [
-        { "type": "paragraph", "text": "From the driest deserts to the coldest inhabited settlements, researchers are documenting how daily life adapts at the edges of habitability." }
-      ]
+      "type": "heading",
+      "text": "What Trump Actually Said"
     },
     {
-      "slug": "spacex-142-satellites",
-      "categorySlug": "science",
-      "title": "SpaceX Launches Record 142 Satellites",
-      "dek": "The latest launch marks a new milestone in commercial spaceflight.",
-      "author": "Olivia Grant",
-      "date": "03/08/2026",
-      "image": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Space"],
-      "body": [
-        { "type": "paragraph", "text": "The mission set a new record for the largest number of satellites deployed in a single launch." }
-      ]
+      "type": "paragraph",
+      "text": "Speaking to the crowd at American Airlines Center on the opening night of the convention, Trump framed the payment as a reward tied directly to Republican control of Congress. He called it the \"Trump dividend\" and said the money would need to be spent inside the US, tying it loosely to what he described as the country's strong economic performance. He offered no details on eligibility rules, how the payments would be funded, or what legislative path would get them approved."
     },
     {
-      "slug": "deep-sea-ecosystem-mapped",
-      "categorySlug": "science",
-      "title": "Researchers Map Previously Unknown Deep-Sea Ecosystem",
-      "dek": "The find includes several species never before documented.",
-      "author": "Olivia Grant",
-      "date": "24/07/2026",
-      "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Ocean"],
-      "body": [
-        { "type": "paragraph", "text": "The expedition used remotely operated vehicles to survey depths that had never been directly observed." }
-      ]
+      "type": "quote",
+      "text": "If the Republicans win, you win with us and you get $5,000."
     },
     {
-      "slug": "vaccine-trial-promising-results",
-      "categorySlug": "science",
-      "title": "New Vaccine Trial Shows Promising Early Results",
-      "dek": "Researchers caution that larger trials are still needed before approval.",
-      "author": "Olivia Grant",
-      "date": "16/07/2026",
-      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Health"],
-      "body": [
-        { "type": "paragraph", "text": "Early-phase data showed a strong immune response with no serious adverse effects reported among participants." }
-      ]
+      "type": "heading",
+      "text": "The Math Behind the Promise"
     },
     {
-      "slug": "ancient-ice-core-climate-clues",
-      "categorySlug": "science",
-      "title": "Ancient Ice Core Reveals Climate Clues",
-      "dek": "The sample offers a window into atmospheric conditions from over a million years ago.",
-      "author": "Olivia Grant",
-      "date": "09/07/2026",
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Science", "Climate"],
-      "body": [
-        { "type": "paragraph", "text": "The core, extracted from deep within the ice sheet, extends the climate record further back than any previous sample." }
-      ]
+      "type": "paragraph",
+      "text": "The numbers involved are enormous. With roughly 270 million adult citizens in the US, a $5,000 payment to each one would cost somewhere around $1.35 trillion, a figure that immediately drew pointed questions from within Trump's own party. Texas Republican Rep. Chip Roy asked how such a program would realistically be funded, while Ohio Rep. Jim Jordan said he wanted more time to review a proposal he'd only just heard about the night before."
+    },
+    {
+      "type": "heading",
+      "text": "A Pattern of Payments That Haven't Materialized"
+    },
+    {
+      "type": "paragraph",
+      "text": "This isn't the first time Trump has floated the idea of direct payments to Americans. He previously proposed a $2,000 tariff-funded dividend, backed the idea of returning 20 percent of DOGE savings to taxpayers, and supported depositing money into Americans' health savings accounts as an alternative to extending expired ACA premium tax credits. None of those plans has resulted in an actual payment going out — the tariff and DOGE dividends were never enacted, and the HSA proposal failed in the Senate. The Democratic National Committee pointed to that track record directly, framing the new pledge as another promise without a delivery mechanism."
+    },
+    {
+      "type": "heading",
+      "text": "Even Some Republicans Aren't Sold"
+    },
+    {
+      "type": "paragraph",
+      "text": "Criticism of the plan wasn't limited to Democrats. Texas Governor Ron DeSantis argued publicly that a payment of this size would only add to the national debt and fuel inflation. House Democrats, countering the convention from elsewhere in Dallas, were more blunt, with California Rep. Robert Garcia dismissing the pledge outright and pointing to the unfulfilled tariff dividend as evidence it wouldn't happen either."
+    },
+    {
+      "type": "heading",
+      "text": "Why the Timing Matters"
+    },
+    {
+      "type": "paragraph",
+      "text": "The pledge came as Republicans face the well-worn political pattern of the party in power losing ground in midterm elections, with Trump's own approval ratings currently underwater. The convention itself was unusual — midterm conventions haven't really been a fixture of American politics since Democrats abandoned the practice in the early 1980s — and analysts, including pollster Frank Luntz, suggested the entire event was designed less to persuade undecided voters and more to remind Trump's existing base what's at stake if they stay home in November."
     }
+  ]
+},
+    {
+  "slug": "nyc-schools-ai-ban-2026",
+  "categorySlug": "us",
+  "title": "New York City Just Banned AI Chatbots for Nearly 600,000 Public School Students",
+  "dek": "As the country's largest school district heads into a new year, Mayor Zohran Mamdani's administration is rolling out the broadest classroom AI restrictions in the nation — and even some supporters say the rules arrived with more questions than answers.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/nyc-schools-ai-ban-2026.webp",
+  "tags": ["US News", "Education", "Technology", "New York"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "When New York City's public schools opened for the new year this week, nearly 600,000 students walked into classrooms operating under a rule that didn't exist last spring: no student-facing generative AI, from pre-kindergarten through eighth grade."
+    },
+    {
+      "type": "heading",
+      "text": "The Policy, In Plain Terms"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mayor Zohran Mamdani and Schools Chancellor Kamar Samuels unveiled the plan just over a week before classes began, framing it as a one-year moratorium rather than a permanent ban. It covers chatbots, AI tutors, and any tool that generates new text, images, or answers in response to a student prompt, and it applies to roughly two-thirds of the district's total enrollment. High schoolers aren't fully exempt either — they'll get twice-yearly lessons on AI literacy and access to a small number of supervised pilot programs, but companion-style chatbots are barred across every grade level, no exceptions."
+    },
+    {
+      "type": "heading",
+      "text": "Why City Hall Made the Call"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mamdani has tied the decision to a broader argument about what young children actually need from school. His framing centers on human connection and unsupervised struggle as part of learning, not just information delivery. The city has said it's already disabling AI features across 38 software programs currently used in classrooms, though it hasn't yet named which ones, and officials acknowledge the guidance was shaped partly by a public engagement process that ran through the spring."
+    },
+    {
+      "type": "quote",
+      "text": "Children need teachers and human connection in order to learn and grow."
+    },
+    {
+      "type": "heading",
+      "text": "The Screen Time Piece Nobody's Talking About As Much"
+    },
+    {
+      "type": "paragraph",
+      "text": "AI isn't the only thing getting curbed. The policy also caps routine one-to-one screen use for younger students, requiring direct teacher supervision and a clear instructional purpose whenever a student is working individually on a device. The rules carve out real exceptions, though — assistive technology tied to a student's IEP or 504 plan, standardized testing, remote learning days, and English-language-learner support tools are all unaffected."
+    },
+    {
+      "type": "heading",
+      "text": "Not Everyone's Convinced"
+    },
+    {
+      "type": "paragraph",
+      "text": "Criticism has come from an unexpected direction: educators who already lean on AI tools to build lesson plans faster or get quicker feedback on student work. Former deputy mayor Richard Buery argued a blanket ban without carve-outs for legitimate classroom use goes too far, even while agreeing with the underlying concern. There's also a practical enforcement problem the city hasn't fully answered yet — officials still haven't spelled out exactly how they'll determine which of the district's existing software tools cross the line, or what happens to programs that turn out to violate the policy after the fact."
+    },
+    {
+      "type": "heading",
+      "text": "How Parents Are Actually Using It"
+    },
+    {
+      "type": "paragraph",
+      "text": "On the ground, the reaction from families has skewed positive. Some parents are treating the school-based restriction as backup for the screen-time arguments they're already having at home, using the district's own rule as leverage. Students themselves are more mixed — one Brooklyn sixth-grader said she likes the extra reading options digital platforms gave her, even as she admitted the screen time left her eyes sore, while a classmate said he simply prefers reading in print."
+    }
+  ]
+},
+    {
+  "slug": "treasury-yields-highest-since-2007",
+  "categorySlug": "us",
+  "title": "US Bond Yields Just Hit Levels Not Seen Since 2007 — Here's Why Your Mortgage Rate Cares",
+  "dek": "Rising oil prices, record corporate debt from AI companies, and mounting fiscal worries are pushing Treasury yields to multi-year highs, and the ripple effects are already showing up in mortgage rates and stock markets.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/treasury-yields-highest-since-2007.webp",
+  "tags": ["US News", "Economy", "Markets", "Finance"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "US government bond yields climbed to their highest levels in nearly three years this week, with the 30-year Treasury touching rates last seen in 2007. For most people, bond markets feel abstract and far removed from daily life. But this particular spike is already reaching into things people actually feel: mortgage rates, credit card costs, and the price of a car loan."
+    },
+    {
+      "type": "heading",
+      "text": "How High, Exactly"
+    },
+    {
+      "type": "paragraph",
+      "text": "The 10-year Treasury note, the benchmark that mortgage rates are built on, rose toward 4.85 percent this week, its highest point since October 2023. The 30-year bond climbed past 5.3 percent at points, a level not touched since 2007, just before the financial crisis. Because bond prices and yields move in opposite directions, this run-up reflects investors selling off government debt and demanding a bigger return to keep holding it."
+    },
+    {
+      "type": "heading",
+      "text": "What's Actually Driving It"
+    },
+    {
+      "type": "paragraph",
+      "text": "Several pressures are stacking on top of each other at once. Oil prices tied to the ongoing conflict with Iran have pushed inflation expectations higher, raising the odds the Federal Reserve holds off on rate cuts or even hikes rates in the months ahead. At the same time, corporate borrowing has hit record territory, with AI companies alone accounting for more than $1.5 trillion in new debt issuance this year, adding to the overall supply of bonds competing for investor money. A weakening Japanese yen has added another layer, prompting Tokyo to repeatedly sell off its US Treasury holdings to defend its currency, which pushes even more Treasury supply into the market."
+    },
+    {
+      "type": "heading",
+      "text": "The Treasury Department's Response"
+    },
+    {
+      "type": "paragraph",
+      "text": "To try to steady things, the US Treasury has stepped up buybacks of long-term government debt, tripling a planned operation to purchase $6 billion in off-the-run securities. The move is meant to add liquidity and support prices in the longer-dated part of the bond market, where the sell-off has been sharpest. Similar operations are planned to run through November."
+    },
+    {
+      "type": "quote",
+      "text": "This increase in buyback operation sizes reflects Treasury's desire to provide greater liquidity support."
+    },
+    {
+      "type": "heading",
+      "text": "Why This Isn't Just a Wall Street Story"
+    },
+    {
+      "type": "paragraph",
+      "text": "The most direct impact for ordinary households runs through mortgage rates, which track the 10-year Treasury yield closely. The average 30-year fixed mortgage rate has already climbed to its highest level since July of last year. Rising yields also tend to ripple into auto loans and credit card rates, and they make it more expensive for the federal government itself to service its debt, a dynamic that compounds over time as older, cheaper debt rolls over into new borrowing at higher rates."
+    },
+    {
+      "type": "heading",
+      "text": "Not Just a US Problem"
+    },
+    {
+      "type": "paragraph",
+      "text": "The bond sell-off isn't isolated to American markets. Long-term yields have also hit multi-year or multi-decade highs in Germany, France, Japan, and the United Kingdom, suggesting the pressures at play — inflation worries, record government and corporate borrowing, and weakening demand for long-duration debt — are showing up across the developed world at roughly the same time."
+    }
+  ]
+},
+    {
+  "slug": "amazon-cargo-plane-miami-ntsb-findings",
+  "categorySlug": "us",
+  "title": "One Pilot Warned 'Too Fast' for Two Minutes Before Miami Cargo Plane Crash Killed Five",
+  "dek": "New NTSB findings reveal a co-pilot repeatedly flagged the aircraft's excessive speed before and after touchdown, but got no clear response — raising hard questions about why the landing wasn't aborted sooner.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/amazon-cargo-plane-miami-ntsb-findings.webp",
+  "tags": ["US News", "Aviation", "Miami", "Investigation"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "When an Amazon-operated cargo jet overran a runway at Miami International Airport on September 7, killing five people on the ground and injuring five more, the immediate question was mechanical: what went wrong with the plane. New details released by the National Transportation Safety Board this week point somewhere else — to nearly two minutes where one pilot flagged a problem the other never clearly acknowledged."
+    },
+    {
+      "type": "heading",
+      "text": "What the Cockpit Recording Shows"
+    },
+    {
+      "type": "paragraph",
+      "text": "According to the NTSB's summary of the cockpit voice recording, one of the two pilots on board — Captain Joseph Carroll, 55, or First Officer Jaime Felipe Silva Molina, 37, though investigators haven't specified which — began warning the aircraft was flying too fast roughly a minute and 42 seconds before impact. The warnings about the plane's excessive speed continued through the final approach and even after the wheels touched down. The other pilot, the NTSB said, never gave a consistent verbal response to any of it."
+    },
+    {
+      "type": "quote",
+      "text": "The big question is, why did they continue their approach?"
+    },
+    {
+      "type": "heading",
+      "text": "A Landing That Went Wrong in Stages"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Boeing 767, operated by Miami-based cargo carrier 21 Air, touched down well past the normal point on the 9,360-foot runway, according to tracking data — nearly halfway down its length. Automated cockpit warnings sounded twice for a steep descent rate and five more times for terrain proximity before the plane hit the ground. Strong winds tied to storms moving through the area may have created a tailwind that pushed the aircraft further down the runway than intended, leaving less room to stop. Roughly 15 seconds after touchdown, one of the pilots called for a go-around, and the engines were throttled up accordingly, but by then the plane had already overrun the runway by close to 1,300 feet."
+    },
+    {
+      "type": "heading",
+      "text": "Why the Plane Couldn't Stop"
+    },
+    {
+      "type": "paragraph",
+      "text": "Investigators say the aircraft's thrust reversers and speed brakes, two of the primary systems that slow a plane down on the ground, did not deploy based on the data reviewed so far. Aviation safety experts have pointed to that detail alongside the string of unheeded warnings as evidence the crew had several clear signals the approach wasn't stable well before touchdown, and that the standard, safer response would have been to abandon the landing altogether and circle back for another attempt."
+    },
+    {
+      "type": "heading",
+      "text": "What Comes Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "The NTSB has not yet released the full cockpit transcript or identified which pilot was issuing the warnings versus receiving them, and officials say that level of detail will come later in the investigation. A preliminary report is expected within the next few weeks, though a full determination of probable cause in NTSB investigations typically takes considerably longer. For now, the agency's early findings leave open the central question aviation safety consultant Anthony Brickhouse raised directly: with that many warning signs stacking up in real time, why did the crew press on instead of going around?"
+    }
+  ]
+},
+    {
+  "slug": "diesel-prices-record-six-dollars-iran-war",
+  "categorySlug": "us",
+  "title": "Diesel Just Hit $6 a Gallon for the First Time Ever — Here's What That Means for Your Grocery Bill",
+  "dek": "Fuel prices are climbing to records not seen even during the 2022 Russia-Ukraine energy shock, and this time it's the war with Iran driving the pain, right as Republicans try to convince voters the economy is working for them.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/diesel-prices-record-six-dollars-iran-war.webp",
+  "tags": ["US News", "Economy", "Energy", "Inflation"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The national average price of diesel crossed $6 a gallon this week for the first time in US history, according to fuel tracker GasBuddy, a milestone that sounds abstract until you consider how much of the economy actually runs on it."
+    },
+    {
+      "type": "heading",
+      "text": "Why Diesel Matters More Than Regular Gas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Diesel doesn't get the same attention as prices at a regular gas pump, but it's arguably more consequential for inflation. It powers the trucks, trains, ships, and farm equipment that move nearly everything Americans buy, from groceries to furniture to building materials. When diesel gets more expensive, that cost doesn't stay with truckers, it works its way into the price of the goods themselves, arriving at store shelves weeks or months later."
+    },
+    {
+      "type": "heading",
+      "text": "What's Actually Pushing Prices This High"
+    },
+    {
+      "type": "paragraph",
+      "text": "Two conflicts are compounding each other here. The US-Israeli war against Iran has effectively brought traffic through the Strait of Hormuz, one of the world's most important oil chokepoints, to a standstill, after Tehran mined the waterway and fired on ships attempting to pass. At the same time, Ukrainian strikes on Russian refineries have cut into Moscow's ability to export refined fuel, removing another major source of global diesel supply. Crude oil has responded accordingly, with Brent crude settling above $107 a barrel this week, its highest level since mid-May."
+    },
+    {
+      "type": "quote",
+      "text": "Every truck, every delivery, every package, every grocery run just got more expensive."
+    },
+    {
+      "type": "heading",
+      "text": "The Dollar Figures Behind the Pain"
+    },
+    {
+      "type": "paragraph",
+      "text": "A Brown University cost tracker estimates Americans have paid an extra $100.9 billion on gasoline and diesel combined since the Iran war began at the end of February, working out to roughly $770 per household. Diesel alone accounts for about $46 billion of that, or $348 per household, with prices up more than 60 percent so far this year. Regular gasoline has climbed too, averaging just over $4.15 a gallon, the first time on record it's stayed above $4 through Labor Day."
+    },
+    {
+      "type": "heading",
+      "text": "A Political Problem, Not Just an Economic One"
+    },
+    {
+      "type": "paragraph",
+      "text": "The timing is uncomfortable for Republicans. With midterm elections in November and thin congressional majorities at stake, rising fuel and grocery costs undercut the party's argument that voters are better off under current economic policy. A recent Reuters/Ipsos poll found Democrats held a notable edge over Republicans on which party voters trust more to handle the cost of living, a gap that's likely to widen if diesel keeps climbing toward the $8-a-gallon levels some analysts are now warning about in high-cost states like California."
+    },
+    {
+      "type": "heading",
+      "text": "No Clear End in Sight"
+    },
+    {
+      "type": "paragraph",
+      "text": "Energy analysts are bracing for the situation to get worse before it improves. With the Iran conflict still active and no resolution to the Hormuz standoff on the horizon, industry voices are already describing this as shaping up to be the most expensive fall for fuel prices on record, a dynamic that touches nearly every corner of the economy at once."
+    }
+  ]
+},
+    {
+  "slug": "supreme-court-missouri-redistricting-map",
+  "categorySlug": "us",
+  "title": "The Supreme Court Just Blocked Missouri's GOP-Drawn Map — Here's the Tangled Legal Fight Behind It",
+  "dek": "A gerrymandering battle over a single Kansas City congressional seat has now bounced between state courts, a federal judge, and the US Supreme Court in less than two weeks, with control of the House hanging partly in the balance.",
+  "author": "Olivia Grant",
+  "date": "11/09/2026",
+  "image": "/images/supreme-court-missouri-redistricting-map.webp",
+  "tags": ["US News", "Politics", "Elections", "Law"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "The Supreme Court stepped into a chaotic redistricting fight this week, temporarily blocking Missouri from using a newly drawn congressional map that Republicans hoped would flip a Kansas City-area seat currently held by a Democrat. It's a rare setback for a nationwide GOP redistricting push that started with a direct push from President Trump."
+    },
+    {
+      "type": "heading",
+      "text": "How One Kansas City Seat Became a National Story"
+    },
+    {
+      "type": "paragraph",
+      "text": "The dispute centers on Missouri's 5th Congressional District, long held by Democratic Rep. Emanuel Cleaver. In 2025, Missouri Republicans redrew the district, splitting up Kansas City and shifting pieces of it into surrounding, more rural Republican-leaning districts, changes designed to push the state's US House delegation from a 6-2 Republican split to 7-1. The move came directly out of a broader effort Trump urged Republican-controlled states to undertake last year to protect the party's narrow House majority ahead of November, a push that also played out in Texas and North Carolina, while Democrats pursued similar redistricting in California."
+    },
+    {
+      "type": "heading",
+      "text": "A Referendum, a Rejection, and a Lawsuit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Opponents of the new map, organized under the group People Not Politicians Missouri, gathered more than 300,000 signatures to force a statewide referendum that would suspend the map until voters weighed in. Missouri's Republican Secretary of State refused to certify the petition, arguing redistricting plans couldn't be overturned by voters in the first place. That refusal triggered a lawsuit, and on September 3 the Missouri Supreme Court ruled unanimously in the challengers' favor, ordering the state back to its 2022 district lines for this year's election."
+    },
+    {
+      "type": "quote",
+      "text": "More than 305,000 Missourians demanded a say in who will represent them in the halls of Congress."
+    },
+    {
+      "type": "heading",
+      "text": "Then Things Got Confusing"
+    },
+    {
+      "type": "paragraph",
+      "text": "Missouri's Attorney General quickly vowed to appeal, and the case moved fast in multiple directions at once. A group of congressional candidates and voters sued separately in federal court, arguing that switching maps after the August primary, in which roughly 1.2 million voters had already cast ballots under the new districts, would violate their constitutional rights. A federal judge agreed and temporarily blocked the switch back to the old map. For a brief stretch, two different courts had issued opposite rulings on which map Missouri was supposed to use."
+    },
+    {
+      "type": "heading",
+      "text": "Where It Stands Now"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Supreme Court resolved the standoff, for now, by siding with the challengers. In an unsigned order handling emergency matters through Justice Brett Kavanaugh, the Court left the Missouri Supreme Court's ruling in place, meaning the state's older 2022 map, with six Republican and two Democratic seats, will govern November's election rather than the newer map targeting Cleaver's seat. The order is explicitly temporary and doesn't resolve the underlying legal dispute, which is expected to keep playing out even as voters head to the polls this fall — and a related referendum on the new map itself is still set to appear on the November ballot."
+    }
+  ]
+}
   ],
   "culture": [
     {
-      "slug": "hidden-cost-fast-fashion",
-      "categorySlug": "culture",
-      "title": "The Hidden Cost of Fast Fashion",
-      "dek": "A look at the environmental and human toll behind cheap, disposable clothing.",
-      "author": "Noura Hassan",
-      "date": "06/08/2026",
-      "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "Explainer"],
-      "body": [
-        { "type": "paragraph", "text": "Behind every deeply discounted garment is a supply chain built on speed — one that comes with costs rarely reflected in the price tag." }
-      ]
+  "slug": "national-symphony-leaves-kennedy-center",
+  "categorySlug": "culture",
+  "title": "National Symphony Won't Play at Kennedy Center After 96 Years",
+  "dek": "As the Kennedy Center closes for a Trump-backed renovation, the National Symphony Orchestra scatters its season across six venues amid a boycott-driven financial crisis.",
+  "author": "Noura Hassan",
+  "date": "11/09/2026",
+  "image": "/images/national-symphony-leaves-kennedy-center.webp",
+  "tags": ["Culture", "US News", "Arts", "Washington DC"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Since the Kennedy Center opened its doors in 1971, the National Symphony Orchestra has called it home for every one of its seasons. That streak ends this fall. For the first time in the orchestra's 96-year history, its 2026-27 season will unfold entirely outside the venue, spread across six different stages throughout Washington, DC, Maryland, and Virginia."
     },
     {
-      "slug": "lost-cities-ancient-mysteries",
-      "categorySlug": "culture",
-      "title": "Lost Cities and Ancient Mysteries",
-      "dek": "New discoveries rewrite history books once again.",
-      "author": "Noura Hassan",
-      "date": "04/08/2026",
-      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "History"],
-      "body": [
-        { "type": "paragraph", "text": "Excavation teams have uncovered structures that challenge long-held assumptions about the region's early inhabitants." }
-      ]
+      "type": "heading",
+      "text": "How the Kennedy Center Got Here"
     },
     {
-      "slug": "digital-nomads-dream-or-privilege",
-      "categorySlug": "culture",
-      "title": "The Rise of Digital Nomads: Dream Lifestyle or Privilege?",
-      "dek": "Remote work unlocked a new way of living — but not equally for everyone.",
-      "author": "Noura Hassan",
-      "date": "01/08/2026",
-      "image": "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "Explainer"],
-      "body": [
-        { "type": "paragraph", "text": "For some, remote work opened the door to a borderless lifestyle. For others, the same shift has meant longer hours and less job security." }
-      ]
+      "type": "paragraph",
+      "text": "The center's troubles trace back to February 2025, when President Trump took over as chairman of its board following a reshuffling of federal appointments. What followed was a wave of resignations, cancellations, and boycotts from artists and audiences alike, as the venue's name, leadership, and artistic direction all became subjects of ongoing dispute. The board has since approved plans to close the complex entirely for a two-year renovation and rename the facade to credit Trump for its restoration, though a federal judge had previously ordered his name removed from an earlier attempt to rebrand the building."
     },
     {
-      "slug": "film-festival-record-attendance",
-      "categorySlug": "culture",
-      "title": "Film Festival Announces Record Attendance for Independent Features",
-      "dek": "Organizers say interest in independent cinema is at its highest point in years.",
-      "author": "Noura Hassan",
-      "date": "23/07/2026",
-      "image": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "Film"],
-      "body": [
-        { "type": "paragraph", "text": "Ticket sales for independent screenings outpaced major studio premieres for the first time in the festival's history." }
-      ]
+      "type": "heading",
+      "text": "Where the Orchestra Is Actually Playing"
     },
     {
-      "slug": "museum-unveils-manuscript-collection",
-      "categorySlug": "culture",
-      "title": "Museum Unveils Long-Lost Manuscript Collection",
-      "dek": "The collection had remained in private hands for nearly a century.",
-      "author": "Noura Hassan",
-      "date": "15/07/2026",
-      "image": "https://images.unsplash.com/photo-1461360370896-922624d12aa1?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "History"],
-      "body": [
-        { "type": "paragraph", "text": "Scholars say the manuscripts could reshape understanding of the period's literary and intellectual life." }
-      ]
+      "type": "paragraph",
+      "text": "The NSO's newly announced schedule spreads 64 classical concerts across venues that include the Music Center at Strathmore in North Bethesda, George Mason University's Center for the Arts in Fairfax, Lisner Auditorium at George Washington University, and Northern Virginia Community College's Rachel M. Schlesinger Concert Hall, among others. The season opens with a gala at Strathmore on September 26, and includes the orchestra's first multi-state US tour in April 2027, with stops planned in Indiana, Kansas City, Oklahoma, California, and Nevada."
     },
     {
-      "slug": "streaming-reshaped-music-industry",
-      "categorySlug": "culture",
-      "title": "How Streaming Reshaped the Music Industry",
-      "dek": "A decade in, the shift from ownership to access is still redefining how artists get paid.",
-      "author": "Noura Hassan",
-      "date": "02/07/2026",
-      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1600&auto=format&fit=crop",
-      "tags": ["Culture", "Music"],
-      "body": [
-        { "type": "paragraph", "text": "For most working musicians, streaming royalties remain a fraction of what album sales once provided." }
-      ]
+      "type": "quote",
+      "text": "I honestly would have preferred not to go through this, but the situation is the way it is and we have to be proactive."
+    },
+    {
+      "type": "heading",
+      "text": "A Deeper Financial Strain"
+    },
+    {
+      "type": "paragraph",
+      "text": "Behind the logistics of the venue-hopping season sits a more serious problem. According to internal sources not authorized to speak publicly, the orchestra has fallen into a genuine financial crisis, driven in part by a sustained boycott of the Kennedy Center by both performers and ticket-buyers since the controversy began. The NSO remains an anchor tenant of the complex and its finances are closely tied to the building itself, even as it performs elsewhere for the year. Music director Gianandrea Noseda, entering his tenth season with the orchestra, said only two of his originally planned programs needed to change to accommodate smaller stages at the new venues."
+    },
+    {
+      "type": "heading",
+      "text": "Leadership Is Also Walking Away"
+    },
+    {
+      "type": "paragraph",
+      "text": "The orchestra's executive director, Jean Davidson, announced her own departure earlier this year, citing what she called the current climate and a lack of internal communication, saying decisions like the center's planned closure were often reaching staff through press reports rather than direct notice. She had hoped to stay through the NSO's 100th anniversary in 2031."
+    },
+    {
+      "type": "heading",
+      "text": "What This Says About the Kennedy Center's Bigger Fight"
+    },
+    {
+      "type": "paragraph",
+      "text": "The NSO's exit is one piece of a broader story about who controls one of the country's most prominent arts institutions, and what happens to its resident companies when that control becomes politically contested. The orchestra says it still intends to rehearse at the Kennedy Center during construction and keep its office and music library on-site, a sign that this displacement is meant to be temporary — even if nobody involved seems fully certain when, or in what form, the NSO will actually return."
     }
+  ]
+},
+    {
+  "slug": "lonnie-bunch-smithsonian-retirement",
+  "categorySlug": "culture",
+  "title": "Smithsonian's First Black Secretary Steps Down Amid Trump Pressure",
+  "dek": "Lonnie Bunch says Trump pressure didn't push him out, but his exit comes days after the White House accused the Smithsonian of a 'radical ideology.'",
+  "author": "Noura Hassan",
+  "date": "11/09/2026",
+  "image": "/images/lonnie-bunch-smithsonian-retirement.webp",
+  "tags": ["Culture", "US News", "History", "Museums"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Lonnie G. Bunch III, the Smithsonian's first Black secretary and the first historian to ever hold the role, announced this week that he'll step down by the end of the year, closing out a seven-year tenure that became increasingly entangled with the Trump administration's efforts to reshape how the country's national museums tell American history."
+    },
+    {
+      "type": "heading",
+      "text": "A 38-Year Career at the Institution"
+    },
+    {
+      "type": "paragraph",
+      "text": "Bunch, 73, joined the Smithsonian decades before becoming its 14th secretary in 2019, working his way up from a young curator at the National Air and Space and American History Museums to founding director of the National Museum of African American History and Culture, an institution he helped build from the ground up and later chronicled in his own book. In his retirement statement, he described leaving with mixed emotions and heartfelt gratitude, calling the Smithsonian one of the great loves of his life."
+    },
+    {
+      "type": "heading",
+      "text": "Why the Timing Raised Questions"
+    },
+    {
+      "type": "paragraph",
+      "text": "The announcement landed less than a week after the Interior Department threatened to cut off support for the Smithsonian, accusing its facilities of promoting a radical ideology that weakens shared American identity. On Independence Day, as the country marked its 250th anniversary, the White House Domestic Policy Council had already issued a report accusing Smithsonian leadership of being unable to tell America's story honestly. Bunch has been direct that the pressure campaign wasn't behind his decision, telling reporters he'd been weighing retirement for roughly a year to spend more time with family."
+    },
+    {
+      "type": "quote",
+      "text": "We haven't changed anything for political pressure."
+    },
+    {
+      "type": "heading",
+      "text": "Why Trump Couldn't Simply Remove Him"
+    },
+    {
+      "type": "paragraph",
+      "text": "Unlike institutions such as the Kennedy Center, where Trump was able to install a board of loyalists and reshape leadership directly, the Smithsonian operates outside the executive branch entirely. Its museum directors report to the secretary, but ultimate oversight sits with the Board of Regents, a body that includes Vice President JD Vance, Chief Justice John Roberts, members of Congress, and citizen regents. That structure is precisely why the administration leaned on public reports, an executive order, and funding threats rather than direct personnel action to apply pressure."
+    },
+    {
+      "type": "heading",
+      "text": "A Measured Response From the Chancellor"
+    },
+    {
+      "type": "paragraph",
+      "text": "Chief Justice Roberts, who serves as the Smithsonian's chancellor, praised Bunch's tenure in a statement that stood in sharp contrast to the White House's characterization, crediting him with pursuing excellence in telling the nation's story across his career at the institution. Bunch has said he plans to stay in his role long enough to ensure a peaceful transition, and the Board of Regents is expected to form a search committee for his successor."
+    },
+    {
+      "type": "heading",
+      "text": "What Bunch Says Comes Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "Even as he prepares to leave, Bunch has framed his departure as a continuation of the fight rather than a retreat from it, saying he intends to keep advocating publicly for the Smithsonian's independence and for how Americans understand their own history, regardless of what title he holds while doing it."
+    }
+  ]
+},
+    {
+  "slug": "marlon-james-disappearers-booker-longlist",
+  "categorySlug": "culture",
+  "title": "Marlon James Returns to Jamaica With His Boldest Booker Novel",
+  "dek": "Eleven years after his Booker win for 'A Brief History of Seven Killings,' Marlon James returns with 'The Disappearers,' built from a rumor that haunted him for decades.",
+  "author": "Noura Hassan",
+  "date": "11/09/2026",
+  "image": "/images/marlon-james-disappearers-booker-longlist.webp",
+  "tags": ["Culture", "Books", "Literature"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Marlon James won the Booker Prize in 2015 for \"A Brief History of Seven Killings,\" a sprawling novel about Jamaica in the 1970s. Eleven years later, he's returned to the same country and the same unflinching register with \"The Disappearers,\" a novel that's just landed on this year's Booker Prize longlist and is already being described by critics as one of his most ambitious books yet."
+    },
+    {
+      "type": "heading",
+      "text": "What the Book Is Actually About"
+    },
+    {
+      "type": "paragraph",
+      "text": "Set in Kingston in 1988, the novel follows eight gay men who meet to rehearse what's billed as Jamaica's first openly queer play. A mob attacks the rehearsal, killing one of the men and injuring the rest; two more later vanish entirely. From there, the story shifts into something closer to investigation, as one survivor sets out years later to trace what actually happened to the others. Booker Prize judges described James's writing as sharp, propulsive, and capable of swinging from painful to darkly funny within a single exchange."
+    },
+    {
+      "type": "heading",
+      "text": "A Story Built From a Rumor"
+    },
+    {
+      "type": "paragraph",
+      "text": "James has said the novel grew out of an incident from his youth that was widely whispered about in Jamaica but never confirmed or reported publicly, and that the alleged victims never came forward. In his own words, growing up in Jamaica taught him to trust rumor as much as fact, since the persistence of a whisper was often the closest thing to proof anyone would get. He's also said the story hit close to home in a more personal way, given his own identity."
+    },
+    {
+      "type": "quote",
+      "text": "I always remember that because of who I am, it could have been me."
+    },
+    {
+      "type": "heading",
+      "text": "Why Critics Are Calling It Rare Territory"
+    },
+    {
+      "type": "paragraph",
+      "text": "Reviewers have pointed to the novel as one of the few major works of Caribbean fiction to confront homophobia and queer life in the region this directly. It's threaded with references to 1980s and '90s pop culture and queer touchstones, and several critics have framed it less as a historical account of a single attack and more as a wider reckoning with shame, survival, and how communities remember violence they'd rather forget."
+    },
+    {
+      "type": "heading",
+      "text": "What Happens Next"
+    },
+    {
+      "type": "paragraph",
+      "text": "The Booker Prize shortlist is set to be announced on September 22, narrowing the current longlist down to six finalists ahead of the winner's announcement later this fall. Given James's history with the prize and the attention the book has already drawn from major outlets since its August release, \"The Disappearers\" is shaping up to be one of the more closely watched contenders of the season."
+    }
+  ]
+},
+    {
+  "slug": "dolly-parton-death-legacy-tribute",
+  "categorySlug": "culture",
+  "title": "Dolly Parton Dies at 80: Her Legacy Goes Far Beyond Country Music",
+  "dek": "Dolly Parton, the Queen of Country, died in Nashville at 80, leaving six decades of iconic music and a philanthropic legacy that touched millions of children worldwide.",
+  "author": "Noura Hassan",
+  "date": "11/09/2026",
+  "image": "/images/dolly-parton-death-legacy-tribute.webp",
+  "tags": ["Culture", "Music", "Tribute"],
+  "body": [
+    {
+      "type": "paragraph",
+      "text": "Dolly Parton died on August 25 in Nashville, Tennessee, at the age of 80, closing out a career that spanned more than six decades and reshaped what it meant to be both a country music star and a public figure people genuinely trusted. In the days that followed, flags were lowered at the White House and across the country, murals went up in her honor, and the Empire State Building lit up pink in remembrance."
+    },
+    {
+      "type": "heading",
+      "text": "From the Smoky Mountains to a Global Icon"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parton was born in 1946 in rural East Tennessee, the fourth of twelve children raised in the foothills of the Great Smoky Mountains. From that starting point, she built a catalog of songs that became part of the country's shared soundtrack, among them \"Jolene,\" \"Coat of Many Colors,\" \"9 to 5,\" and \"I Will Always Love You,\" a song she wrote and later watched become one of the best-selling singles in music history through Whitney Houston's cover. Over her career she sold more than 100 million records, making her one of the best-selling music artists of all time."
+    },
+    {
+      "type": "heading",
+      "text": "A Philanthropic Footprint Bigger Than Her Discography"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parton's influence reached well past music charts. Her Imagination Library program has mailed free books to children from birth through age five since the late 1990s, and in North Carolina alone the initiative has distributed more than 24.6 million books, with over 241,000 children currently enrolled statewide. She was also a significant funder behind the development of the Moderna COVID-19 vaccine, a contribution that surprised many fans who knew her primarily as an entertainer rather than a science patron."
+    },
+    {
+      "type": "quote",
+      "text": "She was really a place driven by people who love a nation."
+    },
+    {
+      "type": "heading",
+      "text": "A Final Love Letter, Written in Grief"
+    },
+    {
+      "type": "paragraph",
+      "text": "Parton's final chapter carried its own quiet heartbreak. Her husband of 60 years, Carl Dean, died in early 2025, and just days later she released \"If You Hadn't Been There,\" a standalone tribute song that offered a rare, direct look into a marriage she'd kept almost entirely private throughout her decades in the public eye. Critics and fans alike described the song as one of the most personal pieces of songwriting in her catalog, and it's since been floated as a strong contender for a Grammy nomination."
+    },
+    {
+      "type": "heading",
+      "text": "How the Country Responded"
+    },
+    {
+      "type": "paragraph",
+      "text": "Tributes poured in from across the entertainment world in the days following her death, including from Taylor Swift, Paul McCartney, Jane Fonda, and Reba McEntire. Fans gathered at her star on Nashville's Walk of Fame Park to leave flowers, and NPR's coverage in the days after noted the breadth of the mourning, spanning fellow musicians, former co-stars, and people who'd simply grown up on her music and her Imagination Library books."
+    }
+  ]
+}
   ]
 }

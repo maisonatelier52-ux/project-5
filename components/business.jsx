@@ -45,7 +45,7 @@ export default function Business() {
         {/* Featured Business article */}
         <div>
           <div className="mb-5 border-b-2 border-rule-strong pb-2">
-            <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+            <h2 className="font-sans text-2xl font-semibold uppercase tracking-[0.15em] text-ink">
               Business
             </h2>
           </div>

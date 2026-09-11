@@ -14,9 +14,9 @@ const formatDate = (dateStr) =>
     day: "numeric",
   });
 
-// All Science articles, newest first, de-duplicated by slug
-function getScienceArticles() {
-  const posts = articleData.science || [];
+// All US articles, newest first, de-duplicated by slug
+function getUSArticles() {
+  const posts = articleData.us || [];
 
   const seen = new Set();
   const unique = posts.filter((p) => {
@@ -28,8 +28,8 @@ function getScienceArticles() {
   return unique.sort((a, b) => parseDate(b.date) - parseDate(a.date));
 }
 
-export default function Science() {
-  const articles = getScienceArticles();
+export default function US() {
+  const articles = getUSArticles();
 
   if (articles.length === 0) return null;
 
@@ -37,10 +37,10 @@ export default function Science() {
     <section className="border-b border-rule-strong bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 flex items-end justify-between border-b-2 border-rule-strong pb-2">
-          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
-            Science
+          <h2 className="font-sans text-2xl font-semibold uppercase tracking-[0.15em] text-ink">
+            U.S.
           </h2>
-          <Link href="/science" className="font-sans text-xs font-medium text-ink-soft transition hover:text-ink">
+          <Link href="/us" className="font-sans text-xs font-medium text-ink-soft transition hover:text-ink">
             View all
           </Link>
         </div>
@@ -49,7 +49,7 @@ export default function Science() {
           {articles.map((item, i) => (
             <Link
               key={item.slug}
-              href={`/science/${item.slug}`}
+              href={`/us/${item.slug}`}
               className={`group flex items-center gap-4 py-4 ${
                 i < articles.length - 2 ? "border-b border-rule" : ""
               } ${i === 1 || i === 3 || i === 5 ? "lg:pl-10" : ""}`}
@@ -64,7 +64,7 @@ export default function Science() {
 
               <div className="min-w-0 flex-1">
                 <span className="font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red">
-                  Science
+                  U.S.
                   {i === 0 && <span className="ml-2 text-gold">· Just In</span>}
                 </span>
                 <p className="mt-1 line-clamp-2 font-serif text-base font-semibold leading-snug text-ink transition group-hover:text-masthead-red">

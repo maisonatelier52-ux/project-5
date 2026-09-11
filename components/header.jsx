@@ -12,7 +12,7 @@ const NAV_LINKS = [
   { label: "Politics", href: "/politics" },
   { label: "Finance", href: "/finance" },
   { label: "Business", href: "/business" },
-  { label: "Science", href: "/science" },
+  { label: "U.S.", href: "/us" },
   { label: "Culture", href: "/culture" },
 ];
 

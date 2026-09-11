@@ -41,7 +41,7 @@ export default function Culture() {
     <section className="bg-paper px-4 py-10 sm:px-6 lg:px-10">
       <div className="mx-auto max-w-7xl">
         <div className="mb-6 border-b-2 border-rule-strong pb-2">
-          <h2 className="font-sans text-sm font-semibold uppercase tracking-[0.15em] text-ink">
+          <h2 className="font-sans text-2xl font-semibold uppercase tracking-[0.15em] text-ink">
             Culture
           </h2>
         </div>
@@ -56,13 +56,13 @@ export default function Culture() {
                 className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
               />
             </div>
-            <h3 className="mt-4 font-serif text-2xl font-semibold leading-[1.15] text-ink transition group-hover:text-masthead-red sm:text-3xl">
+            <h3 className="mt-4 font-serif text-2xl font-semibold leading-[1.15] text-ink transition group-hover:text-masthead-red sm:text-4xl">
               {featured.title}
             </h3>
             <p className="mt-3 font-serif text-base italic leading-relaxed text-ink-soft sm:text-lg">
               {featured.dek}
             </p>
-            <p className="mt-4 font-sans text-xs text-ink-faint sm:text-sm">
+            <p className="mt-6 font-sans text-xs text-ink-faint sm:text-sm">
               <span className="font-semibold text-ink">Culture</span> · By{" "}
               <span className="font-semibold text-gold">{featured.author}</span> ·{" "}
               {formatDate(featured.date)}
