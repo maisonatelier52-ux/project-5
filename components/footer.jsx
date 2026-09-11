@@ -1,9 +1,9 @@
 const CATEGORIES = [
   { label: "World", href: "/world" },
   { label: "Politics", href: "/politics" },
-  { label: "Tech", href: "/tech" },
+  { label: "finance", href: "/finance" },
   { label: "Business", href: "/business" },
-  { label: "Science", href: "/science" },
+  { label: "U.S.", href: "/us" },
   { label: "Culture", href: "/culture" },
 ];
 
@@ -89,9 +89,7 @@ export default function Footer() {
 
         {/* Categories */}
         <div>
-          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
-            Categories
-          </h3>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">Categories</h3>
           <ul className="mt-4 flex flex-col gap-3">
             {CATEGORIES.map((link) => (
               <li key={link.href}>
@@ -105,9 +103,7 @@ export default function Footer() {
 
         {/* Company */}
         <div>
-          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
-            Company
-          </h3>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">Company</h3>
           <ul className="mt-4 flex flex-col gap-3">
             {COMPANY_LINKS.map((link) => (
               <li key={link.href}>
@@ -121,22 +117,11 @@ export default function Footer() {
 
         {/* Newsletter */}
         <div className="col-span-2 lg:col-span-1">
-          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">
-            Daily Brief
-          </h3>
-          <p className="mt-4 font-sans text-sm text-ink-soft">
-            The biggest stories, straight to your inbox every morning.
-          </p>
+          <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-ink-faint">Daily Brief</h3>
+          <p className="mt-4 font-sans text-sm text-ink-soft">The biggest stories, straight to your inbox every morning.</p>
           <form className="mt-4 flex flex-col gap-2">
-            <input
-              type="email"
-              placeholder="Your email address"
-              className="border border-rule bg-paper px-3 py-2.5 font-sans text-sm text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none"
-            />
-            <button
-              type="submit"
-              className="border border-ink bg-ink px-3 py-2.5 font-sans text-sm font-semibold text-paper transition hover:bg-masthead-red hover:border-masthead-red"
-            >
+            <input type="email" placeholder="Your email address" className="border border-rule bg-paper px-3 py-2.5 font-sans text-sm text-ink placeholder:text-ink-faint focus:border-ink focus:outline-none"/>
+            <button type="submit" className="border border-ink bg-ink px-3 py-2.5 font-sans text-sm font-semibold text-paper transition hover:bg-masthead-red hover:border-masthead-red">
               Subscribe
             </button>
           </form>

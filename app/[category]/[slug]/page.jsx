@@ -29,6 +29,20 @@ const formatDate = (dateStr) =>
     year: "numeric",
   });
 
+// Turns a DD/MM/YYYY date into a relative "time ago" label for the
+// Trending sidebar (day-level granularity, since that's all article.json has).
+const timeAgo = (dateStr) => {
+  const then = parseDate(dateStr).getTime();
+  const diffMs = Date.now() - then;
+  const diffDays = Math.floor(diffMs / 86400000);
+
+  if (diffDays <= 0) return "Today";
+  if (diffDays === 1) return "Yesterday";
+  if (diffDays < 7) return `${diffDays}d ago`;
+  if (diffDays < 30) return `${Math.floor(diffDays / 7)}w ago`;
+  return `${Math.floor(diffDays / 30)}mo ago`;
+};
+
 // Looks up the article matching { category, slug } in article.json, and
 // merges in author details (bio, avatar, slug) from author.json by name.
 function getArticle(category, slug) {
@@ -85,12 +99,30 @@ function getRelated(category, slug) {
     }));
 }
 
-const TRENDING = [
-  { title: "AI tools that are changing how we work", time: "18m ago" },
-  { title: "Inside the world's most extreme climates", time: "1h ago" },
-  { title: "Elections 2026: Key races to watch", time: "2h ago" },
-  { title: "The hidden cost of fast fashion", time: "3h ago" },
-];
+// Most recent N articles across every category in article.json, excluding
+// the article currently being viewed, de-duplicated by slug, newest first.
+function getTrending(currentCategory, currentSlug, limit = 4) {
+  const all = Object.entries(articleData).flatMap(([catKey, posts]) =>
+    (posts || []).map((p) => ({ ...p, catKey }))
+  );
+
+  const seen = new Set();
+  const unique = all.filter((p) => {
+    if (p.catKey === currentCategory && p.slug === currentSlug) return false;
+    if (seen.has(p.slug)) return false;
+    seen.add(p.slug);
+    return true;
+  });
+
+  return unique
+    .sort((a, b) => parseDate(b.date) - parseDate(a.date))
+    .slice(0, limit)
+    .map((p) => ({
+      href: `/${p.categorySlug || p.catKey}/${p.slug}`,
+      title: p.title,
+      time: timeAgo(p.date),
+    }));
+}
 
 export async function generateMetadata({ params }) {
   const { category, slug } = await params;
@@ -105,6 +137,7 @@ export default async function ArticlePage({ params }) {
   const { category, slug } = await params;
   const article = getArticle(category, slug);
   const related = getRelated(category, slug);
+  const trending = getTrending(category, slug);
 
   let firstParagraphUsed = false;
 
@@ -250,14 +283,12 @@ export default async function ArticlePage({ params }) {
           <div className="border border-rule-strong p-5">
             <div className="mb-4 flex items-center gap-2 border-b border-rule pb-3">
               <TrendingUp size={15} className="text-masthead-red" />
-              <h2 className="font-sans text-xs font-semibold uppercase tracking-wider text-ink">
-                Trending Now
-              </h2>
+              <h2 className="font-sans text-xs font-semibold uppercase tracking-wider text-ink">Trending Now</h2>
             </div>
             <ol className="flex flex-col divide-y divide-rule">
-              {TRENDING.map((item, i) => (
-                <li key={item.title} className={i !== 0 ? "pt-3" : ""}>
-                  <a href="#" className="group flex gap-3 pb-3 last:pb-0">
+              {trending.map((item, i) => (
+                <li key={item.href} className={i !== 0 ? "pt-3" : ""}>
+                  <Link href={item.href} className="group flex gap-3 pb-3 last:pb-0">
                     <span className="font-serif text-lg font-semibold leading-none text-ink-faint">
                       {i + 1}
                     </span>
@@ -267,7 +298,7 @@ export default async function ArticlePage({ params }) {
                       </p>
                       <p className="mt-1 font-sans text-xs text-ink-faint">{item.time}</p>
                     </div>
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ol>
@@ -279,11 +310,7 @@ export default async function ArticlePage({ params }) {
               Advertisement
             </span>
             <a href="#" className="block">
-              <img
-                src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?q=80&w=600&auto=format&fit=crop"
-                alt="Advertisement"
-                className="mt-2 aspect-[3/4] w-full object-cover"
-              />
+              <img src="https://images.unsplash.com/photo-1553356084-58ef4a67b2a7?q=80&w=600&auto=format&fit=crop" alt="Advertisement" className="mt-2 aspect-[3/4] w-full object-cover"/>
             </a>
           </div>
 
@@ -343,11 +370,7 @@ export default async function ArticlePage({ params }) {
               {related.map((item) => (
                 <Link key={item.href} href={item.href} className="group block">
                   <div className="aspect-[4/3] overflow-hidden border border-rule">
-                    <img
-                      src={item.image}
-                      alt={item.title}
-                      className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
-                    />
+                    <img src={item.image} alt={item.title} className="h-full w-full object-cover transition duration-500 group-hover:scale-105"/>
                   </div>
                   <span className="mt-3 block font-sans text-[11px] font-semibold uppercase tracking-wider text-masthead-red capitalize">
                     {article.category}

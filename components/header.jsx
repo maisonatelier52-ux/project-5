@@ -127,13 +127,8 @@ export default function Header() {
           {today}
         </span>
 
-        <Link
-          href="/"
-          className="mx-auto flex flex-col items-center leading-none sm:absolute sm:left-1/2 sm:-translate-x-1/2"
-        >
-          <span className="font-serif text-4xl font-black tracking-tight text-ink sm:text-5xl">
-            NEXORA
-          </span>
+        <Link href="/" className="mx-auto flex flex-col items-center leading-none sm:absolute sm:left-1/2 sm:-translate-x-1/2">
+          <span className="font-serif text-4xl font-black tracking-tight text-ink sm:text-5xl">NEXORA</span>
           <span className="mt-2 font-sans text-[10px] font-semibold uppercase tracking-[0.35em] text-ink-soft">
             News · Context · Clarity
           </span>
@@ -152,18 +147,10 @@ export default function Header() {
             <Search size={16} />
             Search
           </button>
-          <button
-            aria-label="Search"
-            onClick={() => setSearchOpen((v) => !v)}
-            className="p-2.5 text-ink-soft transition hover:text-ink sm:hidden"
-          >
+          <button aria-label="Search" onClick={() => setSearchOpen((v) => !v)} className="p-2.5 text-ink-soft transition hover:text-ink sm:hidden">
             <Search size={20} />
           </button>
-          <button
-            aria-label="Toggle menu"
-            onClick={() => setMobileOpen((v) => !v)}
-            className="p-2.5 text-ink-soft transition hover:text-ink lg:hidden"
-          >
+          <button aria-label="Toggle menu" onClick={() => setMobileOpen((v) => !v)} className="p-2.5 text-ink-soft transition hover:text-ink lg:hidden">
             {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
@@ -172,15 +159,9 @@ export default function Header() {
       {/* Section nav */}
       <nav className="hidden border-y border-rule-strong lg:block">
         <div className="mx-auto flex max-w-7xl items-center justify-center gap-10 px-10 py-3">
-          <Link href="/" className="font-sans text-sm font-semibold text-ink">
-            Home
-          </Link>
+          <Link href="/" className="font-sans text-sm font-semibold text-ink">Home</Link>
           {NAV_LINKS.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="font-sans text-sm text-ink-soft transition hover:text-ink"
-            >
+            <Link key={link.href} href={link.href} className="font-sans text-sm text-ink-soft transition hover:text-ink">
               {link.label}
             </Link>
           ))}
